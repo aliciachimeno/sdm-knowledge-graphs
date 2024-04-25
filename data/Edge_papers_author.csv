@@ -1,0 +1,4676 @@
+"id_paper","author","main_author"
+1,"Daniel Genkin",TRUE
+1,"Daniel Gruss",FALSE
+1,"Michael Schwarz 0001",FALSE
+1,"Mike Hamburg",FALSE
+1,"Moritz Lipp",FALSE
+1,"Paul Kocher",FALSE
+1,"Stefan Mangard",FALSE
+1,"Thomas Prescher 0002",FALSE
+1,"Werner Haas 0004",FALSE
+1,"Yuval Yarom",FALSE
+4,"Frank Manola",TRUE
+5,"Michael L. Brodie",TRUE
+5,"Michael Stonebraker",FALSE
+6,"Farshad Nayeri",TRUE
+6,"Joe D. Morrison",FALSE
+6,"Mark F. Hornick",FALSE
+7,"Frank Manola",TRUE
+8,"Frank Manola",TRUE
+9,"Alejandro P. Buchmann",TRUE
+9,"Dimitrios Georgakopoulos",FALSE
+9,"M. Tamer Özsu",FALSE
+10,"Frank Manola",TRUE
+10,"Sandra Heiler",FALSE
+11,"Frank Manola",TRUE
+12,"Frank Manola",TRUE
+13,"Alejandro P. Buchmann",TRUE
+13,"Frank Manola",FALSE
+13,"Mark F. Hornick",FALSE
+14,"Frank Manola",TRUE
+15,"Benjamin Hurwitz",TRUE
+15,"Farshad Nayeri",FALSE
+16,"Michael Stonebraker",TRUE
+17,"Cetin Ozbutun",TRUE
+17,"David Beech",FALSE
+18,"Jim Melton",TRUE
+18,"Jonathan Bauer",FALSE
+18,"Krishna G. Kulkarni",FALSE
+18,"Mike Kelley",FALSE
+19,"Phil Shaw",TRUE
+20,"Jim Melton",TRUE
+20,"Jonathan Bauer",FALSE
+20,"Krishna G. Kulkarni",FALSE
+21,"David Beech",TRUE
+22,"Rolf Sander",TRUE
+23,"Thomas Ludwig 0001",TRUE
+24,"Claus-Rainer Rollinger",TRUE
+24,"Werner Emde",FALSE
+25,"Christoph Beierle",TRUE
+25,"Hans Uszkoreit",FALSE
+25,"Udo Pletat",FALSE
+26,"Ido Dagan",TRUE
+26,"Ulrike Rackow",FALSE
+26,"Ulrike Schwall",FALSE
+27,"Brigitte Bartsch-Spörl",TRUE
+28,"Burkhard Kehrbusch",TRUE
+28,"Erich Gehlen",FALSE
+29,"Gert Smolka",TRUE
+29,"Markus Höhfeld",FALSE
+30,"Birgit Wesche",TRUE
+31,"Christopher Habel",TRUE
+32,"Albert Maier",TRUE
+32,"Bernd Walter",FALSE
+32,"Erich Gehlen",FALSE
+32,"Michael Ley",FALSE
+32,"Thomas Ludwig 0001",FALSE
+33,"Erich Gehlen",TRUE
+33,"Stefan Benzschawel",FALSE
+33,"Thomas Ludwig 0001",FALSE
+35,"Egon Börger",TRUE
+36,"Michael Ley",TRUE
+37,"Roland Seiffert",TRUE
+38,"Gisela Schöpke",TRUE
+39,"Stefan Böttcher",TRUE
+40,"Ulrike Schwall",TRUE
+41,"Bernd Walter",TRUE
+41,"Rudi Studer",FALSE
+42,"Albert Maier",TRUE
+42,"Erich Gehlen",FALSE
+42,"Michael Ley",FALSE
+43,"Bernd Walter",TRUE
+43,"Thomas Ludwig 0001",FALSE
+44,"Toni Bollinger",TRUE
+44,"Udo Pletat",FALSE
+45,"Christoph Beierle",TRUE
+46,"Carola Eschenbach",TRUE
+47,"Gert Smolka",TRUE
+47,"Manfred Schmidt-Schauß",FALSE
+48,"Hans-Joachim Goltz",TRUE
+49,"Claus-Rainer Rollinger",TRUE
+50,"Otthein Herzog",TRUE
+51,"Bernhard Beckert",TRUE
+52,"Christoph Beierle",TRUE
+52,"Stefan Böttcher",FALSE
+53,"Stefan J. Schierholz",TRUE
+54,"Christoph Beierle",TRUE
+54,"Udo Pletat",FALSE
+55,"Birgit Wendholt",TRUE
+56,"Gudrun Klose",TRUE
+57,"Klaus Rehkämper",TRUE
+57,"Michael Herweg",FALSE
+57,"Mohammed Nadjib Khenkhar",FALSE
+57,"Simone Pribbenow",FALSE
+58,"Anja Theuner",TRUE
+59,"Brigitte Bartsch-Spörl",TRUE
+60,"Peter H. Schmitt",TRUE
+61,"Christoph Beierle",TRUE
+61,"Udo Pletat",FALSE
+62,"Claudia Maienborn",TRUE
+63,"Angelika Storrer",TRUE
+63,"Brigitte Bläser",FALSE
+63,"Ulrike Schwall",FALSE
+64,"Esther König",TRUE
+65,"Claudia Mrotzek",TRUE
+66,"Birgit Wesche",TRUE
+67,"Rudi Studer",TRUE
+67,"Stefan Börner",FALSE
+68,"Lutz Voelkel",TRUE
+69,"Peter H. Schmitt",TRUE
+70,"Stefan Böttcher",TRUE
+71,"Kai-Uwe Carstensen",TRUE
+72,"Martin Hübner",TRUE
+72,"Ulrike Weiland",FALSE
+73,"Egon Börger",TRUE
+73,"Peter H. Schmitt",FALSE
+74,"Michael Czymmeck",TRUE
+75,"Michael Tarnowski",TRUE
+76,"Helmar Gust",TRUE
+76,"Mechthild Rickheit",FALSE
+76,"Petra Ludewig",FALSE
+77,"Kai von Luck",TRUE
+77,"Martin Hübner",FALSE
+77,"Ulrike Weiland",FALSE
+78,"Elisabeth Neugebauer",TRUE
+79,"Mohammed Nadjib Khenkhar",TRUE
+80,"Eric Mays",TRUE
+80,"Sitaram Lanka",FALSE
+81,"Petra Maier",TRUE
+82,"Bruce G. Lindsay 0001",TRUE
+82,"Michel E. Adiba",FALSE
+83,"Birgit Wesche",TRUE
+84,"Stefan Börner",TRUE
+85,"Ewald Lang",TRUE
+85,"Gudrun Klose",FALSE
+85,"Thomas Pirlein",FALSE
+86,"Gerd Kortüm",TRUE
+87,"Ipke Wachsmuth",TRUE
+88,"Christoph Beierle",TRUE
+88,"Udo Pletat",FALSE
+89,"Christoph Beierle",TRUE
+89,"Egon Börger",FALSE
+90,"Birgit Wesche",TRUE
+90,"Ingrid Renz",FALSE
+91,"Kai von Luck",TRUE
+92,"Stefan Böttcher",TRUE
+93,"Noam Paz",TRUE
+94,"Kurt Eberle",TRUE
+95,"Bernd Walter",TRUE
+95,"Michael Ley",FALSE
+97,"Gregor Erbach",TRUE
+98,"Christos Garidis",TRUE
+99,"Angelika Storrer",TRUE
+99,"Jennifer A. Brundage",FALSE
+99,"Maren Kresse",FALSE
+99,"Ulrike Schwall",FALSE
+100,"Toni Bollinger",TRUE
+101,"Eric Windisch",TRUE
+101,"Stefan J. Schierholz",FALSE
+102,"Gregor Erbach",TRUE
+103,"Toni Bollinger",TRUE
+103,"Udo Pletat",FALSE
+104,"Peter Gerstl",TRUE
+105,"Dines Bjørner",TRUE
+105,"E. F. Codd",FALSE
+105,"Irving L. Traiger",FALSE
+105,"Kenneth L. Deckert",FALSE
+106,"Ulrike Rackow",TRUE
+107,"Claudia Maienborn",TRUE
+108,"Sonja Müller",TRUE
+109,"Christoph Beierle",TRUE
+109,"Egon Börger",FALSE
+110,"Rolf Mayer",TRUE
+112,"Rüdiger Wirth",TRUE
+113,"Holger M. Wittmann",TRUE
+114,"Mechthild Rickheit",TRUE
+115,"Jan Wilms",TRUE
+116,"Michael Ley",TRUE
+117,"Bernd Abb",TRUE
+117,"Kai Lebeth",FALSE
+118,"Gert Smolka",TRUE
+119,"Jörg Heinrich",TRUE
+120,"Andreas Eisele 0001",TRUE
+120,"Jochen Dörre",FALSE
+121,"Rainer Bäuerle",TRUE
+122,"Sven Lorenz",TRUE
+123,"Egon Börger",TRUE
+124,"Thomas Ludwig 0001",TRUE
+125,"Michael Klein",TRUE
+126,"Chin-Liang Chang",TRUE
+126,"E. F. Codd",FALSE
+126,"Jean-Marc Cadiou",FALSE
+126,"Nick Roussopoulos",FALSE
+126,"Robert S. Arnold",FALSE
+127,"Tibor Kiss",TRUE
+128,"Peter H. Schmitt",TRUE
+128,"Wolfgang Wernecke",FALSE
+129,"Roland Seiffert",TRUE
+130,"Albert Maier",TRUE
+131,"Jochen Dörre",TRUE
+131,"Roland Seiffert",FALSE
+132,"Claus-Rainer Rollinger",TRUE
+132,"Toni Bollinger",FALSE
+132,"Ulrich Hedtstück",FALSE
+133,"Petra Maier",TRUE
+133,"Petra Steffens",FALSE
+134,"Helmar Gust",TRUE
+134,"Manfred Grothaus",FALSE
+135,"Esther König",TRUE
+136,"Karin Klabunde",TRUE
+137,"Karl Dotzek",TRUE
+138,"H. Raymond Strong",TRUE
+138,"Sai Choi Kwan",FALSE
+139,"Stefan J. Schierholz",TRUE
+140,"Roland Seiffert",TRUE
+141,"Kai-Uwe Carstensen",TRUE
+142,"Nikolaus Ott",TRUE
+144,"Birgit Wesche",TRUE
+144,"Brigitte Bartsch-Spörl",FALSE
+144,"Christian Rohrer",FALSE
+144,"Christopher Habel",FALSE
+144,"Claus-Rainer Rollinger",FALSE
+144,"F. Günthner",FALSE
+144,"Otthein Herzog",FALSE
+144,"Peter H. Schmitt",FALSE
+144,"Petra Steffens",FALSE
+144,"Rudi Studer",FALSE
+144,"Siegfried Kanngießer",FALSE
+145,"Peter H. Schmitt",TRUE
+146,"Stefan J. Schierholz",TRUE
+147,"Elisabeth Breidt",TRUE
+148,"Oliver Wauschkuhn",TRUE
+149,"Angi Voß",TRUE
+149,"Christoph Beierle",FALSE
+150,"Christoph Beierle",TRUE
+151,"Christoph Beierle",TRUE
+151,"Claus-Rainer Rollinger",FALSE
+151,"Jochen Dörre",FALSE
+151,"Peter H. Schmitt",FALSE
+151,"Rudi Studer",FALSE
+151,"Udo Pletat",FALSE
+152,"Kurt Eberle",TRUE
+153,"Ingo Raasch",TRUE
+153,"Jochen Dörre",FALSE
+154,"Claudia Maienborn",TRUE
+155,"Bernd I. Dahn",TRUE
+155,"Theodor Lettmann",FALSE
+155,"Wolfgang Schönfeld",FALSE
+156,"Bruce G. Lindsay 0001",TRUE
+156,"Cesare A. Galtieri",FALSE
+156,"Irving L. Traiger",FALSE
+156,"Jim Gray 0001",FALSE
+157,"Kai von Luck",TRUE
+157,"Udo Pletat",FALSE
+158,"Egon Börger",TRUE
+159,"Astrid Schmücker-Schend",TRUE
+159,"Christoph Lingenfelder",FALSE
+160,"Simone Pribbenow",TRUE
+161,"Joachim Maier",TRUE
+162,"Klaus Rehkämper",TRUE
+163,"Hinrich Schütze",TRUE
+164,"Christoph Beierle",TRUE
+164,"Jörg H. Siekmann",FALSE
+164,"Peter H. Schmitt",FALSE
+164,"Udo Pletat",FALSE
+164,"Ulrich Hedtstück",FALSE
+165,"Petra Ludewig",TRUE
+166,"Sven Lorenz",TRUE
+167,"Christoph Beierle",TRUE
+167,"Stefan Böttcher",FALSE
+168,"Herbert J. Leass",TRUE
+169,"Ingrid Renz",TRUE
+170,"Thomas Ludwig 0001",TRUE
+171,"Rudi Studer",TRUE
+172,"Jan Wilms",TRUE
+173,"Angi Voß",TRUE
+173,"Christoph Beierle",FALSE
+173,"Walter G. Olthoff",FALSE
+174,"Christoph Beierle",TRUE
+174,"Udo Pletat",FALSE
+175,"Bernhard Beckert",TRUE
+175,"Reiner Hähnle",FALSE
+175,"Stefan Gerberding",FALSE
+175,"Werner Kernig",FALSE
+176,"Thomas Pirlein",TRUE
+177,"Gert Smolka",TRUE
+178,"Christoph Beierle",TRUE
+178,"Gregor Meyer",FALSE
+178,"Stefan Böttcher",FALSE
+179,"Thomas Ludwig 0001",TRUE
+180,"Erich Gehlen",TRUE
+181,"Andreas Arning",TRUE
+182,"Thomas Ludwig 0001",TRUE
+183,"Simone Pribbenow",TRUE
+184,"Christoph Beierle",TRUE
+184,"Jörg H. Siekmann",FALSE
+184,"Udo Pletat",FALSE
+184,"Ulrich Hedtstück",FALSE
+185,"Raymond A. Lorie",TRUE
+186,"Bernhard Nebel",TRUE
+186,"Gert Smolka",FALSE
+187,"Petra Schulz",TRUE
+188,"Sebastian Millies",TRUE
+189,"Kurt Eberle",TRUE
+190,"Ewald Lang",TRUE
+190,"Kai-Uwe Carstensen",FALSE
+191,"Christoph Beierle",TRUE
+191,"Gregor Meyer",FALSE
+191,"Heiner Semle",FALSE
+192,"Claus-Rainer Rollinger",TRUE
+192,"Hans Uszkoreit",FALSE
+192,"Ipke Wachsmuth",FALSE
+192,"Rudi Studer",FALSE
+194,"Anne Schiller",TRUE
+195,"Christopher Habel",TRUE
+196,"Brigitte Bläser",TRUE
+196,"M. Wermke",FALSE
+197,"Thomas Ludwig 0001",TRUE
+198,"Karl-Hans Bläsius",TRUE
+198,"Ulrich Hedtstück",FALSE
+199,"Elke Busch",TRUE
+200,"Bernd Page",TRUE
+200,"D. Eberle",FALSE
+200,"D. Marx",FALSE
+200,"Jürgen Pietsch",FALSE
+200,"P. Klug-Lier",FALSE
+200,"R. Zieschank",FALSE
+200,"Ulrike Weiland",FALSE
+201,"Volker Jantzen",TRUE
+202,"Peter H. Schmitt",TRUE
+202,"Ulrich Hedtstück",FALSE
+203,"Christoph Beierle",TRUE
+203,"Gregor Meyer",FALSE
+203,"Ralph Scheubrein",FALSE
+204,"Ralph Scheubrein",TRUE
+205,"Jochen Dörre",TRUE
+205,"William C. Rounds",FALSE
+206,"Bernhard Nebel",TRUE
+207,"Kurt Rothermel",TRUE
+208,"Esther König",TRUE
+208,"Roland Seiffert",FALSE
+209,"Herbert J. Leass",TRUE
+209,"Ulrike Schwall",FALSE
+210,"Bart Geurts",TRUE
+211,"Josef Gemander",TRUE
+212,"Thomas Ludwig 0001",TRUE
+213,"Stefan Böttcher",TRUE
+214,"Petra Ludewig",TRUE
+214,"Wilfried Hötker",FALSE
+215,"Karel Oliva",TRUE
+216,"Uwe Reyle",TRUE
+217,"Reiner Hähnle",TRUE
+218,"Jutta Kreiß",TRUE
+219,"Udo Pletat",TRUE
+220,"Wolfgang Wernecke",TRUE
+221,"Gregor Erbach",TRUE
+222,"Simone Pribbenow",TRUE
+223,"Michael Tarnowski",TRUE
+224,"Stefan Böttcher",TRUE
+225,"Mechthild Rickheit",TRUE
+226,"Jürgen Manowsky",TRUE
+227,"Karl Schlechta",TRUE
+228,"Ewald Lang",TRUE
+228,"Geoffrey Simmons",FALSE
+228,"Kai-Uwe Carstensen",FALSE
+229,"Udo Pletat",TRUE
+230,"Arne Pott",TRUE
+230,"Thomas Ludwig 0001",FALSE
+231,"Tibor Kiss",TRUE
+232,"Bart Geurts",TRUE
+232,"Rob A. van der Sandt",FALSE
+233,"Stefan Böttcher",TRUE
+234,"Jim Gray 0001",TRUE
+234,"Vera Watson",FALSE
+235,"Adrian Müller",TRUE
+236,"Christoph Beierle",TRUE
+236,"Udo Pletat",FALSE
+238,"Eric Mays",TRUE
+238,"Robert A. Weida",FALSE
+238,"Robert Dionne",FALSE
+238,"Sitaram Lanka",FALSE
+239,"Peter Bosch",TRUE
+240,"Christopher Habel",TRUE
+240,"Simone Pribbenow",FALSE
+241,"George Markowsky",TRUE
+241,"H. Raymond Strong",FALSE
+241,"Irving L. Traiger",FALSE
+242,"Egon Börger",TRUE
+243,"Jochen Dörre",TRUE
+244,"Bernhard Nebel",TRUE
+245,"Karl-Hans Bläsius",TRUE
+245,"Stefan Bayerl",FALSE
+246,"Günther Görz",TRUE
+247,"Kjell Johan Sæbø",TRUE
+248,"Roland Seiffert",TRUE
+249,"Stefan Benzschawel",TRUE
+250,"Ipke Wachsmuth",TRUE
+251,"Jean-Yves Lerner",TRUE
+251,"Ulrich Schatz",FALSE
+252,"Jan Wilms",TRUE
+253,"Gosse Bouma",TRUE
+254,"Bernd Walter",TRUE
+255,"Donald D. Chamberlin",TRUE
+255,"Raymond F. Boyce",FALSE
+256,"Bradford W. Wade",TRUE
+256,"Raymond A. Lorie",FALSE
+257,"Karin Neuhold",TRUE
+258,"Richard Rödler",TRUE
+259,"Gerd Hoff",TRUE
+259,"Martin Mundhenk",FALSE
+260,"Manfred Laumen",TRUE
+261,"Christoph Meinel",TRUE
+261,"Harald Sack",FALSE
+261,"Volker Schillings",FALSE
+262,"Carsten Damm",TRUE
+263,"Martin Gugat",TRUE
+264,"Nguyen V. Thoai",TRUE
+265,"El-Sayed M. E. Mostafa",TRUE
+265,"Friedemann Leibfritz",FALSE
+266,"Nguyen V. Thoai",TRUE
+267,"Belinda B. King",TRUE
+268,"A. Battermann",TRUE
+268,"Ekkehard W. Sachs",FALSE
+268,"Eyal Arian",FALSE
+269,"John Westwater",TRUE
+269,"Peter Gritzmann",FALSE
+269,"Victor Klee",FALSE
+270,"Dieter Baum",TRUE
+271,"Dieter Baum",TRUE
+272,"Christoph Meinel",TRUE
+272,"Volker Schillings",FALSE
+273,"Florian Jarre",TRUE
+275,"Anna Slobodová",TRUE
+275,"Christoph Meinel",FALSE
+276,"Alexander Kaplan",TRUE
+276,"M. Böhm",FALSE
+276,"Rainer Tichatschke",FALSE
+276,"Tim Voetmann",FALSE
+277,"Manfred Laumen",TRUE
+278,"Dieter Baum",TRUE
+279,"Artur Czumaj",TRUE
+279,"Krzysztof Lorys",FALSE
+279,"Miroslaw Kutylowski",FALSE
+279,"Przemyslawa Kanarek",FALSE
+280,"Klaus Jansen",TRUE
+281,"Klaus Lux",TRUE
+281,"Markus Wiegelmann",FALSE
+282,"Manfred Laumen",TRUE
+283,"Christian Fecht",TRUE
+283,"Helmut Seidl",FALSE
+284,"Klaus Jansen",TRUE
+285,"Christoph Meinel",TRUE
+285,"Jordan Gergov",FALSE
+286,"Christoph Meinel",TRUE
+286,"Harald Sack",FALSE
+287,"Harald Luschgy",TRUE
+288,"Matthias Heinkenschloss",TRUE
+289,"Bernd Sturmfels",TRUE
+289,"Markus Wiegelmann",FALSE
+290,"Martin Gugat",TRUE
+291,"Arno Wagner",TRUE
+291,"Christian Stangier",FALSE
+291,"Christoph Meinel",FALSE
+291,"Harald Sack",FALSE
+292,"Mirjam Dür",TRUE
+292,"Reiner Horst",FALSE
+293,"Beniamino Di Martino",TRUE
+293,"Christoph W. Keßler",FALSE
+294,"Christoph Meinel",TRUE
+294,"Wei Zhou 0006",FALSE
+295,"Richard Rödler",TRUE
+296,"Dieter Baum",TRUE
+297,"Anna Bernasconi 0001",TRUE
+297,"Carsten Damm",FALSE
+297,"Igor E. Shparlinski",FALSE
+298,"Le Dung Muu",TRUE
+298,"Nguyen V. Thoai",FALSE
+298,"Reiner Horst",FALSE
+299,"Christoph W. Keßler",TRUE
+300,"Kasyap Natarajan",TRUE
+301,"Hubertus Th. Jongen",TRUE
+301,"Oliver Stein",FALSE
+302,"Le Dung Muu",TRUE
+302,"M. Nast",FALSE
+302,"Reiner Horst",FALSE
+303,"Lothar Breuer",TRUE
+304,"Manfred Laumen",TRUE
+305,"Daniel Görgen",TRUE
+305,"Hannes Frey",FALSE
+305,"Johannes K. Lehnert",FALSE
+305,"Peter Sturm 0001",FALSE
+306,"Klaus Jansen",TRUE
+307,"Patrick Reuther",TRUE
+308,"Nguyen V. Thoai",TRUE
+308,"Reiner Horst",FALSE
+309,"E. Levitin",TRUE
+310,"Jürgen Huschens",TRUE
+311,"Marco Fahl",TRUE
+312,"Andreas Neumann 0001",TRUE
+313,"Nguyen V. Thoai",TRUE
+314,"Christoph Meinel",TRUE
+314,"Randal E. Bryant",FALSE
+315,"Subhendu Bikash Hazra",TRUE
+315,"Volker Schulz 0001",FALSE
+316,"Christoph Meinel",TRUE
+316,"Elena Dubrova",FALSE
+316,"Harald Sack",FALSE
+317,"Horst Schmitt",TRUE
+318,"Dieter Baum",TRUE
+319,"Christian Stangier",TRUE
+319,"Christoph Meinel",FALSE
+320,"Dieter Baum",TRUE
+321,"Peter Gritzmann",TRUE
+321,"Victor Klee",FALSE
+322,"Anna Slobodová",TRUE
+322,"Christoph Meinel",FALSE
+322,"Peter Willems",FALSE
+323,"Dieter Baum",TRUE
+323,"Igor N. Kovalenko",FALSE
+324,"Dieter Prangenberg",TRUE
+324,"Peter Gritzmann",FALSE
+324,"R. J. Gardner",FALSE
+325,"Peter Gritzmann",TRUE
+325,"Victor Klee",FALSE
+326,"M. Nast",TRUE
+326,"Reiner Horst",FALSE
+327,"János Sztrik",TRUE
+327,"Oliver Möller",FALSE
+328,"Ulrich Hertrampf",TRUE
+329,"Arno Wagner",TRUE
+329,"Christoph Meinel",FALSE
+329,"Harald Sack",FALSE
+330,"Lothar Breuer",TRUE
+331,"Richard Rödler",TRUE
+332,"Christoph Meinel",TRUE
+332,"Volker Schillings",FALSE
+333,"Peter Gritzmann",TRUE
+333,"Thomas Burger",FALSE
+333,"Victor Klee",FALSE
+334,"Alexander Kaplan",TRUE
+334,"Rainer Tichatschke",FALSE
+335,"Anna Slobodová",TRUE
+335,"Christoph Meinel",FALSE
+335,"Jochen Bern",FALSE
+336,"Christian Fecht",TRUE
+336,"Helmut Seidl",FALSE
+337,"Ekkehard W. Sachs",TRUE
+337,"Heidi Jäger",FALSE
+338,"Klaus Jansen",TRUE
+338,"Thomas Erlebach",FALSE
+339,"Friedemann Leibfritz",TRUE
+340,"Peter Gritzmann",TRUE
+340,"R. J. Gardner",FALSE
+341,"Lothar Breuer",TRUE
+342,"Klaus Lux",TRUE
+342,"Markus Wiegelmann",FALSE
+343,"Bernd Sturmfels",TRUE
+343,"Peter Gritzmann",FALSE
+344,"Flemming Nielson",TRUE
+344,"Helmut Seidl",FALSE
+345,"Alexander Kaplan",TRUE
+345,"Rainer Tichatschke",FALSE
+346,"Klaus Jansen",TRUE
+346,"Thomas Erlebach",FALSE
+347,"Dieter Baum",TRUE
+347,"Gurami Tsitsiashvili",FALSE
+348,"Arno Wagner",TRUE
+348,"Christoph Meinel",FALSE
+349,"Nguyen V. Thoai",TRUE
+349,"Reiner Horst",FALSE
+350,"Patrick Justen",TRUE
+351,"Anna Slobodová",TRUE
+351,"Christoph Meinel",FALSE
+351,"Klaus Schwettmann",FALSE
+352,"Reiner Horst",TRUE
+352,"Ulrich Raber",FALSE
+353,"Christoph Meinel",TRUE
+353,"Fabio Somenzi",FALSE
+353,"Thorsten Theobald",FALSE
+354,"E. Levitin",TRUE
+354,"Rainer Tichatschke",FALSE
+355,"Klaus Jansen",TRUE
+356,"Abdelouahed Hamdi",TRUE
+357,"Carsten Damm",TRUE
+358,"Attahiru Sule Alfa",TRUE
+358,"Lothar Breuer",FALSE
+359,"Matthias Heinkenschloss",TRUE
+360,"Jürgen Huschens",TRUE
+361,"Christoph Meinel",TRUE
+361,"Thorsten Theobald",FALSE
+362,"Harald Luschgy",TRUE
+362,"Siegfried Graf 0001",FALSE
+363,"Jens Hofmann 0001",TRUE
+363,"Kasyap Natarajan",FALSE
+363,"Norbert Th. Müller",FALSE
+364,"Kasyap Natarajan",TRUE
+365,"Hubertus Th. Jongen",TRUE
+365,"Jan-J. Rückmann",FALSE
+365,"Oliver Stein",FALSE
+366,"Horst Schmitt",TRUE
+367,"Klaus Jansen",TRUE
+368,"Christoph Meinel",TRUE
+368,"Volker Klotz",FALSE
+369,"Andreas Neumann 0001",TRUE
+369,"Helmut Seidl",FALSE
+370,"Richard Rödler",TRUE
+371,"Alexander Kaplan",TRUE
+371,"Rainer Tichatschke",FALSE
+372,"Carsten Damm",TRUE
+373,"Dimitri Efrosinin",TRUE
+373,"Lothar Breuer",FALSE
+373,"Vladimir Rykov",FALSE
+374,"Gerhard J. Woeginger",TRUE
+374,"Hans L. Bodlaender",FALSE
+374,"Klaus Jansen",FALSE
+375,"Jens Hofmann 0001",TRUE
+376,"Michael Ruvimovich Davidson",TRUE
+377,"Ekkehard W. Sachs",TRUE
+377,"El-Sayed M. E. Mostafa",FALSE
+378,"Christoph Meinel",TRUE
+378,"Stephan Waack",FALSE
+379,"Anna Slobodová",TRUE
+379,"Christoph Meinel",FALSE
+379,"Jochen Bern",FALSE
+380,"Holger Class",TRUE
+380,"Rainer Helmig",FALSE
+380,"Subhendu Bikash Hazra",FALSE
+380,"Volker Schulz 0001",FALSE
+381,"Richard Rödler",TRUE
+382,"János Sztrik",TRUE
+382,"Oliver Möller",FALSE
+383,"Carsten Damm",TRUE
+383,"Katja Lenz",FALSE
+384,"Alexander Hufnagel",TRUE
+384,"Peter Gritzmann",FALSE
+385,"Christoph W. Keßler",TRUE
+385,"Helmut Seidl",FALSE
+386,"Christoph Meinel",TRUE
+386,"Harald Sack",FALSE
+387,"Helmut Seidl",TRUE
+388,"Alexander Kaplan",TRUE
+388,"Rainer Tichatschke",FALSE
+389,"David G. Larman",TRUE
+389,"Peter Gritzmann",FALSE
+389,"Victor Klee",FALSE
+390,"Gerhard J. Woeginger",TRUE
+390,"Klaus Jansen",FALSE
+391,"Dieter Baum",TRUE
+392,"Alexander Kaplan",TRUE
+392,"Rainer Tichatschke",FALSE
+393,"Christian Stangier",TRUE
+393,"Christoph Meinel",FALSE
+394,"Klaus Jansen",TRUE
+395,"D. Kleis",TRUE
+395,"Ekkehard W. Sachs",FALSE
+396,"Christoph W. Keßler",TRUE
+397,"Klaus Jansen",TRUE
+397,"Petra Scheffler",FALSE
+398,"E. Levitin",TRUE
+399,"Alexander Kaplan",TRUE
+399,"Rainer Tichatschke",FALSE
+400,"Subhendu Bikash Hazra",TRUE
+400,"Volker Schulz 0001",FALSE
+401,"Alexander Kaplan",TRUE
+401,"Rainer Tichatschke",FALSE
+402,"Ulrich Hertrampf",TRUE
+403,"Anna Slobodová",TRUE
+403,"Christoph Meinel",FALSE
+404,"Alexander Kaplan",TRUE
+404,"Rainer Tichatschke",FALSE
+405,"Stasys Jukna",TRUE
+406,"Christoph Meinel",TRUE
+406,"Mikail Gevantmakher",FALSE
+407,"Ekkehard W. Sachs",TRUE
+407,"Tankred Rautert",FALSE
+408,"Christoph Meinel",TRUE
+408,"Jochen Bern",FALSE
+409,"Christoph Meinel",TRUE
+409,"Jordan Gergov",FALSE
+410,"Dieter Baum",TRUE
+410,"Luciano Lenzini",FALSE
+411,"S. Rotin",TRUE
+412,"Dieter Baum",TRUE
+413,"Anna Slobodová",TRUE
+413,"Christoph Meinel",FALSE
+413,"Jochen Bern",FALSE
+414,"Jürgen Huschens",TRUE
+415,"Martin Gugat",TRUE
+416,"Dirk Frosch",TRUE
+417,"Abdelouahed Hamdi",TRUE
+418,"El-Sayed M. E. Mostafa",TRUE
+418,"Friedemann Leibfritz",FALSE
+419,"Christoph W. Keßler",TRUE
+419,"Craig Smith",FALSE
+419,"Helmut Seidl",FALSE
+420,"Dieter Baum",TRUE
+420,"Vladimir V. Kalashnikov",FALSE
+421,"Dieter Baum",TRUE
+422,"C. Ould Ahmed Salem",TRUE
+422,"N. Lehdili",FALSE
+423,"Christoph Meinel",TRUE
+423,"Harald Sack",FALSE
+423,"Volker Schillings",FALSE
+424,"Lothar Breuer",TRUE
+425,"Christoph Meinel",TRUE
+425,"Fabio Somenzi",FALSE
+425,"Thorsten Theobald",FALSE
+426,"Friedemann Leibfritz",TRUE
+427,"Christoph W. Keßler",TRUE
+427,"Helmut Seidl",FALSE
+428,"Jürgen Huschens",TRUE
+429,"Martin Mundhenk",TRUE
+430,"Carsten Damm",TRUE
+430,"Christoph Meinel",FALSE
+430,"Matthias Krause 0001",FALSE
+430,"Stephan Waack",FALSE
+431,"Christian Stangier",TRUE
+431,"Christoph Meinel",FALSE
+432,"Andreas Brieden",TRUE
+432,"Peter Gritzmann",FALSE
+433,"Peter Gritzmann",TRUE
+433,"Victor Klee",FALSE
+434,"Dieter Baum",TRUE
+435,"Lothar Breuer",TRUE
+435,"Marco Gilbert",FALSE
+436,"Anna Slobodová",TRUE
+436,"Christoph Meinel",FALSE
+437,"Helmut Seidl",TRUE
+438,"Belinda B. King",TRUE
+439,"Lars Abbe",TRUE
+440,"Anna Slobodová",TRUE
+440,"Christoph Meinel",FALSE
+441,"Helmut Seidl",TRUE
+441,"Sebastian Maneth",FALSE
+441,"Thomas Perst",FALSE
+442,"Helmut Finner",TRUE
+442,"Markus Roters",FALSE
+443,"S. Rotin",TRUE
+444,"A. Battermann",TRUE
+444,"Ekkehard W. Sachs",FALSE
+445,"Friedemann Leibfritz",TRUE
+446,"Dieter Baum",TRUE
+446,"Vladimir V. Kalashnikov",FALSE
+447,"Peter Gritzmann",TRUE
+447,"Victor Klee",FALSE
+448,"Nguyen V. Thoai",TRUE
+449,"Klaus Jansen",TRUE
+450,"Carsten Damm",TRUE
+450,"Jirí Sgall",FALSE
+450,"Stasys Jukna",FALSE
+451,"Subhendu Bikash Hazra",TRUE
+452,"Dieter Baum",TRUE
+453,"Klaus Jansen",TRUE
+454,"Nguyen V. Thoai",TRUE
+454,"Reiner Horst",FALSE
+455,"Carsten Damm",TRUE
+456,"Dieter Baum",TRUE
+456,"Gurami Tsitsiashvili",FALSE
+456,"M. A. Osipova",FALSE
+456,"N. V. Koliev",FALSE
+457,"Martin Gugat",TRUE
+458,"Lothar Breuer",TRUE
+459,"Oleg V. Khamisov",TRUE
+460,"Dieter Baum",TRUE
+461,"Christoph Meinel",TRUE
+461,"Jochen Bern",FALSE
+463,"Christian Fecht",TRUE
+463,"Helmut Seidl",FALSE
+464,"Carsten Damm",TRUE
+464,"Markus Holzer 0001",FALSE
+465,"Harald Luschgy",TRUE
+465,"Siegfried Graf 0001",FALSE
+466,"Christoph Meinel",TRUE
+466,"Jordan Gergov",FALSE
+467,"Dieter Baum",TRUE
+468,"Lothar Breuer",TRUE
+469,"Alexander Kaplan",TRUE
+469,"Rainer Tichatschke",FALSE
+470,"Martin Mundhenk",TRUE
+471,"Carsten Damm",TRUE
+471,"Stasys Jukna",FALSE
+472,"Helmut Seidl",TRUE
+472,"Markus Müller-Olm",FALSE
+472,"Varmo Vene",FALSE
+473,"Christoph Meinel",TRUE
+473,"Stephan Waack",FALSE
+474,"Klaus Jansen",TRUE
+475,"Christoph Meinel",TRUE
+476,"Christoph Meinel",TRUE
+476,"Feng Cheng 0002",FALSE
+476,"Paul Ferring",FALSE
+477,"Martin Luckow",TRUE
+477,"Norbert Th. Müller",FALSE
+478,"Christoph Meinel",TRUE
+478,"Jordan Gergov",FALSE
+479,"Christoph Meinel",TRUE
+479,"Harald Sack",FALSE
+480,"Dirk Frosch-Wilke",TRUE
+481,"Lothar Breuer",TRUE
+482,"M. Nast",TRUE
+482,"Nguyen V. Thoai",FALSE
+482,"Reiner Horst",FALSE
+483,"Christopher Lusena",TRUE
+483,"Eric Allender",FALSE
+483,"Judy Goldsmith",FALSE
+483,"Martin Mundhenk",FALSE
+484,"Stasys Jukna",TRUE
+485,"Lothar Breuer",TRUE
+486,"E. Levitin",TRUE
+486,"Rainer Tichatschke",FALSE
+487,"Anna Slobodová",TRUE
+487,"Christoph Meinel",FALSE
+488,"Hubertus Th. Jongen",TRUE
+488,"Rainer Hettich",FALSE
+489,"Anna Slobodová",TRUE
+489,"Christoph Meinel",FALSE
+490,"Daniel Görgen",TRUE
+490,"Matthias Transier",FALSE
+490,"Peter Sturm 0001",FALSE
+490,"Wolfgang Effelsberg",FALSE
+491,"Aditya V. Nori",TRUE
+491,"Helmut Seidl",FALSE
+492,"Anthony J. Hayter",TRUE
+492,"Helmut Finner",FALSE
+492,"Markus Roters",FALSE
+493,"Christoph Meinel",TRUE
+493,"Thorsten Theobald",FALSE
+494,"Helmut Seidl",TRUE
+494,"Markus Müller-Olm",FALSE
+495,"Dieter Baum",TRUE
+496,"Reiner Horst",TRUE
+497,"Nguyen V. Thoai",TRUE
+497,"Reiner Horst",FALSE
+498,"Christoph W. Keßler",TRUE
+499,"Klaus Jansen",TRUE
+500,"Peter Gritzmann",TRUE
+500,"Victor Klee",FALSE
+501,"Richard Rödler",TRUE
+502,"Joachim Reiter",TRUE
+502,"Klaus Jansen",FALSE
+503,"Markus Roters",TRUE
+504,"Rustam Mubarakzjanov",TRUE
+505,"Ekkehard W. Sachs",TRUE
+505,"Friedemann Leibfritz",FALSE
+506,"Christian Stangier",TRUE
+506,"Ulrich Holtmann",FALSE
+507,"Tim Voetmann",TRUE
+508,"Stasys Jukna",TRUE
+509,"Carsten Damm",TRUE
+510,"Harald Luschgy",TRUE
+510,"Siegfried Graf 0001",FALSE
+511,"Helmut Seidl",TRUE
+512,"Christoph Meinel",TRUE
+512,"Harald Sack",FALSE
+513,"Peter Gritzmann",TRUE
+513,"Thomas Burger",FALSE
+514,"Christoph Meinel",TRUE
+514,"Mikail Gevantmakher",FALSE
+515,"C. T. Kelley",TRUE
+515,"Ekkehard W. Sachs",FALSE
+516,"Carsten Damm",TRUE
+516,"Markus Holzer 0001",FALSE
+516,"Peter Rossmanith",FALSE
+517,"Friedemann Leibfritz",TRUE
+518,"Lothar Breuer",TRUE
+519,"Christoph Meinel",TRUE
+519,"Michael Schmitt 0002",FALSE
+520,"Lothar Breuer",TRUE
+521,"Richard Rödler",TRUE
+522,"Anna Slobodová",TRUE
+522,"Christian Stangier",FALSE
+522,"Christoph Meinel",FALSE
+522,"Gianpiero Cabodi",FALSE
+522,"Harald Sack",FALSE
+522,"Stefano Quer",FALSE
+523,"Ditmar Erdmann",TRUE
+524,"Michael Ruvimovich Davidson",TRUE
+525,"Peter Dierolf",TRUE
+525,"Volker Schmidt",FALSE
+526,"Dimitri Efrosinin",TRUE
+526,"Lothar Breuer",FALSE
+526,"Vladimir Rykov",FALSE
+527,"Martin Mundhenk",TRUE
+528,"Christopher Lusena",TRUE
+528,"Judy Goldsmith",FALSE
+528,"Martin Mundhenk",FALSE
+529,"Lothar Breuer",TRUE
+530,"Nguyen V. Thoai",TRUE
+530,"Paul B. Hermanns",FALSE
+531,"Christoph Meinel",TRUE
+531,"Thorsten Theobald",FALSE
+532,"Nguyen V. Thoai",TRUE
+532,"Reiner Horst",FALSE
+533,"Markus R. Schmidt",TRUE
+534,"Christoph Meinel",TRUE
+535,"Subhendu Bikash Hazra",TRUE
+535,"Volker Schulz 0001",FALSE
+536,"Christoph Meinel",TRUE
+536,"Jordan Gergov",FALSE
+537,"Christian Stangier",TRUE
+537,"Christoph Meinel",FALSE
+538,"Elena Dubrova",TRUE
+538,"Harald Sack",FALSE
+539,"Lothar Breuer",TRUE
+540,"Peter Dierolf",TRUE
+541,"Alexander Kaplan",TRUE
+541,"Rainer Tichatschke",FALSE
+542,"Christoph W. Keßler",TRUE
+542,"Helmut Seidl",FALSE
+543,"Christoph Meinel",TRUE
+543,"Harald Sack",FALSE
+544,"Anna Slobodová",TRUE
+544,"Christoph Meinel",FALSE
+544,"Jochen Bern",FALSE
+544,"Jordan Gergov",FALSE
+545,"Peter Gritzmann",TRUE
+545,"Victor Klee",FALSE
+546,"Peter Gritzmann",TRUE
+546,"R. J. Gardner",FALSE
+547,"Clemens Lautemann",TRUE
+547,"Heribert Vollmer",FALSE
+547,"Klaus W. Wagner",FALSE
+547,"Thomas Schwentick",FALSE
+547,"Ulrich Hertrampf",FALSE
+548,"B. S. Tam",TRUE
+548,"Peter Gritzmann",FALSE
+548,"Victor Klee",FALSE
+549,"Dieter Baum",TRUE
+550,"Markus Müller-Olm",TRUE
+551,"Gerhard J. Woeginger",TRUE
+551,"Klaus Jansen",FALSE
+551,"Petra Scheffler",FALSE
+552,"Jens Hofmann 0001",TRUE
+553,"Klaus Jansen",TRUE
+554,"Anderson Rocha 0001",TRUE
+554,"Jacques Wainer",FALSE
+554,"Michael Eckmann",FALSE
+554,"Siome Goldenstein",FALSE
+555,"Astrid Kiehn",TRUE
+556,"Bernd Simeon",TRUE
+556,"Claus Führer",FALSE
+556,"Peter Rentrop",FALSE
+557,"Heinrich Hussmann",TRUE
+558,"Ulrich Rüde",TRUE
+559,"Ulrich Furbach",TRUE
+560,"Christian Roth",TRUE
+560,"Erwin Loibl",FALSE
+560,"Markus Pawlowski",FALSE
+561,"Christian Sporrer",TRUE
+561,"Herbert Bauer",FALSE
+562,"Frits W. Vaandrager",TRUE
+562,"Rob van Glabbeek",FALSE
+563,"Rob van Glabbeek",TRUE
+563,"Ursula Goltz",FALSE
+564,"Christian Freksa",TRUE
+564,"Gerhard Dirlich",FALSE
+564,"Ulrich Furbach",FALSE
+565,"Dirk Taubner",TRUE
+565,"Stephen L. Bloom",FALSE
+565,"Zoltán Ésik",FALSE
+566,"Peter Slavkovsky",TRUE
+567,"Michael Griebel",TRUE
+567,"Peter Oswald",FALSE
+568,"Burkhard Freitag",TRUE
+568,"Günther Specht",FALSE
+568,"Heribert Schütz",FALSE
+569,"Michael W. Binder",TRUE
+570,"Rob van Glabbeek",TRUE
+570,"Ursula Goltz",FALSE
+571,"Kristof Nast-Kolb",TRUE
+571,"Uwe M. Borghoff",FALSE
+572,"Arnd Poetzsch-Heffter",TRUE
+572,"Thomas Eisenbarth 0004",FALSE
+573,"Bernhard Schätz",TRUE
+573,"Marco Dorigo",FALSE
+574,"Manfred Broy",TRUE
+575,"Günter Böckle",TRUE
+575,"Siegfried Trosch",FALSE
+576,"Jürgen Schmidhuber",TRUE
+577,"Johann Schumann",TRUE
+577,"Manfred R. Jobmann",FALSE
+578,"Franz J. Kurfess",TRUE
+579,"Daniel Hernández 0001",TRUE
+580,"Daniel Hernández 0001",TRUE
+581,"Peter Rossmanith",TRUE
+581,"Rolf Niedermeier",FALSE
+582,"Sergei Gorlatch",TRUE
+583,"Michael Werner",TRUE
+584,"Wolfgang Heinle",TRUE
+585,"Christoph Zenger 0001",TRUE
+585,"Michael Griebel",FALSE
+585,"Stefan Zimmer",FALSE
+586,"Jochen Hager",TRUE
+586,"Martin Moser",FALSE
+587,"Ilko Michler",TRUE
+588,"Bertram Fronhöfer",TRUE
+588,"Christoph Kreitz",FALSE
+588,"Gerd Neugebauer",FALSE
+589,"Jürgen Schmidhuber",TRUE
+590,"Christoph Zenger 0001",TRUE
+590,"Michael Griebel",FALSE
+590,"Michael Schneider",FALSE
+591,"Vytautas Cyras",TRUE
+592,"Christoph Zenger 0001",TRUE
+592,"Evgenii V. Vorozhtsov",FALSE
+592,"Victor G. Ganzha",FALSE
+593,"Robert Gold",TRUE
+593,"Walter Vogler",FALSE
+594,"Gerhard Köstler",TRUE
+594,"Ulrich Güntzer",FALSE
+594,"Werner Kießling",FALSE
+595,"Werner Pohlmann",TRUE
+596,"Wolfgang Reisig",TRUE
+597,"Bernhard Reinmiedl",TRUE
+598,"Christoph Pflaum",TRUE
+599,"Johann M. Ph. Schumann",TRUE
+600,"Frank Dederichs",TRUE
+600,"Ketil Stølen",FALSE
+600,"Rainer Weber",FALSE
+601,"Wolfgang Ertel",TRUE
+602,"Bernd Simeon",TRUE
+603,"Peter Lory",TRUE
+604,"Claus Dendorfer",TRUE
+604,"Rainer Weber",FALSE
+605,"Frank Dederichs",TRUE
+606,"Andreas Strasser",TRUE
+607,"Thomas Bonk",TRUE
+607,"Ulrich Rüde",FALSE
+608,"Siegfried Meggendorfer",TRUE
+609,"Walter Vogler",TRUE
+610,"Gerhard Weiss 0001",TRUE
+611,"Christian Freksa",TRUE
+612,"Barbara I. Wohlmuth",TRUE
+612,"Ronald H. W. Hoppe",FALSE
+613,"Peter Weijland",TRUE
+613,"Rob van Glabbeek",FALSE
+614,"Uwe M. Borghoff",TRUE
+615,"Andrea Eberhard",TRUE
+615,"Peter Rentrop",FALSE
+616,"Patrick Thomas",TRUE
+617,"Arnd Poetzsch-Heffter",TRUE
+618,"Gerhard Weiss 0001",TRUE
+619,"Daniel Hernández 0001",TRUE
+620,"Daniel Hernández 0001",TRUE
+621,"Reinhold Letz",TRUE
+622,"Kai Zimmermann",TRUE
+623,"Gerhard Weiss 0001",TRUE
+624,"Heinrich Hussmann",TRUE
+625,"Andreas Strasser",TRUE
+626,"Peter Manhart",TRUE
+626,"Siegfried Meggendorfer",FALSE
+627,"Ulrich Rüde",TRUE
+628,"Günther Specht",TRUE
+629,"Peter Baumgartner 0001",TRUE
+630,"Wolfgang Reisig",TRUE
+631,"Peter Baumgartner 0006",TRUE
+632,"Walter Vogler",TRUE
+633,"Edward Ochmanski",TRUE
+633,"Klaus Reinhardt",FALSE
+633,"Volker Diekert",FALSE
+634,"Jürgen Schmidhuber",TRUE
+635,"Daniel Hernández 0001",TRUE
+636,"Michael Luby",TRUE
+636,"Wolfgang Ertel",FALSE
+637,"Heribert Schütz",TRUE
+638,"Christian B. Suttner",TRUE
+638,"Wolfgang Ertel",FALSE
+639,"Christian Sporrer",TRUE
+639,"Herbert Bauer",FALSE
+639,"Thomas H. Krodel",FALSE
+640,"Geneviève Pourcin",TRUE
+640,"Sandra A. Hayes",FALSE
+641,"Jürgen Schmidhuber",TRUE
+642,"Martin Röscheisen",TRUE
+642,"Reimar Hofmann",FALSE
+642,"Volker Tresp",FALSE
+643,"Christoph Zenger 0001",TRUE
+643,"Klaus Hallatschek",FALSE
+644,"Claus Dendorfer",TRUE
+645,"Reiner Müller",TRUE
+646,"Friedrich L. Bauer",TRUE
+648,"Rudi Hettler",TRUE
+649,"Gabriele Scheler",TRUE
+650,"Andreas Strasser",TRUE
+651,"Jürgen Schmidhuber",TRUE
+652,"Christoph Goller",TRUE
+653,"Christian B. Suttner",TRUE
+653,"Geoff Sutcliffe",FALSE
+653,"Theodor Yemenis",FALSE
+654,"Ekkart Kindler",TRUE
+655,"Inga Niepel",TRUE
+655,"Peter Rossmanith",FALSE
+656,"Christian B. Suttner",TRUE
+656,"Wolfgang Ertel",FALSE
+657,"Margit Kinder",TRUE
+657,"Till Brychcy",FALSE
+658,"Walter Vogler",TRUE
+659,"Jörg Desel",TRUE
+659,"Wolfgang Reisig",FALSE
+660,"Ulrich Rüde",TRUE
+661,"Max Fuchs",TRUE
+662,"Christoph Zenger 0001",TRUE
+662,"Robert Balder",FALSE
+663,"Daniel Hernández 0001",TRUE
+663,"Daniel Kobler",FALSE
+664,"Michael Griebel",TRUE
+665,"Gerhard W. Zumbusch",TRUE
+666,"Andreas Listl",TRUE
+666,"Markus Pawlowski",FALSE
+667,"Bertram Fronhöfer",TRUE
+668,"Kai Zimmermann",TRUE
+669,"Irmgard Schwarzer",TRUE
+669,"Stefan Högg",FALSE
+670,"Ernst W. Mayr",TRUE
+670,"Volker Heun",FALSE
+671,"Christian Freksa",TRUE
+672,"Ulrich Rüde",TRUE
+673,"Jürgen Schmidhuber",TRUE
+674,"Werner Pohlmann",TRUE
+675,"Jürgen Schmidhuber",TRUE
+676,"Walter Vogler",TRUE
+677,"Christian B. Suttner",TRUE
+677,"Johann M. Ph. Schumann",FALSE
+677,"Wolfgang Ertel",FALSE
+678,"Ulrich Rüde",TRUE
+679,"Michael Roth",TRUE
+680,"Daniel Hernández 0001",TRUE
+680,"Kai Zimmermann",FALSE
+681,"Carlos Delgado Kloos",TRUE
+681,"Manfred Broy",FALSE
+682,"Christian Freksa",TRUE
+683,"Daniel Hernández 0001",TRUE
+684,"Friederike Nickl",TRUE
+685,"Gerhard Weiss 0001",TRUE
+686,"Christoph Zenger 0001",TRUE
+687,"Daniel Hernández 0001",TRUE
+687,"Margit Kinder",FALSE
+687,"Martin Eldracher",FALSE
+688,"Christian Freksa",TRUE
+689,"Christian Sporrer",TRUE
+689,"Herbert Bauer",FALSE
+690,"Michael Griebel",TRUE
+691,"Joachim F. Schreiber",TRUE
+691,"Steffen Hölldobler",FALSE
+691,"Ulrich Furbach",FALSE
+692,"Andreas Strasser",TRUE
+693,"Michael Arbesmeier",TRUE
+693,"Ulrich Rüde",FALSE
+694,"Sergei Gorlatch",TRUE
+695,"Gerhard Weiss 0001",TRUE
+696,"Klaus-Jörn Lange",TRUE
+696,"Peter Rossmanith",FALSE
+697,"Eike Jessen",TRUE
+698,"Rudolf Hettler",TRUE
+699,"Ketil Stølen",TRUE
+699,"Max Fuchs",FALSE
+700,"Reinhard Fössmeier",TRUE
+701,"Javier Esparza",TRUE
+701,"Jörg Desel",FALSE
+702,"Christian Freksa",TRUE
+703,"Bertram Fronhöfer",TRUE
+703,"Ulrich Furbach",FALSE
+704,"Johannes Bauer 0001",TRUE
+704,"Thomas Bemmerl",FALSE
+704,"Thomas Treml",FALSE
+705,"Martin Eldracher",TRUE
+706,"Michael Griebel",TRUE
+707,"Hans Regler",TRUE
+707,"Ulrich Rüde",FALSE
+708,"Andreas Strasser",TRUE
+708,"Dieter Dodenhöft",FALSE
+708,"Georg Strobl",FALSE
+709,"Margit Kinder",TRUE
+709,"Wilfried Brauer",FALSE
+710,"Thomas F. Gritzner",TRUE
+711,"Oswald Giering",TRUE
+712,"Andreas Weininger",TRUE
+712,"Michael Friedrich 0001",FALSE
+712,"Thomas Schnekenburger",FALSE
+713,"Hubert Kiechle",TRUE
+714,"Walter Vogler",TRUE
+715,"Daniel Kobler",TRUE
+716,"Angelika Mader",TRUE
+716,"Dieter Barnard",FALSE
+717,"Klaus Mayr",TRUE
+717,"Reinhold Letz",FALSE
+718,"Peter Slavkovsky",TRUE
+718,"Ulrich Rüde",FALSE
+719,"Michael Griebel",TRUE
+720,"Andreas Strasser",TRUE
+721,"Ulrich Rüde",TRUE
+722,"Gerhard Weiss 0001",TRUE
+722,"Thomas Laußermair",FALSE
+723,"Margit Kinder",TRUE
+723,"Till Brychcy",FALSE
+724,"Rudolf Bayer",TRUE
+725,"Manfred Broy",TRUE
+725,"Thomas Streicher",FALSE
+726,"Walter Vogler",TRUE
+727,"Reinhold Letz",TRUE
+728,"Ulrich Furbach",TRUE
+729,"Eike Jessen",TRUE
+730,"Thierry Conrad",TRUE
+730,"Ulrich Furbach",FALSE
+731,"Reinhold Letz",TRUE
+732,"Gabriele Scheler",TRUE
+733,"Christoph Zenger 0001",TRUE
+733,"Ulrich Rüde",FALSE
+734,"Arnd Poetzsch-Heffter",TRUE
+735,"Dieter Dodenhöft",TRUE
+735,"Georg Strobl",FALSE
+736,"Luitpold Babel",TRUE
+737,"Hans-Joachim Bungartz",TRUE
+738,"Stefan Eichholz",TRUE
+739,"Werner Pohlmann",TRUE
+740,"Peter Rossmanith",TRUE
+741,"B. M. Hearn",TRUE
+741,"Karl Meinke",FALSE
+742,"Frank Johannes",TRUE
+742,"Georg Sigl",FALSE
+742,"Henning Spruth",FALSE
+743,"Friedrich Erhard",TRUE
+744,"Erwin Loibl",TRUE
+744,"Hans Obermaier",FALSE
+744,"Markus Pawlowski",FALSE
+745,"Hans-Jürgen Plewan",TRUE
+745,"Peter Schlenk",FALSE
+746,"Manfred Kunde",TRUE
+746,"Peter Rossmanith",FALSE
+746,"Rolf Niedermeier",FALSE
+747,"Wolfgang Ertel",TRUE
+748,"Gerhard Weiss 0001",TRUE
+749,"Wolfgang Ertel",TRUE
+750,"Hans-Joachim Bungartz",TRUE
+750,"Michael Griebel",FALSE
+750,"Ulrich Rüde",FALSE
+751,"Johann K. Obermaier",TRUE
+752,"Helmut Thöne",TRUE
+752,"Ulrich Güntzer",FALSE
+752,"Werner Kießling",FALSE
+753,"Jürgen Schmidhuber",TRUE
+754,"Andreas Heise",TRUE
+754,"Cristian Dimitrovici",FALSE
+755,"Thomas F. Gritzner",TRUE
+756,"Karl Meinke",TRUE
+757,"Peter Pepper",TRUE
+758,"Michael Griebel",TRUE
+759,"Johann M. Ph. Schumann",TRUE
+759,"Max Moser",FALSE
+760,"Ernst W. Mayr",TRUE
+760,"Ralph Werchner",FALSE
+761,"Hermann Hellwagner",TRUE
+762,"Michael Griebel",TRUE
+762,"Veronika Thurner",FALSE
+763,"Frank Leßke",TRUE
+764,"Luitpold Babel",TRUE
+765,"Stephen F. McCormick",TRUE
+765,"Ulrich Rüde",FALSE
+766,"Johann Schumann",TRUE
+766,"Reinhold Letz",FALSE
+767,"Manfred Broy",TRUE
+768,"Erwin Klöck",TRUE
+769,"Michael Griebel",TRUE
+770,"Walter Vogler",TRUE
+771,"Steffen Hölldobler",TRUE
+771,"Ulrich Furbach",FALSE
+772,"Christoph Pflaum",TRUE
+772,"Ulrich Rüde",FALSE
+773,"Siegfried Bocionek",TRUE
+774,"Claus Dendorfer",TRUE
+774,"Manfred Broy",FALSE
+775,"Christoph Pleier",TRUE
+776,"Thomas Schnekenburger",TRUE
+777,"Steffen Hölldobler",TRUE
+777,"Ulrich Furbach",FALSE
+778,"Volker Diekert",TRUE
+779,"Kai Zimmermann",TRUE
+780,"Peter Baumgartner 0001",TRUE
+780,"Siegfried Meggendorfer",FALSE
+780,"Zong-Yan Qiu",FALSE
+781,"Andrey V. Solovjov",TRUE
+781,"Mikhail Yu. Shashkov",FALSE
+782,"Jürgen Schmidhuber",TRUE
+783,"Robert Gold",TRUE
+784,"Bertram Fronhöfer",TRUE
+785,"Peter Rossmanith",TRUE
+785,"Rolf Niedermeier",FALSE
+786,"Manfred Broy",TRUE
+786,"Thomas F. Gritzner",FALSE
+787,"Reinhold Letz",TRUE
+816,"E. F. Codd",TRUE
+819,"E. F. Codd",TRUE
+820,"Michael Ley",TRUE
+821,"C. J. Date 0001",TRUE
+821,"E. F. Codd",FALSE
+822,"E. F. Codd",TRUE
+823,"Hugo Hellebrand",TRUE
+823,"Markus Casper",FALSE
+823,"Ralf Merz",FALSE
+823,"Rita Ley",FALSE
+825,"Patrick A. V. Hall",TRUE
+826,"E. F. Codd",TRUE
+827,"E. F. Codd",TRUE
+829,"Markus Tresch",TRUE
+830,"E. F. Codd",TRUE
+831,"Andreas Rock",TRUE
+831,"Gayane Grigoryan",FALSE
+831,"Günther Heinemann",FALSE
+831,"Markus Casper",FALSE
+831,"Oliver Gronz",FALSE
+831,"Oliver Gutjahr",FALSE
+831,"Rita Ley",FALSE
+28916,"Sarah R. Davies",TRUE
+28917,"Colleen Murphy",TRUE
+28917,"Paolo Gardoni",FALSE
+28918,"Louise A. Dennis",TRUE
+28919,"Steven R. Smith",TRUE
+28920,"Lishan Lan",TRUE
+28920,"Qin Zhu",FALSE
+28920,"Yongmou Liu",FALSE
+28921,"Indira Nair",TRUE
+28921,"William M. Bulleit",FALSE
+28922,"Jaime A. Teixeira da Silva",TRUE
+28923,"Vito L. Punzi",TRUE
+28924,"David Koepsell",TRUE
+28925,"William J. Frey",TRUE
+28926,"Amarjeet Singh 0004",TRUE
+28926,"Kewal Krishan",FALSE
+28926,"Neelam Dehal",FALSE
+28926,"Tanuj Kanchan",FALSE
+28927,"Adrian Treloar",TRUE
+28927,"Alastair J. D. Macdonald",FALSE
+28927,"Dimitrios Adamis",FALSE
+28927,"Finbarr C. Martin",FALSE
+28928,"Jinnie M. Garrett",TRUE
+28928,"Stephanie J. Bird",FALSE
+28929,"Brian Bowe",TRUE
+28929,"Diana Adela Martin",FALSE
+28929,"Eddie Conlon",FALSE
+28930,"Petr Houdek",TRUE
+28931,"Enrica Marchigiani",TRUE
+28931,"Ileana Di Pomponio",FALSE
+28931,"Margherita Bracci",FALSE
+28931,"Oronzo Parlangeli",FALSE
+28931,"Paola Palmitesta",FALSE
+28931,"Stefano Guidi",FALSE
+28932,"Laura Yenisa Cabrera Trujillo",TRUE
+28932,"Sabrina Engel-Glatter",FALSE
+28933,"Peter M. Attia",TRUE
+28934,"Albert P. C. Chan",TRUE
+28934,"Amos Darko",FALSE
+28934,"Igor Martek",FALSE
+28934,"M. Reza Hosseini",FALSE
+28934,"Mahdi Tahmasebi",FALSE
+28934,"Saeed Banihashemi",FALSE
+28935,"Matthew Grellette",TRUE
+28936,"Christian Gamborg",TRUE
+28936,"Ellen-Marie Forsberg",FALSE
+28936,"Karsten Klint Jensen",FALSE
+28936,"Kate Millar",FALSE
+28936,"Peter Sandøe",FALSE
+28937,"Gizell Green",TRUE
+28937,"Miri Barak",FALSE
+28938,"Rafi Rashid",TRUE
+28939,"Raymond E. Spier",TRUE
+28939,"Stephanie J. Bird",FALSE
+28940,"Fabrizia Faustinella",TRUE
+28940,"Giovanni M. Pes",FALSE
+28940,"Maria Pina Dore",FALSE
+28941,"Lynne E. Olson",TRUE
+28942,"Dena Plemmons",TRUE
+28942,"Michael W. Kalichman",FALSE
+28942,"Stephanie J. Bird",FALSE
+28943,"David Koepsell",TRUE
+28943,"Sylvia C. Pont",FALSE
+28943,"Willem-Paul Brinkman",FALSE
+28944,"Nikolas Stroth",TRUE
+28945,"Anna Krizanova",TRUE
+28945,"Jana Kliestikova",FALSE
+28945,"Maria Misankova",FALSE
+28945,"Tatiana Corejova",FALSE
+28945,"Tomas Kliestik",FALSE
+28946,"Seumas Miller",TRUE
+28947,"Reena Cheruvalath",TRUE
+28948,"Wha-Chul Son",TRUE
+28949,"Cathal D. O'Connell",TRUE
+28949,"Frédéric Gilbert 0003",FALSE
+28949,"Susan Dodds",FALSE
+28949,"Tajanka Mladenovska",FALSE
+28950,"David M. Shaw",TRUE
+28950,"Peter Morfeld",FALSE
+28950,"Thomas C. Erren",FALSE
+28951,"Guido Nicolosi",TRUE
+28951,"Guido Ruivenkamp",FALSE
+28952,"Lars Lindblom",TRUE
+28952,"Per Wikman-Svahn",FALSE
+28953,"Patrick L. Taylor",TRUE
+28954,"Ioanna Semendeferi",TRUE
+28954,"Ioannis T. Pavlidis",FALSE
+28954,"Malcolm Dcosta",FALSE
+28954,"Panagiotis Tsiamyrtzis",FALSE
+28955,"Maarten C. A. van der Sanden",TRUE
+28955,"Patricia Osseweijer",FALSE
+28955,"Steven M. Flipse",FALSE
+28956,"Vance W. Berger",TRUE
+28957,"Antonio A. Casilli",TRUE
+28957,"Antonio Santos-Ortega",FALSE
+28957,"José Luis Molina",FALSE
+28957,"Paola Tubaro",FALSE
+28958,"Sven Ove Hansson",TRUE
+28959,"Dan Perry",TRUE
+28959,"Gad Perry",FALSE
+28959,"Howard J. Curzer",FALSE
+28959,"Mark C. Wallace",FALSE
+28960,"Jukka Varelius",TRUE
+28961,"David B. Resnik",TRUE
+28961,"Kathy Partin",FALSE
+28961,"Taraswi Banerjee",FALSE
+28962,"Andrea Owe",TRUE
+28962,"Mark Coeckelbergh",FALSE
+28962,"Seth D. Baum",FALSE
+28963,"Søren Holm",TRUE
+28963,"Thomas Ploug",FALSE
+28964,"Emel Aközer",TRUE
+28964,"Mehmet Aközer",FALSE
+28965,"Morten P. Oksvold",TRUE
+28966,"Alexander Hevelke",TRUE
+28966,"Julian Nida-Rümelin",FALSE
+28967,"Ana Mlinaric",TRUE
+28967,"Jelena Omazic",FALSE
+28967,"Martina Horvat",FALSE
+28967,"Vesna Supak-Smolcic",FALSE
+28968,"Ellen-Marie Forsberg",TRUE
+28968,"Fern Wickson",FALSE
+28969,"Adèle Paul-Hus",TRUE
+28969,"Bryn Williams-Jones",FALSE
+28969,"Cassidy R. Sugimoto",FALSE
+28969,"David B. Resnik",FALSE
+28969,"Elise Smith",FALSE
+28969,"Min Shi",FALSE
+28969,"Vincent Larivière",FALSE
+28969,"Zubin Master",FALSE
+28970,"Michael Davis 0002",TRUE
+28971,"Carol B. Fowler",TRUE
+28971,"David L. Evers",FALSE
+28971,"Jeffrey T. Mason",FALSE
+28971,"Rebecca K. Mimnall",FALSE
+28972,"Albert P. C. Chan",TRUE
+28972,"Emmanuel Kingsford Owusu",FALSE
+28972,"Erika Pärn",FALSE
+28972,"Ming Shan",FALSE
+28973,"Robert E. McGinn",TRUE
+28974,"Raphael Cohen-Almagor",TRUE
+28975,"Byron Newberry",TRUE
+28975,"Greta Gorsuch",FALSE
+28975,"Katherine A. Austin",FALSE
+28975,"Thomas Darwin",FALSE
+28975,"William D. Lawson",FALSE
+28976,"Filippo Santoni de Sio",TRUE
+28977,"Andreea Peca",TRUE
+28977,"Bram Vanderborght",FALSE
+28977,"Cristina Pop 0002",FALSE
+28977,"Daniel O. David",FALSE
+28977,"Mark Coeckelbergh",FALSE
+28977,"Ramona Simut",FALSE
+28977,"Sebastian Pintea",FALSE
+28978,"Conrad Heilmann",TRUE
+28979,"Frances S. Grodzinsky",TRUE
+28979,"Keith W. Miller 0001",FALSE
+28979,"Marty J. Wolf",FALSE
+28980,"Cary Moskovitz",TRUE
+28981,"A. Lauren Crain",TRUE
+28981,"Brian C. Martinson",FALSE
+28981,"Carol R. Thrush",FALSE
+28982,"Guangwei Hu",TRUE
+28982,"Lex M. Bouter",FALSE
+28982,"Natalie Evans",FALSE
+28982,"Shaoxiong Brian Xu",FALSE
+28983,"Bailey C. Davis",TRUE
+28983,"Courtney E. Williams",FALSE
+28983,"George C. Banks",FALSE
+28983,"Lisa M. Rasmussen",FALSE
+28983,"Mary M. Hausfeld",FALSE
+28984,"René von Schomberg",TRUE
+28985,"Alexander Mertens",TRUE
+28985,"Christopher Brandl",FALSE
+28985,"Frank Ole Flemisch",FALSE
+28985,"Jochen Nelles",FALSE
+28985,"Katharina Schäfer",FALSE
+28985,"Martin Frenz",FALSE
+28985,"Matthias Wille",FALSE
+28985,"Peter Rasche",FALSE
+28985,"Verena Nitsch",FALSE
+28986,"Jessica Li",TRUE
+28986,"Shengli Fu",FALSE
+28987,"Katherine A. McComas",TRUE
+28988,"Ralph J. Greenspan",TRUE
+28989,"Anders Braarud Hanssen",TRUE
+28989,"Ellen-Marie Forsberg",FALSE
+28989,"Hanne Marie Nielsen",FALSE
+28989,"Ingrid Olesen",FALSE
+28990,"Philippe A. Tanguy",TRUE
+28990,"Thierry C. Pauchant",FALSE
+28990,"Yoann Guntzburger",FALSE
+28991,"Gianmarco Baldini",TRUE
+28991,"Maarten Botterman",FALSE
+28991,"Mariachiara Tallacchini",FALSE
+28991,"Ricardo Neisse",FALSE
+28992,"Jukka Varelius",TRUE
+28993,"Bernice Elger",TRUE
+28993,"Fabrice Jotterand",FALSE
+28993,"Marcello Ienca",FALSE
+28993,"Reto W. Kressig",FALSE
+28993,"Tenzin Wangmo",FALSE
+28994,"Arif Sari",TRUE
+28995,"Simona Hasková",TRUE
+28996,"Yue Liang Zheng",TRUE
+28997,"Anna Marousková",TRUE
+28997,"Marek Vochozka",FALSE
+28997,"Vojtech Stehel",FALSE
+28998,"Hugh P. Shanahan",TRUE
+28998,"Louise Bezuidenhout",FALSE
+28998,"Robert Quick",FALSE
+28999,"Sven Nyholm",TRUE
+29000,"Cary Moskovitz",TRUE
+29001,"Alison L. Antes",TRUE
+29001,"Kari A. Baldwin",FALSE
+29001,"Samuel V. Bruton",FALSE
+29001,"Stephanie Solomon Cargill",FALSE
+29001,"Tristan J. McIntosh",FALSE
+29002,"Charles-Étienne Daniel",TRUE
+29002,"Danielle Tapin",FALSE
+29002,"Georges-Auguste Legault",FALSE
+29002,"Jacques Beauvais",FALSE
+29002,"Jean-Pierre Béland",FALSE
+29002,"Johane Patenaude",FALSE
+29002,"Jonathan Genest",FALSE
+29002,"Louise Bernier",FALSE
+29002,"Marie-Sol Poirier",FALSE
+29002,"Patrick Boissy",FALSE
+29002,"Vanessa Chenel",FALSE
+29003,"Abhilash Kizhakenath",TRUE
+29003,"Behnam Taebi",FALSE
+29003,"Geerten van de Kaa",FALSE
+29003,"Ibo van de Poel",FALSE
+29003,"Jafar Rezaei 0001",FALSE
+29004,"Angela Fortunato",TRUE
+29004,"Claire Gloeckner",FALSE
+29004,"Rosa Lynn Pinkus",FALSE
+29005,"Anton Petrenko",TRUE
+29005,"Dan McArthur",FALSE
+29006,"Michael W. Kalichman",TRUE
+29007,"Jason Borenstein",TRUE
+29007,"Joseph R. Herkert",FALSE
+29007,"Keith W. Miller 0001",FALSE
+29008,"George R. Hoffmann",TRUE
+29009,"Khaled Moustafa",TRUE
+29010,"Jameson M. Wetmore",TRUE
+29011,"Shane Epting",TRUE
+29012,"Michael J. Selgelid",TRUE
+29012,"Nicholas G. Evans",FALSE
+29013,"Ayanna M. Howard",TRUE
+29013,"Jason Borenstein",FALSE
+29014,"Noor Munirah Isa",TRUE
+29015,"Bert van Wee",TRUE
+29016,"Bert Gordijn",TRUE
+29016,"David Wright 0003",FALSE
+29016,"Declan O'Sullivan",FALSE
+29016,"Karsten Weber",FALSE
+29016,"Philip Brey",FALSE
+29016,"Rowena Rodrigues",FALSE
+29016,"Wessel Reijers",FALSE
+29017,"Alex A. Karner",TRUE
+29018,"Jessica Morley",TRUE
+29018,"Luciano Floridi",FALSE
+29019,"Camille Nebeker",TRUE
+29019,"Cinnamon S. Bloss",FALSE
+29019,"John Harlow",FALSE
+29019,"Michelle Takemoto",FALSE
+29019,"Nadir Weibel",FALSE
+29019,"Rasheed Al Kotob",FALSE
+29019,"Rubi Linares-Orozco",FALSE
+29019,"Vincent Chan",FALSE
+29020,"Glenn Borchardt",TRUE
+29020,"Mehdi Dadkhah",FALSE
+29020,"Mohammad Lagzian",FALSE
+29021,"Alison Kretser",TRUE
+29021,"Andrea Grantham",FALSE
+29021,"Catherine Woteki",FALSE
+29021,"Chavonda Jacobs-Young",FALSE
+29021,"David B. Allison",FALSE
+29021,"Delia Murphy",FALSE
+29021,"Dorothea Vafiadis",FALSE
+29021,"Jessica M. Wyndham",FALSE
+29021,"Johanna Dwyer",FALSE
+29021,"Kathryn J. Boor",FALSE
+29021,"Linda J. Harris",FALSE
+29021,"Rachelle Hollander",FALSE
+29021,"Rickey Y. Yada",FALSE
+29021,"Sarah M. Rovito",FALSE
+29021,"Stefano Bertuzzi",FALSE
+29021,"Todd Abraham",FALSE
+29022,"Heidrun Åm",TRUE
+29022,"Knut H. Sørensen",FALSE
+29022,"Maria Bårdsen Hesjedal",FALSE
+29022,"Roger Strand",FALSE
+29023,"David B. Resnik",TRUE
+29023,"Susan A. Elmore",FALSE
+29024,"Eric M. Meslin",TRUE
+29024,"Leonidas G. Koniaris",FALSE
+29024,"Mary I. Coombs",FALSE
+29024,"Teresa A. Zimmers",FALSE
+29025,"Matthew J. Dennis",TRUE
+29026,"James A. Blumenthal",TRUE
+29026,"Kenneth H. Funk II",FALSE
+29026,"Wei-Tau Lee",FALSE
+29027,"Catherine D'Ignazio",TRUE
+29027,"Don Blair",FALSE
+29027,"Hagit Keysar",FALSE
+29027,"Pablo Rey-Mazón",FALSE
+29027,"Shannon Dosemagen",FALSE
+29028,"Grant Fore",TRUE
+29028,"Justin L. Hess",FALSE
+29029,"Brent D. Mittelstadt 0002",TRUE
+29029,"Corinne Cath",FALSE
+29029,"Luciano Floridi",FALSE
+29029,"Mariarosaria Taddeo",FALSE
+29029,"Sandra Wachter",FALSE
+29030,"Hossein Yahaghi",TRUE
+29030,"Javad Yahaghi",FALSE
+29030,"Shahryar Sorooshian",FALSE
+29031,"Gerd Michelsen",TRUE
+29032,"Flavio Comim",TRUE
+29032,"Georgina Curto",FALSE
+29033,"Erik Laes",TRUE
+29033,"Gunter Bombaerts",FALSE
+29034,"Evan Selinger",TRUE
+29034,"Jathan Sadowski",FALSE
+29034,"Kyle Powys Whyte",FALSE
+29034,"Susan G. Spierre",FALSE
+29034,"Thomas P. Seager",FALSE
+29035,"Auke J. K. Pols",TRUE
+29036,"Carl Mitcham",TRUE
+29036,"Gary Lee Downey",FALSE
+29036,"Juan C. Lucena",FALSE
+29037,"Hans Peter Graf",TRUE
+29038,"Miguel Roig",TRUE
+29038,"Sonia Maria Ramos de Vasconcelos",FALSE
+29039,"Eugenijus Gefenas",TRUE
+29039,"Jurate Lekstutiene",FALSE
+29039,"Søren Holm",FALSE
+29040,"Chijs van Nieuwenhuizen",TRUE
+29040,"David Buitenweg",FALSE
+29040,"Ilja L. Bongers",FALSE
+29040,"Ivo Maathuis",FALSE
+29040,"Maartje G. H. Niezen",FALSE
+29041,"Eran Klein",TRUE
+29042,"Frida Simonstein",TRUE
+29043,"Gary Santillanes",TRUE
+29043,"Ryan Marshall Felder",FALSE
+29044,"Douglas Walton",TRUE
+29045,"Glen Miller",TRUE
+29046,"Dalal M. Al Tamimi",TRUE
+29046,"Magdy A. Kharoshah",FALSE
+29046,"Mohammed Madadin",FALSE
+29046,"Ritesh G. Menezes",FALSE
+29046,"Savita Lasrado",FALSE
+29046,"Vijaya Marakala",FALSE
+29047,"Jasmin Wilson",TRUE
+29047,"Patricia Ann Mabrouk",FALSE
+29047,"Yiyang Gao",FALSE
+29048,"Joost Alleblas",TRUE
+29049,"Brian P. Coppola",TRUE
+29049,"Huai Sun",FALSE
+29049,"India C. Plough",FALSE
+29050,"Matthew Benjamin Reisman",TRUE
+29051,"Aceil Al-Khatib",TRUE
+29051,"Jaime A. Teixeira da Silva",FALSE
+29052,"Mathieu Bouville",TRUE
+29053,"Manjur S. Kolhar",TRUE
+29054,"Alain Braillon",TRUE
+29055,"J. Fdez-Valdivia",TRUE
+29055,"Jose A. García 0001",FALSE
+29055,"Rosa Rodríguez-Sánchez",FALSE
+29056,"Benedicte Wilson",TRUE
+29056,"Erika Palmer",FALSE
+29057,"Barbara K. Redman",TRUE
+29058,"Qin Zhu",TRUE
+29058,"Roel Snieder",FALSE
+29059,"Somsri Wiwanitkit",TRUE
+29059,"Viroj Wiwanitkit",FALSE
+29060,"Khaled Moustafa",TRUE
+29061,"Kristine Bærøe",TRUE
+29061,"Torbjørn Gundersen",FALSE
+29062,"Behnam Taebi",TRUE
+29062,"William E. Kastenberg",FALSE
+29063,"Dena Plemmons",TRUE
+29064,"Emily Bell",TRUE
+29065,"Mary E. Sunderland",TRUE
+29065,"Rahul Uday Nayak",FALSE
+29066,"Angel Peiró-Signes",TRUE
+29066,"María-del-Val Segarra-Oña",FALSE
+29066,"Roberto Cervelló-Royo",FALSE
+29067,"Shahryar Sorooshian",TRUE
+29068,"Anne-Floor J. de Kanter",TRUE
+29068,"Annelien L. Bredenoord",FALSE
+29068,"Carlijn V. C. Bouten",FALSE
+29068,"Karin Jongsma",FALSE
+29069,"Daming Zhang",TRUE
+29069,"Qinghui Suo",FALSE
+29069,"Yang Liu",FALSE
+29070,"Peter Kroes",TRUE
+29071,"Kelly Laas",TRUE
+29071,"Michael Davis 0002",FALSE
+29072,"Daniele Chiffi",TRUE
+29072,"Lorenza Petrini",FALSE
+29072,"Luca Zanetti",FALSE
+29073,"Jason Borenstein",TRUE
+29074,"Elizabeth A. Boyd",TRUE
+29074,"Lisa A. Bero",FALSE
+29075,"Philip J. Langlais",TRUE
+29076,"Aimee van Wynsberghe",TRUE
+29077,"Emma Keuleyan",TRUE
+29078,"Kewal Krishan",TRUE
+29078,"Tanuj Kanchan",FALSE
+29079,"Amos K. Laar",TRUE
+29079,"Arthur Caplan",FALSE
+29079,"Barbara K. Redman",FALSE
+29079,"Kyle Ferguson",FALSE
+29080,"Andrea Di Cencio",TRUE
+29080,"Lhassan M'Barki",FALSE
+29080,"Mohamed Abioui",FALSE
+29080,"Mohamed Dades",FALSE
+29080,"Mohammed Benssaou",FALSE
+29081,"Abhishek Tandon",TRUE
+29081,"Kewal Krishan",FALSE
+29081,"Tanuj Kanchan",FALSE
+29082,"Frederick Grinnell",TRUE
+29083,"Barbara E. Ribeiro",TRUE
+29083,"Kate Millar",FALSE
+29083,"Robert D. J. Smith",FALSE
+29084,"Mark Coeckelbergh",TRUE
+29085,"Alex Richman",TRUE
+29085,"Vincent Richman",FALSE
+29086,"Ahmed Fouad Bouras",TRUE
+29086,"Hadjar Toumi",FALSE
+29086,"Lamia Kara",FALSE
+29086,"Mustapha Benmansour",FALSE
+29086,"Nassim Kazitani",FALSE
+29086,"Noureddine Bettahar",FALSE
+29087,"Arie Rip",TRUE
+29087,"Christine Winberg",FALSE
+29087,"Penelope Engel-Hills",FALSE
+29088,"Daniele Fanelli",TRUE
+29088,"Vanja Pupovac",FALSE
+29089,"Erik Laes",TRUE
+29089,"Gunter Bombaerts",FALSE
+29090,"Ali Shirzadi",TRUE
+29090,"Ashish Patel",FALSE
+29090,"Doniel Drazin",FALSE
+29090,"George Hanna",FALSE
+29090,"Kevin Spitler",FALSE
+29090,"Milos Cekic",FALSE
+29090,"Ray Chu",FALSE
+29091,"Diana Adela Martin",TRUE
+29091,"Gianluigi Viscusi",FALSE
+29091,"Gunter Bombaerts",FALSE
+29091,"Kyriaki Papageorgiou",FALSE
+29091,"Maja Horst",FALSE
+29092,"Mladen Petrovecki",TRUE
+29092,"Snjezana Prijic-Samarzija",FALSE
+29092,"Vanja Pupovac",FALSE
+29093,"Kelly Joslin Holloway",TRUE
+29094,"James A. Stieb",TRUE
+29095,"Charles E. Harris",TRUE
+29096,"Carl Mitcham",TRUE
+29096,"Jessica Smith Rolston",FALSE
+29097,"William T. Lynch",TRUE
+29098,"Matthew A. Butkus",TRUE
+29099,"Ramón Queraltó",TRUE
+29100,"Christopher Lawrence",TRUE
+29100,"Keith Raffel",FALSE
+29100,"L. Mahadevan",FALSE
+29100,"Sam Weiss Evans",FALSE
+29100,"Sheila Jasanoff",FALSE
+29101,"Steffen Steinert",TRUE
+29102,"Alison J. Kerr",TRUE
+29102,"Andrew Chung",FALSE
+29102,"Athena Lin",FALSE
+29102,"Justin L. Hess",FALSE
+29103,"Khaled Moustafa",TRUE
+29104,"Steven M. Flipse",TRUE
+29104,"Steven Puylaert",FALSE
+29105,"Udo Pesch",TRUE
+29106,"Ben A. Minteer",TRUE
+29106,"James P. Collins",FALSE
+29106,"Stephanie J. Bird",FALSE
+29107,"Charlotte Stix",TRUE
+29108,"Charles-Henry Frouart",TRUE
+29108,"Christian Hervé",FALSE
+29108,"Christophe Le Tourneau",FALSE
+29108,"Guillaume Vogt",FALSE
+29108,"Henri-Corto Stoeklé",FALSE
+29108,"Marie-France Mamzer-Bruneel",FALSE
+29108,"Pierre Laurent-Puig",FALSE
+29109,"Svetlana Zernes",TRUE
+29110,"Eun Ah Lee",TRUE
+29110,"Magdalena Grohman",FALSE
+29110,"Marco Tacca",FALSE
+29110,"Matthew J. Brown",FALSE
+29110,"Nicholas R. Gans",FALSE
+29111,"Qin Zhu",TRUE
+29111,"Ruchen Wen",FALSE
+29111,"Ryan Blake Jackson",FALSE
+29111,"Tom Williams 0001",FALSE
+29112,"Susanne Öchsner",TRUE
+29112,"Ulrike Felt",FALSE
+29113,"Haldun M. Özaktas",TRUE
+29114,"Nora Freya Lindemann",TRUE
+29115,"Balamuralithara Balakrishnan",TRUE
+29115,"Fumihiko Tochinai",FALSE
+29115,"Hidekazu Kanemitsu",FALSE
+29116,"Brian C. Martinson",TRUE
+29116,"Emily A. Ronning",FALSE
+29116,"Melissa S. Anderson",FALSE
+29116,"Raymond de Vries",FALSE
+29117,"Matthew A. Allison",TRUE
+29117,"Michael W. Kalichman",FALSE
+29117,"Sean T. Powell",FALSE
+29118,"Ronnie Hawkins",TRUE
+29119,"Shlomo Mark",TRUE
+29119,"Yotam Lurie",FALSE
+817,"E. F. Codd",TRUE
+171801,"Sven Lorenz",TRUE
+171801,"Toni Bollinger",FALSE
+171801,"Udo Pletat",FALSE
+171802,"Geoffrey Simmons",TRUE
+171802,"Kai-Uwe Carstensen",FALSE
+171803,"David W. Flater",TRUE
+171803,"Yelena Yesha",FALSE
+171804,"Claus-Rainer Rollinger",TRUE
+171804,"Otthein Herzog",FALSE
+171805,"Bharat K. Bhargava",TRUE
+171805,"Jagannathan Srinivasan",FALSE
+171805,"Prasun Dewan",FALSE
+171805,"Yin-he Jiang",FALSE
+171807,"Ingo Raasch",TRUE
+171807,"Jochen Dörre",FALSE
+171808,"Werner Emde",TRUE
+171809,"Olivier Ridoux",TRUE
+171810,"Karl-Hans Bläsius",TRUE
+171811,"Kai von Luck",TRUE
+171811,"Thomas Pirlein",FALSE
+171812,"Arif Ghafoor",TRUE
+171812,"P. Bruce Berra",FALSE
+171813,"Jochen Dörre",TRUE
+171814,"Gudrun Klose",TRUE
+171814,"Kai von Luck",FALSE
+171815,"Antoine Rauzy",TRUE
+171816,"Birgit Wesche",TRUE
+171817,"Roland Seiffert",TRUE
+171819,"Hava T. Siegelmann",TRUE
+171819,"Ophir Frieder",FALSE
+171820,"Helmar Gust",TRUE
+171821,"Ewald Lang",TRUE
+171823,"Alexander Bockmayr",TRUE
+171824,"Birgit Wesche",TRUE
+171824,"Tibor Kiss",FALSE
+171826,"Esther König",TRUE
+171827,"Shirley Browne",TRUE
+171828,"Nabil R. Adam",TRUE
+171828,"Ramesh Subramanian",FALSE
+171829,"Barbara Gängler",TRUE
+171829,"Ipke Wachsmuth",FALSE
+171830,"Jan Wilms",TRUE
+171831,"James Clifford",TRUE
+171832,"Jochen Dörre",TRUE
+171832,"Roland Seiffert",FALSE
+171833,"Arie Segev",TRUE
+171833,"Rakesh Chandra",FALSE
+171834,"Pascal Van Hentenryck",TRUE
+171834,"Vijay A. Saraswat",FALSE
+171834,"Yves Deville",FALSE
+171836,"Godehard Link",TRUE
+171836,"Hinrich Schütze",FALSE
+171837,"Frédéric Benhamou",TRUE
+171838,"Claudia Maienborn",TRUE
+171839,"Michel Rueher",TRUE
+171840,"Petra Ludewig",TRUE
+171841,"Tibor Kiss",TRUE
+171843,"Manfred Börkel",TRUE
+171843,"Peter Gerstl",FALSE
+171844,"Ramez Elmasri",TRUE
+171844,"Vram Kouramajian",FALSE
+171846,"Andreas Arning",TRUE
+171848,"Roland Seiffert",TRUE
+171849,"Haiyan Ye",TRUE
+171849,"Kokou Yétongnon",FALSE
+171849,"Markus Tresch",FALSE
+171849,"Martin Andersson",FALSE
+171849,"Stefano Spaccapietra",FALSE
+171849,"Yann Dupont",FALSE
+171850,"Bernhard Nebel",TRUE
+171850,"Gert Smolka",FALSE
+171852,"François Fages",TRUE
+171853,"H. V. Jagadish",TRUE
+171853,"Narain H. Gehani",FALSE
+171853,"Oded Shmueli",FALSE
+171855,"Stanley Y. W. Su",TRUE
+171855,"Yuh-Ming Shyy",FALSE
+171856,"Hans-Joachim Novak",TRUE
+171856,"Zuzana Krifka Dobes",FALSE
+171858,"Dieter Fensel",TRUE
+171858,"Dieter Landes",FALSE
+171858,"Jürgen Angele",FALSE
+171858,"Rudi Studer",FALSE
+171858,"Susanne Neubert",FALSE
+171860,"Bart Geurts",TRUE
+171860,"Rob A. van der Sandt",FALSE
+171861,"Giuseppe Nardiello",TRUE
+171861,"Philippe Codognet",FALSE
+171863,"Udo Pletat",TRUE
+171864,"Rolf Mayer",TRUE
+171866,"Peter H. Schmitt",TRUE
+171867,"Simone Pribbenow",TRUE
+171868,"Jean-Louis Imbert",TRUE
+171869,"Kurt Eberle",TRUE
+171870,"Siegfried Kanngießer",TRUE
+171873,"Francesca Rossi 0001",TRUE
+171873,"Ugo Montanari",FALSE
+171874,"Baudouin Le Charlier",TRUE
+171875,"Hélène Kirchner",TRUE
+171876,"Hubert Comon",TRUE
+171878,"Jean-Claude Franchitti",TRUE
+171878,"Roger King",FALSE
+171879,"Helmut Schnelle",TRUE
+171879,"Peter C. Lockemann",FALSE
+171879,"Wilfried Brauer",FALSE
+171880,"Hans-Joachim Novak",TRUE
+171881,"Gert Smolka",TRUE
+171882,"Gregor Erbach",TRUE
+171883,"Kumar V. Vadaparty",TRUE
+171883,"Shamim A. Naqvi",FALSE
+171884,"Birgit Wendholt",TRUE
+171885,"Elisa Bertino",TRUE
+171885,"Pierangela Samarati",FALSE
+171885,"Sushil Jajodia",FALSE
+171886,"Christopher Habel",TRUE
+171889,"Anne Schiller",TRUE
+171889,"Petra Steffens",FALSE
+171890,"Raj Tewari",TRUE
+171891,"Larry J. Peterson",TRUE
+171891,"Phillip C.-Y. Sheu",FALSE
+171892,"Shashi K. Gadia",TRUE
+171892,"Vimal Chopra",FALSE
+171894,"Mohammed Nadjib Khenkhar",TRUE
+171895,"Joel L. Wolf",TRUE
+171895,"John Turek",FALSE
+171895,"Ming-Syan Chen",FALSE
+171895,"Philip S. Yu",FALSE
+171896,"Thom W. Frühwirth",TRUE
+171897,"Mechthild Rickheit",TRUE
+171898,"Amit P. Sheth",TRUE
+171898,"George Karabatis",FALSE
+171898,"Marek Rusinkiewicz",FALSE
+171899,"Albert Maier",TRUE
+171899,"Bernd Walter",FALSE
+171899,"Erich Gehlen",FALSE
+171899,"Michael Ley",FALSE
+171899,"Stefan Benzschawel",FALSE
+171899,"Thomas Ludwig 0001",FALSE
+171900,"Peter Bosch",TRUE
+244721,"Ernest Mwebaze",TRUE
+244721,"John A. Quinn",FALSE
+244723,"Hyokun Yun",TRUE
+244723,"S. V. N. Vishwanathan",FALSE
+244729,"Aarti Singh",TRUE
+244729,"Alessandro Rinaldo",FALSE
+244729,"James Sharpnack",FALSE
+244737,"Christian Barillot",TRUE
+244737,"Daniel García-Lorenzo",FALSE
+244737,"Florence Forbes",FALSE
+244737,"Michel Dojat",FALSE
+244737,"Senan Doyle",FALSE
+244741,"Aaron C. Courville",TRUE
+244741,"James Bergstra",FALSE
+244741,"Yoshua Bengio",FALSE
+244743,"Andrew W. Moore 0001",TRUE
+244743,"Geoffrey J. Gordon",FALSE
+244743,"Sajid M. Siddiqi",FALSE
+244747,"Arnak S. Dalalyan",TRUE
+244747,"Olivier Collier",FALSE
+244750,"Abhradeep Thakurta",TRUE
+244750,"Prateek Jain 0002",FALSE
+244750,"Pravesh Kothari",FALSE
+244758,"Balaji Krishnapuram",TRUE
+244758,"R. Bharat Rao",FALSE
+244758,"Rómer Rosales",FALSE
+244758,"Shipeng Yu",FALSE
+244763,"Abdel-rahman Mohamed",TRUE
+244763,"Yichuan Tang",FALSE
+244768,"Brian Eriksson",TRUE
+244768,"Laura Balzano",FALSE
+244768,"Robert D. Nowak",FALSE
+244777,"Lehel Csató",TRUE
+244777,"Zalán Bodó",FALSE
+244777,"Zsolt Minier",FALSE
+244779,"Dor Kedem",TRUE
+244779,"Kilian Q. Weinberger",FALSE
+244779,"Minmin Chen",FALSE
+244779,"Olivier Chapelle",FALSE
+244779,"Zhixiang Eddie Xu",FALSE
+244784,"Amos J. Storkey",TRUE
+244784,"Felix V. Agakov",FALSE
+244784,"Peter Orchard",FALSE
+244786,"Naftali Tishby",TRUE
+244786,"Ohad Shamir",FALSE
+244788,"José M. Peña 0001",TRUE
+244791,"Marko Grobelnik",TRUE
+244791,"Mitja Trampus",FALSE
+244793,"Akihiro Koide",TRUE
+244793,"Hiroshi Motoda",FALSE
+244793,"Kazumi Saito",FALSE
+244793,"Kouzou Ohara",FALSE
+244793,"Masahiro Kimura",FALSE
+244802,"Diego García-Saiz",TRUE
+244802,"Marta E. Zorrilla",FALSE
+244804,"David A. Castañón",TRUE
+244804,"Kirill Trapeznikov",FALSE
+244804,"Venkatesh Saligrama",FALSE
+244810,"Kyung-Ah Sohn",TRUE
+244810,"Seyoung Kim",FALSE
+244811,"Ali Jalali",TRUE
+244811,"Pradeep Ravikumar",FALSE
+244811,"Sujay Sanghavi",FALSE
+244811,"Vishvas Vasuki",FALSE
+244819,"Mehreen Saeed",TRUE
+244821,"Bing Bai",TRUE
+244821,"Corinna Cortes",FALSE
+244821,"David Grangier",FALSE
+244821,"Jason Weston",FALSE
+244821,"Mehryar Mohri",FALSE
+244821,"Ronan Collobert",FALSE
+244829,"David J. C. MacKay",TRUE
+244829,"Iain Murray 0001",FALSE
+244829,"Ryan Prescott Adams",FALSE
+244834,"Adrian Johnston",TRUE
+244834,"Liam P. Maguire",FALSE
+244834,"Michael McCann",FALSE
+244834,"Yuhua Li 0001",FALSE
+244840,"Aurélien Garivier",TRUE
+244840,"Emilie Kaufmann",FALSE
+244840,"Olivier Cappé",FALSE
+244843,"Frank D. Wood",TRUE
+244849,"Makoto Yamada",TRUE
+244849,"Masashi Sugiyama",FALSE
+244852,"Liu Yang 0001",TRUE
+244852,"Steve Hanneke",FALSE
+244855,"Cun-Hui Zhang",TRUE
+244855,"Ping Li 0001",FALSE
+244856,"Christopher R. Dance",TRUE
+244856,"Onno Zoeter",FALSE
+244857,"Christopher D. Manning",TRUE
+244857,"Daniel A. McFarland",FALSE
+244857,"Ramesh Nallapati",FALSE
+244863,"Edoardo M. Airoldi",TRUE
+244863,"Hossein Azari Soufiani",FALSE
+244880,"Leo Zhu",TRUE
+244880,"Li Wan",FALSE
+244880,"Rob Fergus",FALSE
+244881,"Benjamin Taskar",TRUE
+244881,"David J. Weiss",FALSE
+244883,"Alexandru Niculescu-Mizil",TRUE
+244883,"Claudia Perlich",FALSE
+244883,"Dong Wang",FALSE
+244883,"Grzegorz Swirszcz",FALSE
+244883,"Jianying Hu",FALSE
+244883,"Jing Xiao",FALSE
+244883,"Moninder Singh",FALSE
+244883,"Prem Melville",FALSE
+244883,"Vikas Sindhwani",FALSE
+244883,"Wei Xiong Shang",FALSE
+244883,"Yan Liu 0002",FALSE
+244883,"Yanfeng Zhu 0001",FALSE
+244885,"Chen-Hung Wu",TRUE
+244885,"Chen-Tse Tsai",FALSE
+244885,"Cheng-Hao Tsai",FALSE
+244885,"Chia-Mau Ni",FALSE
+244885,"Chieh-Yen Lin",FALSE
+244885,"Chien-Chih Wang",FALSE
+244885,"Chih-Jen Lin",FALSE
+244885,"Chun-Liang Li",FALSE
+244885,"Chun-Sung Ferng",FALSE
+244885,"Chung-Yi Li",FALSE
+244885,"Hsuan-Tien Lin",FALSE
+244885,"Ku-Chun Chou",FALSE
+244885,"Kuan-Wei Wu",FALSE
+244885,"Po-Lung Chen",FALSE
+244885,"Po-Wei Wang",FALSE
+244885,"Rong-Bing Chiu",FALSE
+244885,"Shou-De Lin",FALSE
+244885,"Shu-Hao Yu",FALSE
+244885,"Todd G. McKenzie",FALSE
+244885,"Tsung-Ting Kuo",FALSE
+244885,"Wei-Lun Su",FALSE
+244885,"Wei-Shih Lin",FALSE
+244885,"Ya-Hsuan Chang",FALSE
+244885,"Yao-Nan Chen",FALSE
+244885,"Yu-Cheng Chou",FALSE
+244892,"Antoine Bordes",TRUE
+244892,"Léon Bottou",FALSE
+244892,"Nicolas Usunier",FALSE
+244898,"Elad Hazan",TRUE
+244898,"Satyen Kale",FALSE
+244905,"Akshat Kumar",TRUE
+244905,"Marc Toussaint",FALSE
+244905,"Shlomo Zilberstein",FALSE
+244906,"Gilles Stoltz",TRUE
+244906,"Shie Mannor",FALSE
+244906,"Vianney Perchet",FALSE
+244909,"Alexander Rakhlin",TRUE
+244909,"Ambuj Tewari",FALSE
+244909,"Karthik Sridharan",FALSE
+244910,"Dario García-García",TRUE
+244910,"Robert C. Williamson",FALSE
+244925,"Huan Liu",TRUE
+244925,"Iñaki Inza",FALSE
+244925,"Louis Wehenkel",FALSE
+244925,"Yvan Saeys",FALSE
+244925,"Yves Van de Peer",FALSE
+244931,"Gal Elidan",TRUE
+244932,"Jiang Wang 0001",TRUE
+244932,"Junsong Yuan",FALSE
+244932,"Ying Wu 0001",FALSE
+244932,"Zhuoyuan Chen",FALSE
+244939,"Arthur Gretton",TRUE
+244939,"Carlos Guestrin",FALSE
+244939,"Le Song",FALSE
+244942,"Daniel Eaton",TRUE
+244942,"Kevin P. Murphy",FALSE
+244945,"Baptiste Jeudy",TRUE
+244945,"Laurent Miclet",FALSE
+244945,"Nelly Barbot",FALSE
+244946,"Donglin Niu",TRUE
+244946,"Jennifer G. Dy",FALSE
+244946,"Michael I. Jordan",FALSE
+244950,"Geordie Rose",TRUE
+244950,"Hartmut Neven",FALSE
+244950,"Vasil S. Denchev",FALSE
+244950,"William G. Macready",FALSE
+244953,"Masashi Sugiyama",TRUE
+244953,"Taiji Suzuki",FALSE
+244954,"Menno van Zaanen",TRUE
+244954,"Nanne van Noord",FALSE
+244963,"Alexander J. Smola",TRUE
+244963,"Alexandros Karatzoglou",FALSE
+244963,"Markus Weimer",FALSE
+244972,"David R. Hardoon",TRUE
+244972,"John Shawe-Taylor",FALSE
+244981,"Alexandre Lacoste",TRUE
+244981,"François Laviolette",FALSE
+244981,"Mario Marchand",FALSE
+244988,"Eyal Krupka",TRUE
+244988,"Naftali Tishby",FALSE
+244997,"Duncan A. J. Blythe",TRUE
+244997,"Frank C. Meinecke",FALSE
+244997,"Franz J. Király",FALSE
+244997,"Jan Saputra Müller",FALSE
+244997,"Klaus-Robert Müller",FALSE
+244997,"Paul von Bünau",FALSE
+245001,"Wei Chu",TRUE
+245001,"Zoubin Ghahramani",FALSE
+245009,"Alona Fyshe",TRUE
+245009,"David B. Dunson",FALSE
+245009,"Emily B. Fox",FALSE
+245009,"Tom M. Mitchell",FALSE
+245012,"Botond Cseke",TRUE
+245012,"Tom Heskes",FALSE
+245021,"Doris Entner",TRUE
+245021,"Patrik O. Hoyer",FALSE
+245021,"Peter Spirtes",FALSE
+245028,"Albert Bifet",TRUE
+245028,"Bernhard Pfahringer",FALSE
+245028,"Geoff Holmes 0001",FALSE
+245028,"Indre Zliobaite",FALSE
+245033,"Alan Johnston",TRUE
+245033,"Benjamin X. Hall",FALSE
+245033,"John Shawe-Taylor",FALSE
+245035,"Hal Daumé III",TRUE
+245044,"Julie Carreau",TRUE
+245044,"Yoshua Bengio",FALSE
+245045,"Amir Globerson",TRUE
+245045,"David A. Sontag",FALSE
+245045,"Marina Meila",FALSE
+245045,"Tommi S. Jaakkola",FALSE
+245046,"Marc'Aurelio Ranzato",TRUE
+245046,"Sumit Chopra",FALSE
+245046,"Y-Lan Boureau",FALSE
+245046,"Yann LeCun",FALSE
+245054,"Cosma Rohilla Shalizi",TRUE
+245054,"Daniel J. McDonald",FALSE
+245054,"Mark J. Schervish",FALSE
+245055,"Jean-Yves Audibert",TRUE
+245055,"John Shawe-Taylor",FALSE
+245055,"Manfred Opper",FALSE
+245055,"Steffen Grünewälder",FALSE
+245058,"Kevin Robert Canini",TRUE
+245058,"Lei Shi 0009",FALSE
+245058,"Thomas L. Griffiths 0001",FALSE
+245060,"Daniel Povey",TRUE
+245060,"Oriol Vinyals",FALSE
+245064,"Jennifer G. Dy",TRUE
+245064,"Yue Guan",FALSE
+245067,"Neil D. Lawrence",TRUE
+245074,"Dorota Glowacka",TRUE
+245074,"John Shawe-Taylor",FALSE
+245076,"Antonio Javier Gallego Sánchez",TRUE
+245076,"Damián López",FALSE
+245076,"Jorge Calera-Rubio",FALSE
+245078,"Nathan Srebro",TRUE
+245078,"Xueyuan Zhou",FALSE
+245080,"Eric P. Xing",TRUE
+245080,"Le Song",FALSE
+245080,"Qirong Ho",FALSE
+245086,"J. Xie",TRUE
+245086,"T. Xiong",FALSE
+245088,"Devorah Kletenik",TRUE
+245088,"Linda Sellie",FALSE
+245088,"Lisa Hellerstein",FALSE
+245088,"Rocco A. Servedio",FALSE
+245092,"Barnabás Póczos",TRUE
+245092,"Csaba Szepesvári",FALSE
+245092,"Sergey Kirshner",FALSE
+245100,"Nathan Srebro",TRUE
+245100,"Rina Foygel",FALSE
+245102,"Carlos Guestrin",TRUE
+245102,"Dafna Shahaf",FALSE
+245111,"Shuicheng Yan",TRUE
+245111,"Xiaotong Yuan",FALSE
+245119,"Bernhard Schölkopf",TRUE
+245119,"Dominik Janzing",FALSE
+245119,"Isabelle Guyon",FALSE
+245123,"Shai Shalev-Shwartz",TRUE
+245123,"Yoram Singer",FALSE
+245128,"Csaba Szepesvári",TRUE
+245128,"Dávid Pál",FALSE
+245128,"Gábor Bartók",FALSE
+245132,"Ohad Shamir",TRUE
+245132,"Shai Shalev-Shwartz",FALSE
+245133,"Rina Dechter",TRUE
+245133,"Vibhav Gogate",FALSE
+245134,"Cheng Soon Ong",TRUE
+245134,"Joachim M. Buhmann",FALSE
+245134,"Patrick Pletscher",FALSE
+245153,"Giorgio Giacinto",TRUE
+245153,"Igino Corona",FALSE
+245157,"Arun Rajkumar",TRUE
+245157,"Shivani Agarwal 0001",FALSE
+245159,"Olgierd Unold",TRUE
+245160,"André Platzer",TRUE
+245160,"Erik Zawadzki",FALSE
+245160,"Geoffrey J. Gordon",FALSE
+245161,"Peter A. Flach",TRUE
+245161,"Sebastian Spiegler",FALSE
+245161,"Simon Price",FALSE
+245172,"Hei Chan",TRUE
+245172,"Manabu Kuroki",FALSE
+245174,"Garry P. Nolan",TRUE
+245174,"Karen Sachs",FALSE
+245174,"Mesrob I. Ohannessian",FALSE
+245174,"Munther A. Dahleh",FALSE
+245174,"Sleiman Itani",FALSE
+245176,"Gerald Matz",TRUE
+245176,"Jeremy Jancsary",FALSE
+245186,"Mark Rudelson",TRUE
+245186,"Shuheng Zhou",FALSE
+245192,"Florian Steinke",TRUE
+245192,"Koji Tsuda",FALSE
+245192,"Matthias W. Seeger",FALSE
+245193,"Changhe Yuan",TRUE
+245193,"Marek J. Druzdzel",FALSE
+245200,"Bo Dai 0001",TRUE
+245200,"Gang Niu 0001",FALSE
+245200,"Lin Shang 0001",FALSE
+245200,"Masashi Sugiyama",FALSE
+245214,"Jarvis D. Haupt",TRUE
+245214,"Robert D. Nowak",FALSE
+245214,"Rui M. Castro",FALSE
+245215,"Isabelle Guyon",TRUE
+245215,"Robert C. Williamson",FALSE
+245215,"Ulrike von Luxburg",FALSE
+245222,"Elad Hazan",TRUE
+245222,"Satyen Kale",FALSE
+245224,"Rahul Garg 0001",TRUE
+245224,"Rohit Khandekar",FALSE
+245234,"Fabio Aiolli",TRUE
+245240,"Sergey M. Plis",TRUE
+245240,"Stephen McCracken",FALSE
+245240,"Terran Lane",FALSE
+245240,"Vince D. Calhoun",FALSE
+245245,"Carl Edward Rasmussen",TRUE
+245245,"Marc Peter Deisenroth",FALSE
+245245,"Ryan D. Turner",FALSE
+245252,"Luis E. Ortiz",TRUE
+245252,"Robert E. Schapire",FALSE
+245252,"Sham M. Kakade",FALSE
+245253,"Guy Lever",TRUE
+245256,"D. Gnanaraj Thomas",TRUE
+245256,"J. D. Emerald",FALSE
+245256,"M. Humrosia Begam",FALSE
+245256,"M. Jayasrirani",FALSE
+245263,"Francis R. Bach",TRUE
+245263,"Guillaume Obozinski",FALSE
+245263,"Rodolphe Jenatton",FALSE
+245265,"Jinwoo Shin",TRUE
+245266,"Alexander Clark",TRUE
+245266,"Ryo Yoshinaka",FALSE
+245272,"Ahmed K. Farahat",TRUE
+245272,"Ali Ghodsi 0001",FALSE
+245272,"Mohamed S. Kamel",FALSE
+245275,"Kareem Amin 0002",TRUE
+245275,"Michael J. Kearns",FALSE
+245275,"Umar Syed",FALSE
+245276,"Ann B. Lee",TRUE
+245276,"Boaz Nadler",FALSE
+245278,"Harish Karnick",TRUE
+245278,"Purushottam Kar",FALSE
+245280,"Han Liu 0001",TRUE
+245280,"John D. Lafferty",FALSE
+245280,"Larry A. Wasserman",FALSE
+245292,"Pannagadatta K. Shivaswamy",TRUE
+245292,"Tony Jebara",FALSE
+245295,"Andriy Mnih",TRUE
+245295,"Geoffrey E. Hinton",FALSE
+245295,"Ilya Sutskever",FALSE
+245295,"James Cook",FALSE
+245304,"An C. Tran",TRUE
+245304,"Hans W. Guesgen",FALSE
+245304,"Jens Dietrich 0001",FALSE
+245304,"Stephen Marsland",FALSE
+245305,"Akimichi Takemura",TRUE
+245305,"Junya Honda",FALSE
+245307,"Hugo Larochelle",TRUE
+245307,"Jasper Snoek",FALSE
+245307,"Ryan Prescott Adams",FALSE
+245309,"Francesco Dinuzzo",TRUE
+245309,"Kenji Fukumizu",FALSE
+245314,"H. Brendan McMahan",TRUE
+245322,"Giorgio Valentini",TRUE
+245322,"Matteo Ré",FALSE
+245340,"Alexander R. Statnikov",TRUE
+245340,"Constantin F. Aliferis",FALSE
+245340,"Isabelle Guyon",FALSE
+245341,"Aaron C. Courville",TRUE
+245341,"Guillaume Desjardins",FALSE
+245341,"Olivier Delalleau",FALSE
+245341,"Pascal Vincent",FALSE
+245341,"Yoshua Bengio",FALSE
+245345,"Bo Thiesson",TRUE
+245345,"Jingu Kim",FALSE
+245346,"Chenlei Leng",TRUE
+245346,"Huan Xu",FALSE
+245347,"Odalric-Ambrym Maillard",TRUE
+245347,"Rémi Munos",FALSE
+245354,"Morten Mørup",TRUE
+245354,"Ryota Tomioka",FALSE
+245365,"Avneesh Singh Saluja",TRUE
+245365,"Ole J. Mengshoel",FALSE
+245365,"Priya Krishnan Sundararajan",FALSE
+245367,"Dilan Görür",TRUE
+245367,"Yee Whye Teh",FALSE
+245367,"Zoubin Ghahramani",FALSE
+245369,"Ivor W. Tsang",TRUE
+245369,"Shukai Li",FALSE
+245371,"Alessandro Verri",TRUE
+245371,"Lorenzo Rosasco",FALSE
+245371,"Matteo Santoro",FALSE
+245371,"Silvia Villa",FALSE
+245371,"Sofia Mosci",FALSE
+245376,"Arnaud Doucet",TRUE
+245376,"Jan Peters 0001",FALSE
+245376,"Matthew Hoffman 0002",FALSE
+245376,"Nando de Freitas",FALSE
+245377,"Peter Cerno",TRUE
+245379,"Yuhong Yang 0002",TRUE
+245380,"Alexander Paprotny",TRUE
+245380,"Jochen Garcke",FALSE
+245381,"David M. Blei",TRUE
+245381,"Jonathan D. Chang",FALSE
+245384,"Peter Sunehag",TRUE
+245390,"Albert Bifet",TRUE
+245390,"Bernhard Pfahringer",FALSE
+245390,"Eibe Frank",FALSE
+245390,"Geoffrey Holmes 0001",FALSE
+245392,"Amit Gruber",TRUE
+245392,"Michal Rosen-Zvi",FALSE
+245392,"Yair Weiss",FALSE
+245393,"Laurens van der Maaten",TRUE
+245395,"C.-H. Ho",TRUE
+245395,"C.-J. Lin",FALSE
+245395,"M.-H. Tsai",FALSE
+245397,"Byoung-Tak Zhang",TRUE
+245397,"Daniel D. Lee",FALSE
+245397,"Yung-Kyun Noh",FALSE
+245398,"Vladimir Vovk",TRUE
+245399,"Kedar Bellare",TRUE
+245399,"Olivier Chapelle",FALSE
+245399,"Paramveer S. Dhillon",FALSE
+245399,"S. Sathiya Keerthi",FALSE
+245399,"Sundararajan Sellamanickam",FALSE
+245400,"Benjamin Recht",TRUE
+245400,"Christopher Ré",FALSE
+245401,"Donghui Wang",TRUE
+245401,"Guang Dai",FALSE
+245401,"Michael I. Jordan",FALSE
+245401,"Zhihua Zhang",FALSE
+245402,"Ivor W. Tsang",TRUE
+245402,"James Tin-Yau Kwok",FALSE
+245402,"Yu-Feng Li",FALSE
+245402,"Zhi-Hua Zhou",FALSE
+245403,"Charles Sutton",TRUE
+245403,"Michael I. Jordan",FALSE
+245404,"Andreas Argyriou",TRUE
+245404,"Bernardino Romera-Paredes",FALSE
+245404,"Massimiliano Pontil",FALSE
+245404,"Nadia Berthouze",FALSE
+245413,"Alard Roebroeck",TRUE
+245413,"Anil K. Seth",FALSE
+245413,"Pedro A. Valdés-Sosa",FALSE
+245425,"Constantin Comendant",TRUE
+245425,"Jan Ramon",FALSE
+245429,"Geoffrey J. Gordon",TRUE
+245429,"Sue Ann Hong",FALSE
+245431,"Hoang Vu Nguyen",TRUE
+245431,"Vivekanand Gopalkrishnan",FALSE
+245438,"Masashi Sugiyama",TRUE
+245438,"Mikio L. Braun",FALSE
+245438,"Nicole Krämer 0002",FALSE
+245445,"Masashi Sugiyama",TRUE
+245445,"Taiji Suzuki",FALSE
+245448,"Alberto Giovanni Busetto",TRUE
+245448,"Joachim M. Buhmann",FALSE
+245451,"Aleksandrs Slivkins",TRUE
+245452,"Adam Woznica",TRUE
+245452,"Alexandros Kalousis",FALSE
+245452,"Huyen Do",FALSE
+245452,"Jun Wang 0017",FALSE
+245481,"Dit-Yan Yeung",TRUE
+245481,"Frederick H. Lochovsky",FALSE
+245481,"Gang Wang 0004",FALSE
+245485,"Jacob Steinhardt",TRUE
+245485,"Zoubin Ghahramani",FALSE
+245487,"Haesun Park",TRUE
+245487,"Jingu Kim",FALSE
+245490,"Alexandre Klementiev",TRUE
+245490,"Dan Roth",FALSE
+245490,"Ivan Titov",FALSE
+245490,"Kevin Small",FALSE
+245499,"Mathieu Sinn",TRUE
+245499,"Pascal Poupart",FALSE
+245508,"Jennifer Neville",TRUE
+245508,"Rongjing Xiang",FALSE
+245509,"Jun Sese",TRUE
+245509,"Masashi Sugiyama",FALSE
+245509,"Taiji Suzuki",FALSE
+245509,"Takafumi Kanamori",FALSE
+245513,"Chun-Sung Ferng",TRUE
+245513,"Hsuan-Tien Lin",FALSE
+245517,"Olivier Chapelle",TRUE
+245517,"Tie-Yan Liu",FALSE
+245517,"Yi Chang 0001",FALSE
+245519,"Dit-Yan Yeung",TRUE
+245519,"Michael I. Jordan",FALSE
+245519,"Wu-Jun Li",FALSE
+245519,"Zhihua Zhang",FALSE
+245524,"Aaron C. Courville",TRUE
+245524,"Dumitru Erhan",FALSE
+245524,"Pascal Vincent",FALSE
+245524,"Yoshua Bengio",FALSE
+245525,"Balázs Kégl",TRUE
+245525,"Róbert Busa-Fekete",FALSE
+245527,"Bo Xie 0002",TRUE
+245527,"Dacheng Tao",FALSE
+245527,"Wei Bian",FALSE
+245532,"Alexander R. Statnikov",TRUE
+245532,"Constantin F. Aliferis",FALSE
+245532,"Subramani Mani",FALSE
+245542,"Antti Ajanki",TRUE
+245542,"David R. Hardoon",FALSE
+245542,"John Shawe-Taylor",FALSE
+245542,"Kai Puolamäki",FALSE
+245542,"Samuel Kaski",FALSE
+245549,"Hugo Larochelle",TRUE
+245549,"Iain Murray 0001",FALSE
+245551,"Sham M. Kakade",TRUE
+245551,"Ulrike von Luxburg",FALSE
+245553,"Amaury Habrard",TRUE
+245553,"Leonor Becerra-Bonache",FALSE
+245553,"Marc Sebban",FALSE
+245553,"Michaël Perrot",FALSE
+245553,"Élisa Fromont",FALSE
+245559,"Michael I. Jordan",TRUE
+245559,"Zhihua Zhang",FALSE
+245568,"Yang Zhang",TRUE
+245568,"Zhijian Ou",FALSE
+245574,"Sébastien Gerchinovitz",TRUE
+245577,"Bernard Zenko",TRUE
+245577,"Ivica Slavkov",FALSE
+245577,"Saso Dzeroski",FALSE
+245598,"George Karypis",TRUE
+245598,"Xia Ning",FALSE
+245606,"Avrim Blum",TRUE
+245606,"Maria-Florina Balcan",FALSE
+245606,"Shai Fine",FALSE
+245606,"Yishay Mansour",FALSE
+245611,"Béatrice Laurent",TRUE
+245611,"Magalie Fromont",FALSE
+245611,"Matthieu Lerasle",FALSE
+245611,"Patricia Reynaud-Bouret",FALSE
+245615,"Barnabás Póczos",TRUE
+245615,"Jeff G. Schneider",FALSE
+245618,"Cynthia Rudin",TRUE
+245618,"Ingrid Daubechies",FALSE
+245618,"Robert E. Schapire",FALSE
+245622,"Andrew G. Howard",TRUE
+245622,"Risi Kondor",FALSE
+245622,"Tony Jebara",FALSE
+245629,"Ioannis Tsamardinos",TRUE
+245629,"Laura E. Brown",FALSE
+245634,"Arnak S. Dalalyan",TRUE
+245634,"Laëtitia Comminges",FALSE
+245636,"Ilya Sutskever",TRUE
+245636,"Tijmen Tieleman",FALSE
+245638,"Byron Boots",TRUE
+245638,"Geoffrey J. Gordon",FALSE
+245638,"Sajid M. Siddiqi",FALSE
+245641,"Dinh Q. Phung",TRUE
+245641,"Svetha Venkatesh",FALSE
+245641,"Truyen Tran 0001",FALSE
+245645,"Harri Valpola",TRUE
+245645,"Tapani Raiko",FALSE
+245645,"Yann LeCun",FALSE
+245649,"Ohad Shamir",TRUE
+245649,"Ruth Urner",FALSE
+245649,"Shai Ben-David",FALSE
+245651,"A. Philip Dawid",TRUE
+245651,"Hui Guo",FALSE
+245653,"Dimitris Samaras",TRUE
+245653,"Guillermo A. Cecchi",FALSE
+245653,"Irina Rish",FALSE
+245653,"Jean Honorio",FALSE
+245654,"Ivor W. Tsang",TRUE
+245654,"Joey Tianyi Zhou",FALSE
+245654,"Qi Mao",FALSE
+245654,"Sinno Jialin Pan",FALSE
+245656,"Hiroshi Mamitsuka",TRUE
+245656,"Timothy Hancock",FALSE
+245658,"Daniel J. Hsu",TRUE
+245658,"Sham M. Kakade",FALSE
+245658,"Tong Zhang 0001",FALSE
+245663,"Bert Huang",TRUE
+245663,"Tony Jebara",FALSE
+245669,"Jeff G. Schneider",TRUE
+245669,"Yi Zhang 0010",FALSE
+245672,"John M. Winn",TRUE
+245674,"Guha Balakrishnan",TRUE
+245674,"Zeeshan Syed",FALSE
+245675,"Mikko Koivisto",TRUE
+245675,"Pekka Parviainen",FALSE
+245676,"Cristian Sminchisescu",TRUE
+245676,"Marius Leordeanu",FALSE
+245677,"Babak Ahmadi",TRUE
+245677,"Kristian Kersting",FALSE
+245677,"Martin Mladenov",FALSE
+245684,"Rina Dechter",TRUE
+245684,"Vibhav Gogate",FALSE
+245695,"Mikhail Jiline",TRUE
+245695,"Svetlana Kiritchenko",FALSE
+245706,"Vitaly Feldman",TRUE
+245715,"Andrew L. Maas",TRUE
+245715,"Christopher D. Manning",FALSE
+245715,"Richard Socher",FALSE
+245718,"Alexander G. Gray",TRUE
+245718,"Dongryeol Lee",FALSE
+245718,"James M. Rehg",FALSE
+245718,"Ping Wang 0012",FALSE
+245720,"Balázs Kégl",TRUE
+245720,"György Szarvas",FALSE
+245720,"Róbert Busa-Fekete",FALSE
+245720,"Tamás Éltetö",FALSE
+245722,"Daphne Koller",TRUE
+245722,"Suchi Saria",FALSE
+245722,"Vladimir Jojic",FALSE
+245723,"Joseph S. Kong",TRUE
+245723,"Justin Kessler",FALSE
+245723,"Kyle Teague",FALSE
+245727,"Joemon M. Jose",TRUE
+245727,"Vassilios Stathopoulos 0002",FALSE
+245728,"Carl Smith",TRUE
+245728,"Frank D. Wood",FALSE
+245728,"Liam Paninski",FALSE
+245731,"Ricardo Bezerra de Andrade e Silva",TRUE
+245731,"Robert B. Gramacy",FALSE
+245732,"Avishek Saha",TRUE
+245732,"Hal Daumé III",FALSE
+245732,"Piyush Rai",FALSE
+245732,"Suresh Venkatasubramanian",FALSE
+245745,"Damien Ernst",TRUE
+245745,"Louis Wehenkel",FALSE
+245745,"Raphael Fonteneau",FALSE
+245745,"Susan A. Murphy",FALSE
+245747,"Ali Taylan Cemgil",TRUE
+245747,"Bilge Günsel",FALSE
+245747,"Yener Ülker",FALSE
+245749,"Benjamin M. Marlin",TRUE
+245749,"Bo Chen",FALSE
+245749,"Kevin Swersky",FALSE
+245749,"Nando de Freitas",FALSE
+245752,"Laurens van der Maaten",TRUE
+245756,"Christopher Hart",TRUE
+245756,"Michael A. Osborne",FALSE
+245756,"Neale Gibson",FALSE
+245756,"Roman Garnett",FALSE
+245756,"Stephen J. Roberts",FALSE
+245756,"Suzanne Aigrain",FALSE
+245759,"Peter Grünwald",TRUE
+245765,"Ryohei Fujimaki",TRUE
+245765,"Satoshi Morinaga",FALSE
+245773,"Joachim Giesen",TRUE
+245773,"Martin Jaggi",FALSE
+245773,"Sören Laue",FALSE
+245774,"Babak Nadjar Araabi",TRUE
+245774,"Hadi Moradi",FALSE
+245774,"Hossein Hajimirsadeghi",FALSE
+245774,"Majid Nili Ahmadabadi",FALSE
+245774,"Mostafa Ajallooeian",FALSE
+245775,"Avishek Saha",TRUE
+245775,"Hal Daumé III",FALSE
+245775,"Jeff M. Phillips",FALSE
+245775,"Suresh Venkatasubramanian",FALSE
+245783,"Amr Ahmed 0001",TRUE
+245783,"Eric P. Xing",FALSE
+245784,"D. Mike Titterington",TRUE
+245784,"Yee Whye Teh",FALSE
+245793,"Geoffrey J. Gordon",TRUE
+245793,"H. Brendan McMahan",FALSE
+245799,"Gábor Lugosi",TRUE
+245799,"Jean-Yves Audibert",FALSE
+245799,"Sébastien Bubeck",FALSE
+245806,"Douglas Aberdeen",TRUE
+245806,"Olivier Buffet",FALSE
+245806,"Owen Thomas",FALSE
+245812,"Boleslaw K. Szymanski",TRUE
+245812,"Jierui Xie",FALSE
+245812,"Mohammed J. Zaki",FALSE
+245824,"Jouni Hartikainen",TRUE
+245824,"Simo Särkkä",FALSE
+245825,"Geoffrey J. Gordon",TRUE
+245825,"Purnamrita Sarkar",FALSE
+245825,"Sajid M. Siddiqi",FALSE
+245831,"Loizos Michael",TRUE
+245833,"David Vogel",TRUE
+245833,"Gideon Dror",FALSE
+245833,"Isabelle Guyon",FALSE
+245833,"Marc Boullé",FALSE
+245833,"Vincent Lemaire 0001",FALSE
+245845,"Mesrob I. Ohannessian",TRUE
+245845,"Munther A. Dahleh",FALSE
+245858,"Mark A. Girolami",TRUE
+245858,"Neil D. Lawrence",FALSE
+245880,"Naftali Tishby",TRUE
+245880,"Nathan Srebro",FALSE
+245880,"Sivan Sabato",FALSE
+245886,"Suicheng Gu",TRUE
+245886,"Yuhong Guo",FALSE
+245889,"Michalis K. Titsias",TRUE
+245889,"Neil D. Lawrence",FALSE
+245891,"Si-Chi Chin",TRUE
+245891,"W. Nick Street",FALSE
+245892,"José M. Peña 0001",TRUE
+245908,"Cristina Tîrnauca",TRUE
+245908,"John Shawe-Taylor",FALSE
+245908,"José L. Balcázar",FALSE
+245908,"Tom Diethe",FALSE
+245916,"Chris Lovell",TRUE
+245916,"Gareth L. Jones 0001",FALSE
+245916,"Klaus-Peter Zauner",FALSE
+245916,"Steve R. Gunn",FALSE
+245917,"Hua Mao",TRUE
+245917,"Manfred Jaeger",FALSE
+245919,"Fernando Pereira",TRUE
+245919,"Koby Crammer",FALSE
+245919,"Mehryar Mohri",FALSE
+245921,"Emmanuel Duflos",TRUE
+245921,"Hachem Kadri",FALSE
+245921,"Manuel Davy",FALSE
+245921,"Philippe Preux",FALSE
+245921,"Stéphane Canu",FALSE
+245925,"Dávid Pál",TRUE
+245925,"Shai Ben-David",FALSE
+245925,"Teresa Luu",FALSE
+245925,"Tyler Lu",FALSE
+245959,"Changhu Wang",TRUE
+245959,"HongJiang Zhang",FALSE
+245959,"Lei Zhang 0001",FALSE
+245959,"Shuicheng Yan",FALSE
+245960,"Balázs Kégl",TRUE
+245960,"Gersende Fort",FALSE
+245960,"Olivier Cappé",FALSE
+245960,"Rémi Bardenet",FALSE
+245961,"Albert Bifet",TRUE
+245961,"José M. Carmona-Cejudo",FALSE
+245961,"João Gama 0001",FALSE
+245961,"Manuel Baena-García",FALSE
+245961,"Rafael Morales Bueno",FALSE
+245968,"Gal Elidan",TRUE
+245970,"Drew Bagnell",TRUE
+245970,"Stéphane Ross",FALSE
+245974,"Chen-Hung Wu",TRUE
+245974,"Chen-Tse Tsai",FALSE
+245974,"Cheng-Hao Tsai",FALSE
+245974,"Chia-Mau Ni",FALSE
+245974,"Chieh-Yen Lin",FALSE
+245974,"Chien-Chih Wang",FALSE
+245974,"Chih-Jen Lin",FALSE
+245974,"Chun-Liang Li",FALSE
+245974,"Chun-Sung Ferng",FALSE
+245974,"Chung-Yi Li",FALSE
+245974,"Hsuan-Tien Lin",FALSE
+245974,"Ku-Chun Chou",FALSE
+245974,"Kuan-Wei Wu",FALSE
+245974,"Po-Lung Chen",FALSE
+245974,"Po-Wei Wang",FALSE
+245974,"Rong-Bing Chiu",FALSE
+245974,"Shou-De Lin",FALSE
+245974,"Shu-Hao Yu",FALSE
+245974,"Todd G. McKenzie",FALSE
+245974,"Tsung-Ting Kuo",FALSE
+245974,"Wei-Lun Su",FALSE
+245974,"Wei-Shih Lin",FALSE
+245974,"Ya-Hsuan Chang",FALSE
+245974,"Yao-Nan Chen",FALSE
+245974,"Yu-Cheng Chou",FALSE
+245975,"Alekh Agarwal",TRUE
+245975,"John Langford 0001",FALSE
+245975,"Miroslav Dudík",FALSE
+245975,"Robert E. Schapire",FALSE
+245975,"Satyen Kale",FALSE
+245978,"Balaji Krishnapuram",TRUE
+245978,"Ramani Duraiswami",FALSE
+245978,"Vikas C. Raykar",FALSE
+245984,"Mark D. Reid",TRUE
+245984,"Robert C. Williamson",FALSE
+245984,"Tim van Erven",FALSE
+245990,"Dilan Görür",TRUE
+245990,"Levi Boyles",FALSE
+245990,"Max Welling",FALSE
+245993,"Guangcan Liu",TRUE
+245993,"Huan Xu 0001",FALSE
+245993,"Shuicheng Yan",FALSE
+246004,"Ralf Herbrich",TRUE
+246004,"Thore Graepel",FALSE
+246004,"Xinhua Zhang",FALSE
+246008,"Mohamed Amir Esseghir",TRUE
+246009,"Aurélie C. Lozano",TRUE
+246009,"Grzegorz Swirszcz",FALSE
+246009,"Naoki Abe",FALSE
+246011,"Giovanni Maria Farinella",TRUE
+246011,"Giovanni Puglisi",FALSE
+246011,"Giuseppe Azzaro",FALSE
+246011,"Giuseppe Claudio Guarnera",FALSE
+246011,"Margherita Caccamo",FALSE
+246011,"Sebastiano Battiato",FALSE
+246015,"Dmitry Kropotov",TRUE
+246015,"Dmitry P. Vetrov",FALSE
+246015,"Lior Wolf",FALSE
+246015,"Tal Hassner",FALSE
+246017,"Harald Steck",TRUE
+246017,"Tommi S. Jaakkola",FALSE
+246022,"Katharina Morik",TRUE
+246022,"Katrin Tomanek",FALSE
+246024,"Gilles Blanchard",TRUE
+246024,"Nicole Krämer 0002",FALSE
+246036,"Alessandro Rozza",TRUE
+246036,"Elena Casiraghi",FALSE
+246036,"Gabriele Lombardi",FALSE
+246036,"Marco Rosa",FALSE
+246042,"Alexander Ihler",TRUE
+246042,"David A. McAllester",FALSE
+246044,"Mark A. Girolami",TRUE
+246044,"Simon Rogers",FALSE
+246049,"Alexander Rakhlin",TRUE
+246049,"Dean P. Foster",FALSE
+246054,"Alex Krizhevsky",TRUE
+246054,"Geoffrey E. Hinton",FALSE
+246054,"Marc'Aurelio Ranzato",FALSE
+246056,"Ferenc Huszar",TRUE
+246056,"Simon Lacoste-Julien",FALSE
+246056,"Zoubin Ghahramani",FALSE
+246067,"Bao-Gang Hu",TRUE
+246067,"Bo Dai 0001",FALSE
+246071,"John Shawe-Taylor",TRUE
+246071,"Zhuoran Wang",FALSE
+246078,"Andy Way",TRUE
+246078,"Tsuyoshi Okita 0002",FALSE
+246078,"Yvette Graham",FALSE
+246084,"Kristian Kersting",TRUE
+246084,"Marion Neumann",FALSE
+246084,"Martin Schiegg",FALSE
+246086,"Pannagadatta K. Shivaswamy",TRUE
+246086,"Thorsten Joachims",FALSE
+246092,"Edward Lloyd Snelson",TRUE
+246092,"Zoubin Ghahramani",FALSE
+246093,"Jiawei Han 0001",TRUE
+246093,"Marina Danilevsky",FALSE
+246093,"Quanquan Gu",FALSE
+246093,"Zhenhui Li",FALSE
+246100,"Raymond S. Smith",TRUE
+246100,"Terry Windeatt",FALSE
+246102,"Dumitru Erhan",TRUE
+246102,"Hugo Larochelle",FALSE
+246102,"Pascal Vincent",FALSE
+246103,"Nakul Verma",TRUE
+246110,"Alan Fern",TRUE
+246110,"Jervis Pinto",FALSE
+246110,"Martin Erwig",FALSE
+246110,"Tim Bauer",FALSE
+246111,"Aaron Archer",TRUE
+246111,"Angus MacLellan",FALSE
+246111,"Carlos Eduardo Scheidegger",FALSE
+246111,"David L. Applegate",FALSE
+246111,"Guangqin Ma",FALSE
+246111,"Rensheng Wang",FALSE
+246111,"S. Tom Au",FALSE
+246111,"Shankar Krishnan",FALSE
+246111,"Suhrid Balakrishnan",FALSE
+246111,"Yifan Hu 0001",FALSE
+246113,"Dale Schuurmans",TRUE
+246113,"Martha White",FALSE
+246114,"Grégoire Montavon",TRUE
+246114,"Klaus-Robert Müller",FALSE
+246114,"Mikio L. Braun",FALSE
+246118,"Amir Globerson",TRUE
+246118,"Tommi S. Jaakkola",FALSE
+246121,"Gavin C. Cawley",TRUE
+246129,"Aapo Hyvärinen",TRUE
+246129,"Kun Zhang 0001",FALSE
+246130,"Blaz Fortuna",TRUE
+246130,"Jan Rupnik",FALSE
+246130,"Lorand Dali",FALSE
+246131,"Peter Spirtes",TRUE
+246131,"Robert E. Tillman",FALSE
+246132,"Adam Craig Pocock",TRUE
+246132,"Gavin Brown 0001",FALSE
+246132,"Mikel Luján",FALSE
+246133,"Chris Bracegirdle",TRUE
+246133,"David Barber",FALSE
+246139,"Andrew Guillory",TRUE
+246139,"Erick Chastain",FALSE
+246139,"Jeff A. Bilmes",FALSE
+246141,"Andreas P. Streich",TRUE
+246141,"Joachim M. Buhmann",FALSE
+246141,"Mario Frank 0001",FALSE
+246141,"Morteza Haghir Chehreghani",FALSE
+246143,"Satyaki Mahalanabis",TRUE
+246144,"Burr Settles",TRUE
+246145,"Ioannis G. Tollis",TRUE
+246145,"Ioannis Tsamardinos",FALSE
+246145,"Sofia Triantafilou",FALSE
+246154,"Battista Biggio",TRUE
+246154,"Blaine Nelson",FALSE
+246154,"Pavel Laskov",FALSE
+246165,"Guy Lever",TRUE
+246165,"John Shawe-Taylor",FALSE
+246165,"Tom Diethe",FALSE
+246170,"Hiroshi Motoda",TRUE
+246170,"Kazumi Saito",FALSE
+246170,"Kouzou Ohara",FALSE
+246170,"Masahiro Kimura",FALSE
+246179,"Peter Grünwald",TRUE
+246179,"Wojciech Kotlowski",FALSE
+246181,"Aapo Hyvärinen",TRUE
+246181,"Hayaru Shouno",FALSE
+246181,"Hiroaki Sasaki",FALSE
+246181,"Michael Gutmann",FALSE
+246185,"Ajit P. Singh",TRUE
+246185,"Andrew Guillory",FALSE
+246185,"Jeff A. Bilmes",FALSE
+246193,"Dávid Pál",TRUE
+246193,"Miroslava Sotáková",FALSE
+246193,"Shai Ben-David",FALSE
+246193,"Tyler Lu",FALSE
+246194,"Alexander Lorbert",TRUE
+246194,"David J. Eis",FALSE
+246194,"David M. Blei",FALSE
+246194,"Peter J. Ramadge",FALSE
+246194,"Victoria Kostina",FALSE
+246200,"Charles Lee",TRUE
+246200,"Jinbo Xu",FALSE
+246200,"Ryan Mills",FALSE
+246200,"Xiaohui Chen",FALSE
+246200,"Xing Xu",FALSE
+246200,"Xinghua Shi",FALSE
+246200,"Zhiyong Wang 0005",FALSE
+246201,"Michael Eichler",TRUE
+246203,"Petri Myllymäki",TRUE
+246203,"Teemu Roos",FALSE
+246203,"Tomi Silander",FALSE
+246204,"Alexander Ihler",TRUE
+246204,"Arthur U. Asuncion",FALSE
+246204,"Padhraic Smyth",FALSE
+246204,"Qiang Liu 0001",FALSE
+246205,"Evangelos A. Theodorou",TRUE
+246205,"Jonas Buchli",FALSE
+246205,"Stefan Schaal",FALSE
+246211,"Eugene Weinstein",TRUE
+246211,"Mehryar Mohri",FALSE
+246211,"Pedro J. Moreno 0001",FALSE
+246212,"J. Andrew Bagnell",TRUE
+246212,"Martin Zinkevich",FALSE
+246212,"Nathan D. Ratliff",FALSE
+246215,"Jianjun Xie",TRUE
+246215,"Siddharth Pal",FALSE
+246215,"Stephen Coggeshall",FALSE
+246215,"Viktoria Rojkova",FALSE
+246223,"Antoine Bordes",TRUE
+246223,"Jason Weston",FALSE
+246223,"Nicolas Usunier",FALSE
+246223,"Ronan Collobert",FALSE
+246227,"Changzhang Wang",TRUE
+246227,"Cheng Zheng",FALSE
+246227,"Jianxin Yin",FALSE
+246227,"Ping He",FALSE
+246227,"You Zhou 0001",FALSE
+246227,"Zhi Geng",FALSE
+246231,"Laurens van der Maaten",TRUE
+246231,"Lawrence K. Saul",FALSE
+246231,"Max Welling",FALSE
+246234,"Csaba Szepesvári",TRUE
+246234,"István Szita",FALSE
+246237,"Avleen Singh Bijral",TRUE
+246237,"Gregory Z. Grudic",FALSE
+246237,"Markus Breitenbach",FALSE
+246241,"Steven de Rooij",TRUE
+246241,"Tim van Erven",FALSE
+246242,"Guanyu Zhou",TRUE
+246242,"Honglak Lee",FALSE
+246242,"Kihyuk Sohn",FALSE
+246246,"Amos J. Storkey",TRUE
+246257,"Masakazu Ishihata",TRUE
+246257,"Shin-ichi Minato",FALSE
+246257,"Taisuke Sato",FALSE
+246257,"Yoshitaka Kameya",FALSE
+246259,"Geoffrey J. McLachlan",TRUE
+246259,"Vladimir Nikulin",FALSE
+246266,"Tommi S. Jaakkola",TRUE
+246266,"Yu Xin",FALSE
+246269,"Hiroki Nakayama",TRUE
+246269,"Kohei Hatano",FALSE
+246269,"Michinari Momma",FALSE
+246273,"Alon Orlitsky",TRUE
+246273,"Ananda Theertha Suresh",FALSE
+246273,"Ashkan Jafarpour",FALSE
+246273,"Hirakendu Das",FALSE
+246273,"Jayadev Acharya",FALSE
+246273,"Shengjun Pan",FALSE
+246278,"Amit Daniely",TRUE
+246278,"Shai Ben-David",FALSE
+246278,"Shai Shalev-Shwartz",FALSE
+246278,"Sivan Sabato",FALSE
+246283,"Antti Airola",TRUE
+246283,"Bernard De Baets",FALSE
+246283,"Tapio Pahikkala",FALSE
+246283,"Tapio Salakoski",FALSE
+246283,"Willem Waegeman",FALSE
+246293,"Yufeng Liu",TRUE
+246296,"Andreas Janecek",TRUE
+246296,"Gerhard F. Ecker",FALSE
+246296,"Michael Demel",FALSE
+246296,"Wilfried N. Gansterer",FALSE
+246298,"Steven C. H. Hoi",TRUE
+246298,"Wray L. Buntine",FALSE
+246299,"Esther Ezra",TRUE
+246299,"Nir Ailon",FALSE
+246299,"Ron Begleiter",FALSE
+246301,"Pei-Pei Li 0001",TRUE
+246301,"Xindong Wu 0001",FALSE
+246301,"Xuegang Hu",FALSE
+246302,"Amir Globerson",TRUE
+246302,"Koby Crammer",FALSE
+246302,"Roi Livni",FALSE
+246303,"Lucian Busoniu",TRUE
+246303,"Rémi Munos",FALSE
+246305,"Clayton Scott",TRUE
+246305,"Gyemin Lee",FALSE
+246305,"Lloyd Stoolman",FALSE
+246309,"Feng Liang",TRUE
+246309,"Kai Mao",FALSE
+246309,"Sayan Mukherjee 0001",FALSE
+246320,"Ambuj Tewari",TRUE
+246320,"Ankan Saha",FALSE
+246321,"Fei Sha",TRUE
+246321,"Meihong Wang",FALSE
+246322,"Eran Tromer",TRUE
+246322,"Ohad Shamir",FALSE
+246322,"Shai Shalev-Shwartz",FALSE
+246323,"Ansaf Salleb-Aouissi",TRUE
+246323,"Bert Huang",FALSE
+246324,"Giorgio Valentini",TRUE
+246324,"Nicolò Cesa-Bianchi",FALSE
+246328,"Frank P. Ferrie",TRUE
+246328,"Karim T. Abou-Moustafa",FALSE
+246330,"John Langford 0001",TRUE
+246330,"Lihong Li 0001",FALSE
+246330,"Taesup Moon",FALSE
+246330,"Wei Chu",FALSE
+246330,"Xuanhui Wang",FALSE
+246335,"Chun-Nam Yu",TRUE
+246338,"Guillaume Stempfel",TRUE
+246338,"Liva Ralaivola",FALSE
+246338,"Marie Szafranski",FALSE
+246340,"Andrew Lonie",TRUE
+246340,"David Lazaridis",FALSE
+246340,"Hugh Miller",FALSE
+246340,"Owen Jones",FALSE
+246340,"Sandy Clarke",FALSE
+246340,"Slavé Petrovski",FALSE
+246340,"Stephen Lane",FALSE
+246341,"Ali Jalali",TRUE
+246341,"Christopher C. Johnson",FALSE
+246341,"Pradeep Ravikumar",FALSE
+246343,"Huijun He",TRUE
+246343,"Mingmin Chi",FALSE
+246354,"Akihiro Yamamoto",TRUE
+246354,"Keisuke Otaki",FALSE
+246358,"Lihong Li 0001",TRUE
+246358,"Olivier Chapelle",FALSE
+246359,"Daria Sorokina",TRUE
+246363,"Daniel Polani",TRUE
+246363,"Tobias Jung 0001",FALSE
+246366,"Slobodan Vucetic",TRUE
+246366,"Zhuang Wang",FALSE
+246371,"John Shawe-Taylor",TRUE
+246371,"Nello Cristianini",FALSE
+246371,"Tom Diethe",FALSE
+246374,"Hongtao Lu",TRUE
+246374,"Jingyuan Lv",FALSE
+246374,"Xianzhong Long",FALSE
+246376,"Neil D. Lawrence",TRUE
+246377,"Drew Bagnell",TRUE
+246377,"Geoffrey J. Gordon",FALSE
+246377,"Stéphane Ross",FALSE
+246378,"Christoph Freudenthaler",TRUE
+246378,"Lars Schmidt-Thieme",FALSE
+246378,"Lucas Drumond",FALSE
+246378,"Zeno Gantner",FALSE
+246379,"Andreas Ruttor",TRUE
+246379,"Florian Stimberg",FALSE
+246379,"Manfred Opper",FALSE
+246380,"Yoshua Bengio",TRUE
+246381,"David A. Castañón",TRUE
+246381,"Kirill Trapeznikov",FALSE
+246381,"Venkatesh Saligrama",FALSE
+246388,"Alan S. Willsky",TRUE
+246388,"Jason L. Williams",FALSE
+246388,"John W. Fisher III",FALSE
+246394,"Firas Hamze",TRUE
+246394,"Nando de Freitas",FALSE
+246394,"Nimalan Mahendran",FALSE
+246394,"Ziyu Wang 0001",FALSE
+246399,"Elad Hazan",TRUE
+246399,"Sham M. Kakade",FALSE
+246413,"Jeff G. Schneider",TRUE
+246413,"Yi Zhang 0010",FALSE
+246415,"Linda H. Zhao",TRUE
+246415,"Vikas C. Raykar",FALSE
+246416,"A. Philip Dawid",TRUE
+246423,"Francesco Bartolucci",TRUE
+246423,"Nial Friel",FALSE
+246423,"Silvia Pandolfi",FALSE
+246424,"Thierry Artières",TRUE
+246424,"Trinh Minh Tri Do",FALSE
+246426,"Andreas Köhler",TRUE
+246426,"Carsten Riggelsen",FALSE
+246426,"Frank Scherbaum",FALSE
+246426,"Matthias Ohrnberger",FALSE
+246428,"Han Xiao 0002",TRUE
+246428,"Thomas Stibor",FALSE
+246430,"Christian Bauckhage",TRUE
+246430,"Christian Thurau",FALSE
+246430,"Kristian Kersting",FALSE
+246430,"Mirwaes Wahabzada",FALSE
+246431,"Daniel Eaton",TRUE
+246431,"David Duvenaud",FALSE
+246431,"Kevin P. Murphy",FALSE
+246431,"Mark Schmidt 0001",FALSE
+246432,"Dan Roth",TRUE
+246432,"Ivan Titov",FALSE
+246432,"Kevin Small",FALSE
+246439,"Ofer Dekel",TRUE
+246439,"Ohad Shamir",FALSE
+246440,"David Luengo",TRUE
+246440,"Mauricio A. Álvarez",FALSE
+246440,"Michalis K. Titsias",FALSE
+246440,"Neil D. Lawrence",FALSE
+246442,"Miguel Á. Carreira-Perpiñán",TRUE
+246442,"Zhengdong Lu",FALSE
+246446,"Olivier Chapelle",TRUE
+246446,"Yi Chang 0001",FALSE
+246466,"Joseph Naor",TRUE
+246466,"Niv Buchbinder",FALSE
+246466,"Ohad Shamir",FALSE
+246466,"Shahar Chen",FALSE
+246467,"Ali Rahimi",TRUE
+246467,"Branislav Kveton",FALSE
+246467,"Ling Huang",FALSE
+246467,"Michal Valko",FALSE
+246473,"Marcus A. Brubaker",TRUE
+246473,"Mathieu Salzmann",FALSE
+246473,"Raquel Urtasun",FALSE
+246474,"Colin de la Higuera",TRUE
+246474,"Rémi Eyraud",FALSE
+246474,"Sicco Verwer",FALSE
+246480,"Carlos Guestrin",TRUE
+246480,"Jonathan Huang",FALSE
+246480,"Leonidas J. Guibas",FALSE
+246480,"Xiaoye Jiang",FALSE
+246482,"Alexander Rakhlin",TRUE
+246482,"Ambuj Tewari",FALSE
+246482,"Dean P. Foster",FALSE
+246482,"Karthik Sridharan",FALSE
+246484,"Ming Yuan",TRUE
+246486,"Jacob D. Abernethy",TRUE
+246486,"Rafael M. Frongillo",FALSE
+246491,"Matthieu Geist",TRUE
+246491,"Olivier Pietquin",FALSE
+246492,"Daniel Tarlow",TRUE
+246492,"Richard S. Zemel",FALSE
+246499,"Bharat Rao",TRUE
+246499,"Faisal Farooq",FALSE
+246499,"Glenn Fung",FALSE
+246499,"Jennifer G. Dy",FALSE
+246499,"Rómer Rosales",FALSE
+246499,"Yan Yan 0024",FALSE
+246502,"Guy Lebanon",TRUE
+246502,"Krishnakumar Balasubramanian 0002",FALSE
+246502,"Pinar Donmez",FALSE
+246507,"Alan S. Willsky",TRUE
+246507,"Jason K. Johnson",FALSE
+246507,"Venkat Chandrasekaran",FALSE
+246509,"Eric P. Xing",TRUE
+246509,"Steve Hanneke",FALSE
+246510,"Han Liu",TRUE
+246510,"Leonidas J. Guibas",FALSE
+246510,"Xiaoye Jiang",FALSE
+246510,"Yuan Yao 0011",FALSE
+246515,"Benjamin M. Marlin",TRUE
+246515,"Kevin P. Murphy",FALSE
+246515,"Mohammad Emtiyaz Khan",FALSE
+246515,"Shakir Mohamed",FALSE
+246518,"Geoffrey J. Gordon",TRUE
+246518,"Tai Sing Lee",FALSE
+246518,"Thomas S. Stepleton",FALSE
+246518,"Zoubin Ghahramani",FALSE
+246524,"Geoffrey E. Hinton",TRUE
+246524,"Ruslan Salakhutdinov",FALSE
+246526,"András Falus",TRUE
+246526,"Csaba Szalai",FALSE
+246526,"Gábor Hullám",FALSE
+246526,"Peter Antal",FALSE
+246530,"Han Liu",TRUE
+246530,"Mladen Kolar",FALSE
+246533,"Elad Hazan",TRUE
+246533,"Satyen Kale",FALSE
+246533,"Shai Shalev-Shwartz",FALSE
+246540,"Alexander N. Dolia",TRUE
+246540,"John Shawe-Taylor",FALSE
+246547,"Ohad Shamir",TRUE
+246549,"Jim C. Huang",TRUE
+246549,"Nebojsa Jojic",FALSE
+246552,"David J. Kriegman",TRUE
+246552,"Gert R. G. Lanckriet",FALSE
+246552,"Josh Wills",FALSE
+246552,"Lawrence Cayton",FALSE
+246552,"Sameer Agarwal 0001",FALSE
+246552,"Serge J. Belongie",FALSE
+246563,"Eric P. Xing",TRUE
+246563,"Mladen Kolar",FALSE
+246565,"Boaz Lerner",TRUE
+246565,"Nuaman Asbeh",FALSE
+246582,"Hema A. Murthy",TRUE
+246582,"Sanasam Ranbir Singh",FALSE
+246582,"Timothy A. Gonsalves",FALSE
+246587,"Adrienn Szabó",TRUE
+246587,"Dávid Siklósi",FALSE
+246587,"István Bíró",FALSE
+246587,"Miklós Kurucz",FALSE
+246587,"Péter Csizsek",FALSE
+246587,"Róbert Iwatt",FALSE
+246587,"Tamás Kiss",FALSE
+246587,"Zsolt Fekete",FALSE
+246590,"David B. Dunson",TRUE
+246590,"Guillermo Sapiro",FALSE
+246590,"Hongxia Yang",FALSE
+246590,"Lawrence Carin",FALSE
+246590,"Mingyuan Zhou",FALSE
+246596,"Cristian Sminchisescu",TRUE
+246596,"Fuxin Li",FALSE
+246601,"Dominik Seuß",TRUE
+246601,"Michael Siebers",FALSE
+246601,"Miriam Kunz",FALSE
+246601,"Stefan Lautenbacher",FALSE
+246601,"Ute Schmid",FALSE
+246607,"Gavin Brown 0001",TRUE
+246610,"Lizhong Ding 0001",TRUE
+246610,"Shizhong Liao",FALSE
+246612,"Ambuj Tewari",TRUE
+246612,"Eunho Yang",FALSE
+246612,"Pradeep Ravikumar",FALSE
+246614,"Manfred K. Warmuth",TRUE
+246614,"Wojciech Kotlowski",FALSE
+246616,"Anoop Korattikara Balan",TRUE
+246616,"Haesun Park",FALSE
+246616,"Jingu Kim",FALSE
+246616,"Levi Boyles",FALSE
+246616,"Max Welling",FALSE
+246618,"Changshui Zhang",TRUE
+246618,"Fei Wang 0001",FALSE
+246618,"Ole Winther",FALSE
+246618,"Shijun Wang",FALSE
+246619,"Dit-Yan Yeung",TRUE
+246619,"Wu-Jun Li",FALSE
+246619,"Zhihua Zhang",FALSE
+246625,"Daniel Lee",TRUE
+246625,"Ricky Der",FALSE
+246630,"Max Welling",TRUE
+246630,"Yutian Chen",FALSE
+246632,"Adityanand Guntuboyina",TRUE
+246632,"Bodhisattva Sen",FALSE
+246637,"Abdeslam Boularias",TRUE
+246637,"Jan Peters 0001",FALSE
+246637,"Jens Kober",FALSE
+246643,"Csaba Szepesvári",TRUE
+246643,"Dale Schuurmans",FALSE
+246643,"Yuxi Li",FALSE
+246644,"Alexander G. Gray",TRUE
+246644,"Ravi Ganti",FALSE
+246649,"David S. Rosenberg",TRUE
+246649,"Peter L. Bartlett",FALSE
+246657,"Michael Fink 0002",TRUE
+246659,"Clayton Scott",TRUE
+246659,"Gilles Blanchard",FALSE
+246665,"Florin Constantin",TRUE
+246665,"Lei Wang",FALSE
+246665,"Maria-Florina Balcan",FALSE
+246665,"Satoru Iwata 0001",FALSE
+246668,"Duy Nguyen-Tuong",TRUE
+246668,"Jan Peters 0001",FALSE
+246670,"Gideon Dror",TRUE
+246670,"Markus Weimer",FALSE
+246670,"Noam Koenigstein",FALSE
+246670,"Yehuda Koren",FALSE
+246671,"Antonio Torralba 0001",TRUE
+246671,"Joshua B. Tenenbaum",FALSE
+246671,"Ruslan Salakhutdinov",FALSE
+246672,"Jian Peng 0001",TRUE
+246672,"Jinbo Xu",FALSE
+246672,"Nathan Srebro",FALSE
+246672,"Tamir Hazan",FALSE
+246676,"Balaji Lakshminarayanan",TRUE
+246676,"Cédric Archambeau",FALSE
+246676,"Guillaume Bouchard",FALSE
+246677,"John W. Fisher III",TRUE
+246677,"Michael Siracusa",FALSE
+246678,"Guoqing Liu",TRUE
+246678,"Jianxin Wu 0001",FALSE
+246678,"Zhi-Hua Zhou",FALSE
+246687,"Gal Elidan",TRUE
+246691,"Hung-Yi Lo",TRUE
+246691,"Shou-De Lin",FALSE
+246691,"Tsung-Hsien Chiang",FALSE
+246693,"Miguel Á. Carreira-Perpiñán",TRUE
+246693,"Weiran Wang",FALSE
+246694,"Junhui Wang",TRUE
+246699,"Bharath K. Sriperumbudur",TRUE
+246699,"Gert R. G. Lanckriet",FALSE
+246699,"Kenji Fukumizu",FALSE
+246708,"Alessandro Lazaric",TRUE
+246708,"Mohammad Ghavamzadeh",FALSE
+246708,"Odalric-Ambrym Maillard",FALSE
+246708,"Rémi Munos",FALSE
+246710,"Ofer Dekel",TRUE
+246710,"Yonatan Amit",FALSE
+246710,"Yoram Singer",FALSE
+246711,"Daniel Tarlow",TRUE
+246711,"Richard S. Zemel",FALSE
+246711,"Ryan Prescott Adams",FALSE
+246713,"Andreas Argyriou",TRUE
+246713,"Jean Morales",FALSE
+246713,"Luca Baldassarre",FALSE
+246713,"Massimiliano Pontil",FALSE
+246721,"Alexander Böhm 0003",TRUE
+246721,"Karin J. Metzner",FALSE
+246721,"Sandhya Prabhakaran",FALSE
+246721,"Volker Roth 0001",FALSE
+246722,"Brendan J. Frey",TRUE
+246722,"Inmar E. Givoni",FALSE
+246723,"Jérémie Mary",TRUE
+246723,"Olivier Nicol",FALSE
+246723,"Philippe Preux",FALSE
+246724,"Christophe Salperwyck",TRUE
+246724,"Tanguy Urvoy",FALSE
+246729,"Guillaume Bouchard",TRUE
+246729,"Matthias W. Seeger",FALSE
+246734,"Dahua Lin",TRUE
+246734,"John W. Fisher III",FALSE
+246740,"Alexander J. Smola",TRUE
+246740,"Amr Ahmed 0001",FALSE
+246740,"Choon Hui Teo",FALSE
+246740,"Eric P. Xing",FALSE
+246740,"Jacob Eisenstein",FALSE
+246740,"Qirong Ho",FALSE
+246741,"Csaba Szepesvári",TRUE
+246741,"Yasin Abbasi-Yadkori",FALSE
+246743,"Vladimir Gorodetsky",TRUE
+246743,"Vladimir Samoilov",FALSE
+246745,"Finale Doshi",TRUE
+246745,"Jurgen Van Gael",FALSE
+246745,"Kurt Miller",FALSE
+246745,"Yee Whye Teh",FALSE
+246755,"Andreas Stuhlmüller",TRUE
+246755,"David Wingate",FALSE
+246755,"Noah D. Goodman",FALSE
+246770,"Andrey Gulin",TRUE
+246770,"Dmitry Pavlov",FALSE
+246770,"Igor Kuralenok",FALSE
+246781,"Daniel Jurafsky",TRUE
+246781,"Hiyan Alshawi",FALSE
+246781,"Valentin I. Spitkovsky",FALSE
+246782,"Dean P. Foster",TRUE
+246782,"Lyle H. Ungar",FALSE
+246782,"Paramveer S. Dhillon",FALSE
+246783,"Sanjay Chawla",TRUE
+246787,"Chao-Kai Chiang",TRUE
+246787,"Chi-Jen Lu",FALSE
+246787,"Chia-Jung Lee",FALSE
+246787,"Mehrdad Mahdavi",FALSE
+246787,"Rong Jin 0001",FALSE
+246787,"Shenghuo Zhu",FALSE
+246787,"Tianbao Yang",FALSE
+246789,"Daniel M. Roy 0001",TRUE
+246789,"Joshua B. Tenenbaum",FALSE
+246789,"Ryan Rifkin",FALSE
+246789,"Vikash K. Mansinghka",FALSE
+246797,"David Buchman",TRUE
+246797,"David Poole 0001",FALSE
+246797,"Mark Schmidt 0001",FALSE
+246797,"Nando de Freitas",FALSE
+246797,"Shakir Mohamed",FALSE
+246804,"Michael H. Bowling",TRUE
+246804,"Michael Johanson",FALSE
+246819,"Cristian Sminchisescu",TRUE
+246819,"Liefeng Bo",FALSE
+246822,"Matt Taddy",TRUE
+246824,"Nicolò Cesa-Bianchi",TRUE
+246824,"Sham M. Kakade",FALSE
+246824,"Sébastien Bubeck",FALSE
+246837,"Alexander Ihler",TRUE
+246837,"James R. Foulds",FALSE
+246837,"Nicholas Navaroli",FALSE
+246837,"Padhraic Smyth",FALSE
+246838,"Alberto Giovanni Busetto",TRUE
+246838,"Joachim M. Buhmann",FALSE
+246838,"Morteza Haghir Chehreghani",FALSE
+246840,"Nizar Bouguila",TRUE
+246840,"Wentao Fan",FALSE
+246841,"Judea Pearl",TRUE
+246842,"Jerry Jenkins",TRUE
+246843,"Akiko Takeda",TRUE
+246843,"Taiji Suzuki",FALSE
+246843,"Takafumi Kanamori",FALSE
+246847,"Ayse Erkan",TRUE
+246847,"Yasemin Altun",FALSE
+246848,"Andreas Ruttor",TRUE
+246848,"Manfred Opper",FALSE
+246856,"Moritz Grosse-Wentrup",TRUE
+246856,"Morteza Alamgir",FALSE
+246856,"Yasemin Altun",FALSE
+246858,"Zhengdong Lu",TRUE
+246859,"Dan Stowell",TRUE
+246859,"Mark D. Plumbley",FALSE
+246860,"Dunja Mladenic",TRUE
+246860,"Tadej Stajner",FALSE
+246870,"Ilya Sutskever",TRUE
+246870,"James Martens",FALSE
+246873,"Justin Thaler",TRUE
+246873,"Li-Yang Tan",FALSE
+246873,"Rocco A. Servedio",FALSE
+246874,"Nello Cristianini",TRUE
+246874,"Roberto Franzosi",FALSE
+246874,"Saatviga Sudhahar",FALSE
+246875,"Kim Steenstrup Pedersen",TRUE
+246875,"Marco Loog",FALSE
+246875,"Pieter van Dorst",FALSE
+246876,"Andreas Töscher",TRUE
+246876,"Michael Jahrer",FALSE
+246882,"Katherine A. Heller",TRUE
+246882,"Zoubin Ghahramani",FALSE
+246890,"Michalis K. Titsias",TRUE
+246896,"Alexander R. Statnikov",TRUE
+246896,"Constantin F. Aliferis",FALSE
+246899,"Daan Fierens",TRUE
+246899,"Hendrik Blockeel",FALSE
+246899,"Jesse Davis",FALSE
+246899,"Nima Taghipour",FALSE
+246904,"Michael L. Littman",TRUE
+246911,"Sanjoy Dasgupta",TRUE
+246912,"A. Robert Calderbank",TRUE
+246912,"Aarti Singh",FALSE
+246912,"Robert D. Nowak",FALSE
+246918,"Arto Klami",TRUE
+246918,"Samuel Kaski",FALSE
+246918,"Seppo Virtanen",FALSE
+246918,"Suleiman A. Khan",FALSE
+246919,"Patrick Pletscher",TRUE
+246919,"Pushmeet Kohli",FALSE
+246925,"Dominik Janzing",TRUE
+246925,"Joris M. Mooij",FALSE
+246926,"David P. Helmbold",TRUE
+246926,"Philip M. Long",FALSE
+246936,"Ofer Dekel",TRUE
+246936,"Ohad Shamir",FALSE
+246941,"Dhruv Batra",TRUE
+246941,"Pushmeet Kohli",FALSE
+246941,"Sebastian Nowozin",FALSE
+246943,"Honglak Lee",TRUE
+246943,"Min Sun 0001",FALSE
+246943,"Murali Telaprolu",FALSE
+246943,"Silvio Savarese",FALSE
+246945,"Aapo Hyvärinen",TRUE
+246947,"Janardhan Rao Doppa",TRUE
+246947,"Jed Irvine",FALSE
+246947,"John Walker Orr",FALSE
+246947,"Mohammad NasrEsfahani",FALSE
+246947,"Prasad Tadepalli",FALSE
+246947,"Shahed Sorower",FALSE
+246947,"Thomas G. Dietterich",FALSE
+246947,"Xiaoli Z. Fern",FALSE
+246949,"David B. Dunson",TRUE
+246949,"Geoffrey J. Gordon",FALSE
+246950,"Chun-Nan Hsu",TRUE
+246950,"Wee Sun Lee",FALSE
+246951,"Ricardo Bezerra de Andrade e Silva",TRUE
+246951,"Zoubin Ghahramani",FALSE
+246953,"Gavin C. Cawley",TRUE
+246953,"Gideon Dror",FALSE
+246953,"Isabelle Guyon",FALSE
+246953,"Vincent Lemaire 0001",FALSE
+246972,"Raphaël Féraud",TRUE
+246972,"Tanguy Urvoy",FALSE
+246979,"Jeremy Lewi",TRUE
+246979,"Liam Paninski",FALSE
+246979,"Robert J. Butera",FALSE
+246986,"Cristian Sminchisescu",TRUE
+246986,"Fuxin Li",FALSE
+246986,"Jue Wang",FALSE
+246986,"Yu-Hong Dai",FALSE
+246986,"Yun-Shan Fu",FALSE
+246988,"Masakazu Ishihata",TRUE
+246988,"Taisuke Sato",FALSE
+246989,"Alexander Ihler",TRUE
+246989,"Tianbing Xu",FALSE
+246990,"Hamed Valizadegan",TRUE
+246990,"Rong Jin 0001",FALSE
+246990,"Shijun Wang",FALSE
+246992,"Alexander Lorbert",TRUE
+246992,"Peter J. Ramadge",FALSE
+246993,"Duy Khuong Nguyen",TRUE
+246993,"Khoat Than",FALSE
+246993,"Pham Ngoc Khanh",FALSE
+246993,"Tu Bao Ho",FALSE
+246994,"Jianbo Shi",TRUE
+246994,"Timothée Cour",FALSE
+246997,"Daniel M. Roy 0001",TRUE
+246997,"Eric Jonas",FALSE
+246997,"Joshua B. Tenenbaum",FALSE
+246997,"Vikash Mansinghka 0001",FALSE
+247000,"Gavin C. Cawley",TRUE
+247003,"Seungjin Choi",TRUE
+247003,"Sunho Park",FALSE
+247009,"Jane de Winter",TRUE
+247009,"John Smith Jones",FALSE
+247009,"Peter Grünwald",FALSE
+247009,"Élouise Smith",FALSE
+247014,"Dacheng Tao",TRUE
+247014,"Jun Li 0010",FALSE
+247019,"Mans Hulden",TRUE
+247020,"Akihiro Yamamoto",TRUE
+247020,"Mahito Sugiyama",FALSE
+247027,"Fares Hedayati",TRUE
+247027,"Peter L. Bartlett",FALSE
+247028,"Alexander R. Statnikov",TRUE
+247028,"André Elisseeff",FALSE
+247028,"Constantin F. Aliferis",FALSE
+247028,"Gregory F. Cooper",FALSE
+247028,"Isabelle Guyon",FALSE
+247028,"Jean-Philippe Pellet",FALSE
+247028,"Peter Spirtes",FALSE
+247034,"Dilan Görür",TRUE
+247034,"Katherine A. Heller",FALSE
+247034,"Yee Whye Teh",FALSE
+247041,"Borja Balle",TRUE
+247041,"Jorge Castro",FALSE
+247041,"Ricard Gavaldà",FALSE
+247046,"David Barber",TRUE
+247046,"Thomas Furmston",FALSE
+247047,"Michael I. Jordan",TRUE
+247047,"Romain Thibaux",FALSE
+247053,"Ivor W. Tsang",TRUE
+247053,"Jinfeng Zhuang",FALSE
+247053,"Steven C. H. Hoi",FALSE
+247056,"Changzhang Wang",TRUE
+247056,"Jianxin Yin",FALSE
+247056,"You Zhou 0001",FALSE
+247056,"Zhi Geng",FALSE
+247067,"Nathan Nan Liu",TRUE
+247067,"Qiang Yang 0001",FALSE
+247067,"Tianqi Chen",FALSE
+247067,"Yong Yu 0001",FALSE
+247067,"Zhao Zheng",FALSE
+247068,"Han Liu",TRUE
+247068,"Jian Zhang 0003",FALSE
+247081,"Jaakko Peltonen",TRUE
+247081,"Samuel Kaski",FALSE
+247085,"Andreas Ziehe",TRUE
+247085,"Florin Popescu",FALSE
+247085,"Guido Nolte",FALSE
+247085,"Klaus-Robert Müller",FALSE
+247085,"Nicole Krämer 0002",FALSE
+247089,"Masamichi Shimosaka",TRUE
+247089,"Rui Fukui",FALSE
+247089,"Ryoma Kawajiri",FALSE
+247089,"Tomomasa Sato",FALSE
+247099,"Bert Kappen",TRUE
+247099,"Mohammad Gheshlaghi Azar",FALSE
+247099,"Vicenç Gómez",FALSE
+247102,"Han Liu",TRUE
+247102,"Jaime G. Carbonell",FALSE
+247102,"Xi Chen 0010",FALSE
+247103,"Chunquan Liang",TRUE
+247103,"Qun Song 0003",FALSE
+247103,"Yang Zhang 0010",FALSE
+247105,"Gilles Louppe",TRUE
+247105,"Pierre Geurts",FALSE
+247108,"András György 0001",TRUE
+247108,"Csaba Szepesvári",FALSE
+247108,"Péter Torma",FALSE
+247112,"Han Liu 0001",TRUE
+247112,"Tuo Zhao",FALSE
+247121,"Fernando De la Torre",TRUE
+247121,"Minh Hoai Nguyen",FALSE
+247139,"Antoine Bordes",TRUE
+247139,"Jason Weston",FALSE
+247139,"Xavier Glorot",FALSE
+247139,"Yoshua Bengio",FALSE
+247142,"Sébastien Guérif",TRUE
+247143,"Daisuke Okanohara",TRUE
+247143,"Hirotaka Hachiya",FALSE
+247143,"Ichiro Takeuchi",FALSE
+247143,"Masashi Sugiyama",FALSE
+247143,"Taiji Suzuki",FALSE
+247143,"Takafumi Kanamori",FALSE
+247144,"Kilho Shin",TRUE
+247147,"Jacob D. Abernethy",TRUE
+247147,"Shie Mannor",FALSE
+247152,"Anna Choromanska",TRUE
+247152,"Claire Monteleoni",FALSE
+247153,"Ales Erjavec",TRUE
+247153,"Blaz Zupan",FALSE
+247153,"Crtomir Gorup",FALSE
+247153,"Lan Umek",FALSE
+247153,"Mojca Mattiazzi",FALSE
+247153,"Petra Kaferle",FALSE
+247153,"Tomaz Curk",FALSE
+247153,"Uros Petrovic",FALSE
+247159,"Manqi Zhao",TRUE
+247159,"Venkatesh Saligrama",FALSE
+247164,"Arthur Gretton",TRUE
+247164,"Carlos Guestrin",FALSE
+247164,"Danny Bickson",FALSE
+247164,"Le Song",FALSE
+247164,"Yucheng Low",FALSE
+247168,"Alex Po Leung",TRUE
+247168,"Arto Klami",FALSE
+247168,"John Shawe-Taylor",FALSE
+247168,"Jorma Laaksonen",FALSE
+247168,"Jussi Kujala",FALSE
+247168,"Kitsuchart Pasupa",FALSE
+247168,"Peter Auer",FALSE
+247168,"Samuel Kaski",FALSE
+247168,"Zakria Hussain",FALSE
+247170,"Aarti Singh",TRUE
+247170,"Brian Eriksson",FALSE
+247170,"Gautam Dasarathy",FALSE
+247170,"Robert D. Nowak",FALSE
+247173,"Hisashi Kashima",TRUE
+247173,"Kohei Hayashi",FALSE
+247173,"Ryota Tomioka",FALSE
+247173,"Takashi Takenouchi",FALSE
+247175,"Doina Precup",TRUE
+247175,"Yuri Grinberg",FALSE
+247183,"Brian Kulis",TRUE
+247183,"Inderjit S. Dhillon",FALSE
+247183,"Suvrit Sra",FALSE
+247184,"Dazhuo Li",TRUE
+247184,"Patrick Shafto",FALSE
+247190,"Bernhard Schölkopf",TRUE
+247190,"Mingrui Wu",FALSE
+247205,"Colin de la Higuera",TRUE
+247205,"Jeffrey Heinz",FALSE
+247205,"Tim Oates 0001",FALSE
+247207,"Wei Gao 0008",TRUE
+247207,"Zhi-Hua Zhou",FALSE
+247209,"Dorota Glowacka",TRUE
+247209,"John Shawe-Taylor",FALSE
+247209,"Louis Dorard",FALSE
+247215,"Matthias Hein 0001",TRUE
+247215,"Syama Sundar Rangapuram",FALSE
+247218,"Ilias N. Flaounas",TRUE
+247218,"Justin Lewis",FALSE
+247218,"Nello Cristianini",FALSE
+247218,"Nick Mosdell",FALSE
+247218,"Omar Ali",FALSE
+247218,"Tijl De Bie",FALSE
+247223,"Carlos Guestrin",TRUE
+247223,"Joseph K. Bradley",FALSE
+247225,"Caoxie Zhang",TRUE
+247225,"Honglak Lee",FALSE
+247225,"Kang G. Shin",FALSE
+247227,"David Lisuk",TRUE
+247227,"Jianjun Xie",FALSE
+247227,"Liang Tian",FALSE
+247227,"Matthias Blume",FALSE
+247227,"Scott Leishman",FALSE
+247227,"Seongjoon Koo",FALSE
+247234,"David A. Sontag",TRUE
+247234,"Tommi S. Jaakkola",FALSE
+247241,"Ambuj Tewari",TRUE
+247241,"Karthik Sindharan",FALSE
+247241,"Ohad Shamir",FALSE
+247241,"Sham M. Kakade",FALSE
+247242,"Alexander J. Smola",TRUE
+247242,"Deepak Agarwal",FALSE
+247242,"Lihong Li 0001",FALSE
+247243,"Csaba Szepesvári",TRUE
+247243,"Dávid Pál",FALSE
+247243,"Yasin Abbasi-Yadkori",FALSE
+247250,"John Shawe-Taylor",TRUE
+247250,"Tristan Fletcher",FALSE
+247250,"Zakria Hussain",FALSE
+247254,"Alfred M. Bruckstein",TRUE
+247254,"Daniel Vainsencher",FALSE
+247254,"Shie Mannor",FALSE
+247255,"Alexandra Carpentier",TRUE
+247255,"Rémi Munos",FALSE
+247259,"Peter Orbanz",TRUE
+247259,"Sinead Williamson",FALSE
+247259,"Zoubin Ghahramani",FALSE
+247261,"Hannes Nickisch",TRUE
+247261,"Matthias W. Seeger",FALSE
+247265,"Andrew J. Connolly",TRUE
+247265,"Barnabás Póczos",FALSE
+247265,"Jake VanderPlas",FALSE
+247265,"Jeff G. Schneider",FALSE
+247265,"Liang Xiong",FALSE
+247272,"Amir Globerson",TRUE
+247272,"Sam T. Roweis",FALSE
+247279,"Michael Habeck",TRUE
+247288,"Abhradeep Thakurta",TRUE
+247288,"Adam D. Smith",FALSE
+247288,"Daniel Kifer",FALSE
+247290,"Dakan Wang",TRUE
+247290,"Edward Y. Chang",FALSE
+247290,"Zhihua Zhang",FALSE
+247296,"Gerardo Hermosillo Valadez",TRUE
+247296,"Glenn Fung",FALSE
+247296,"Jennifer G. Dy",FALSE
+247296,"Linda Moy",FALSE
+247296,"Luca Bogoni",FALSE
+247296,"Mark Schmidt 0001",FALSE
+247296,"Rómer Rosales",FALSE
+247296,"Yan Yan 0024",FALSE
+247298,"Carlos Guestrin",TRUE
+247298,"Joseph Gonzalez 0001",FALSE
+247298,"Yucheng Low",FALSE
+247306,"András György 0001",TRUE
+247306,"Csaba Szepesvári",FALSE
+247306,"Gergely Neu",FALSE
+247308,"Claudia Eckert 0001",TRUE
+247308,"Colin de la Higuera",FALSE
+247308,"Hasan Ibne Akram",FALSE
+247319,"Alexander J. Smola",TRUE
+247319,"Choon Hui Teo",FALSE
+247319,"Le Song",FALSE
+247337,"Jérôme Malick",TRUE
+247337,"Miroslav Dudík",FALSE
+247337,"Zaïd Harchaoui",FALSE
+247339,"Frederick Eberhardt",TRUE
+247339,"Patrik O. Hoyer",FALSE
+247339,"Richard Scheines",FALSE
+247344,"Hongyuan Zha",TRUE
+247344,"Shuang-Hong Yang",FALSE
+247344,"Steven P. Crain",FALSE
+247347,"Chihiro Shibata",TRUE
+247347,"Ryo Yoshinaka",FALSE
+247352,"Peter Auer",TRUE
+247352,"Shiau Hong Lim",FALSE
+247356,"Hamed Valizadegan",TRUE
+247356,"Milos Hauskrecht",FALSE
+247356,"Saeed Amizadeh",FALSE
+247358,"Karsten M. Borgwardt",TRUE
+247358,"Kurt Mehlhorn",FALSE
+247358,"Nino Shervashidze",FALSE
+247358,"S. V. N. Vishwanathan",FALSE
+247358,"Tobias Petri",FALSE
+247367,"Anton Chechetka",TRUE
+247367,"Carlos Guestrin",FALSE
+247369,"Frank Konietschke",TRUE
+247369,"Gilles Blanchard",FALSE
+247369,"Jonathan D. Rosenblatt",FALSE
+247369,"Kornelius Rohmeyer",FALSE
+247369,"Marsel Scheer",FALSE
+247369,"Niklas Hack",FALSE
+247369,"Thorsten Dickhaus",FALSE
+247369,"Wiebke Werft",FALSE
+247373,"Dirk Husmeier",TRUE
+247373,"Marco Grzegorczyk",FALSE
+247376,"Jun Morimoto",TRUE
+247376,"Takamitsu Matsubara",FALSE
+247376,"Tetsuro Morimura",FALSE
+247378,"Aapo Hyvärinen",TRUE
+247378,"Kun Zhang 0001",FALSE
+247379,"Maria-Florina Balcan",TRUE
+247379,"Steve Hanneke",FALSE
+247382,"Dávid Pál",TRUE
+247382,"Martin Pal",FALSE
+247382,"Tyler Lu",FALSE
+247388,"Aki Vehtari",TRUE
+247388,"Jarno Vanhatalo",FALSE
+247397,"Antoine Bordes",TRUE
+247397,"Xavier Glorot",FALSE
+247397,"Yoshua Bengio",FALSE
+247398,"David R. Hardoon",TRUE
+247398,"John Shawe-Taylor",FALSE
+247398,"Tom Diethe",FALSE
+247398,"Zakria Hussain",FALSE
+247402,"Jiji Zhang",TRUE
+247405,"Fabio Corradi",TRUE
+247408,"Dit-Yan Yeung",TRUE
+247408,"Yu Zhang 0006",FALSE
+247409,"Ingo Steinwart",TRUE
+247413,"Andreas Wendemuth",TRUE
+247413,"Edin Andelic",FALSE
+247413,"Marcel Katz",FALSE
+247413,"Martin Schafföner",FALSE
+247413,"Sven E. Krüger",FALSE
+247416,"H. Brendan McMahan",TRUE
+247416,"Matthew J. Streeter",FALSE
+247420,"Mark D. Reid",TRUE
+247420,"Robert C. Williamson",FALSE
+247421,"Kevin Sharp",TRUE
+247421,"Magnus Rattray",FALSE
+247423,"Margareta Ackerman",TRUE
+247423,"Shai Ben-David",FALSE
+247426,"Christopher K. I. Williams",TRUE
+247426,"Jyri J. Kivinen",FALSE
+247431,"J. Zico Kolter",TRUE
+247431,"Tommi S. Jaakkola",FALSE
+247432,"Aleksandrs Slivkins",TRUE
+247432,"Sébastien Bubeck",FALSE
+247440,"Ameet Talwalkar",TRUE
+247440,"Corinna Cortes",FALSE
+247440,"Mehryar Mohri",FALSE
+247455,"Huan Liu 0001",TRUE
+247455,"Zheng Zhao 0002",FALSE
+247458,"Chao Zhang 0017",TRUE
+247458,"Dacheng Tao",FALSE
+247462,"Alexander Ihler",TRUE
+247462,"Qiang Liu 0001",FALSE
+247465,"Benjamin Packer",TRUE
+247465,"Danny Goodman",FALSE
+247465,"Daphne Koller",FALSE
+247465,"Kevin Miller",FALSE
+247465,"M. Pawan Kumar",FALSE
+247468,"Varun Kanade",TRUE
+247468,"Vitaly Feldman",FALSE
+247470,"Doina Precup",TRUE
+247470,"Fabian Kaelin",FALSE
+247471,"Eric P. Xing",TRUE
+247471,"Mladen Kolar",FALSE
+247474,"Yoshua Bengio",TRUE
+247485,"Christopher DuBois",TRUE
+247485,"Nicholas Navaroli",FALSE
+247485,"Padhraic Smyth",FALSE
+247486,"Satyen Kale",TRUE
+247490,"András Falus",TRUE
+247490,"András Millinghoffer",FALSE
+247490,"Csaba Szalai",FALSE
+247490,"Gábor Hullám",FALSE
+247490,"Peter Antal",FALSE
+247491,"Guido Nolte",TRUE
+247491,"Klaus-Robert Müller",FALSE
+247491,"Nicole Krämer 0002",FALSE
+247491,"Stefan Haufe",FALSE
+247493,"Masashi Sugiyama",TRUE
+247493,"Qiang Yang 0001",FALSE
+247494,"Hanna M. Wallach",TRUE
+247494,"Ryan Prescott Adams",FALSE
+247494,"Zoubin Ghahramani",FALSE
+247500,"Daniel Tarlow",TRUE
+247500,"Inmar E. Givoni",FALSE
+247500,"Richard S. Zemel",FALSE
+247503,"Philippe Rigollet",TRUE
+247503,"Xin Tong",FALSE
+247508,"Paul Kidwell",TRUE
+247508,"Ryan Hafen",FALSE
+247508,"Saptarshi Guha",FALSE
+247508,"William S. Cleveland",FALSE
+247510,"Adrien Couëtoux",TRUE
+247510,"Hassen Doghmen",FALSE
+247510,"Mario Milone",FALSE
+247510,"Michèle Sebag",FALSE
+247510,"Mátyás Brendel",FALSE
+247510,"Olivier Teytaud",FALSE
+247511,"Decheng Dai",TRUE
+247511,"Jing He",FALSE
+247516,"Olivier Chapelle",TRUE
+247516,"Peter V. Gehler",FALSE
+247517,"Ben Recht",TRUE
+247517,"Nikhil Rao 0001",FALSE
+247517,"Robert D. Nowak",FALSE
+247518,"Claudio Gentile",TRUE
+247518,"Fabio Vitale",FALSE
+247518,"Giovanni Zappella",FALSE
+247518,"Nicolò Cesa-Bianchi",FALSE
+247523,"Hao Yang 0033",TRUE
+247523,"Jianxin Wu 0001",FALSE
+247524,"Ayan Acharya",TRUE
+247524,"Eduardo R. Hruschka",FALSE
+247524,"Joydeep Ghosh",FALSE
+247524,"Sreangsu Acharyya",FALSE
+247534,"Rengül Çetin-Atalay",TRUE
+247534,"Volkan Atalay",FALSE
+247534,"Zerrin Isik",FALSE
+247542,"Deepak Agarwal",TRUE
+247543,"John C. Duchi",TRUE
+247547,"Vincent Conitzer",TRUE
+247549,"Chia-Hsuan Wang",TRUE
+247549,"Chih-Jen Lin",FALSE
+247549,"Cho-Jui Hsieh",FALSE
+247549,"Chun-Sung Ferng",FALSE
+247549,"Hsiang-Fu Yu",FALSE
+247549,"Hsuan-Tien Lin",FALSE
+247549,"Hung-Che Lai",FALSE
+247549,"Hung-Yi Lo",FALSE
+247549,"Kai-Wei Chang",FALSE
+247549,"Ken-Yi Lin",FALSE
+247549,"Shang-Tse Chen",FALSE
+247549,"Shou-De Lin",FALSE
+247549,"Tsung-Hsien Chiang",FALSE
+247549,"Tsung-Ting Kuo",FALSE
+247549,"Yi-Kuang Ko",FALSE
+247571,"Abhishek Jaiantilal",TRUE
+247571,"Gregory Z. Grudic",FALSE
+247580,"Christian Daniel",TRUE
+247580,"Gerhard Neumann",FALSE
+247580,"Jan Peters 0001",FALSE
+247584,"Cameron E. Freer",TRUE
+247584,"Daniel M. Roy 0001",FALSE
+247590,"Ji Won Yoon",TRUE
+247590,"K. Hun Mok",FALSE
+247590,"Simon P. Wilson 0001",FALSE
+247593,"Andrea Vattani",TRUE
+247593,"Matus Telgarsky",FALSE
+247595,"Daniel Stöckel",TRUE
+247595,"Francesca Incardona",FALSE
+247595,"Jasmina Bogojeska",FALSE
+247595,"Maurizio Zazzi",FALSE
+247595,"Michal Rosen-Zvi",FALSE
+247595,"Rolf Kaiser",FALSE
+247595,"Thomas Lengauer",FALSE
+247596,"Jörg Lücke",TRUE
+247596,"Marc Henniges",FALSE
+247598,"Fabian Moerchen",TRUE
+247598,"Kai Zhang 0001",FALSE
+247598,"Liang Lan",FALSE
+247598,"Zhuang Wang",FALSE
+247599,"Jimmy Olsson",TRUE
+247599,"Jonas Ströjby",FALSE
+247605,"Barnabás Póczos",TRUE
+247605,"Jeff G. Schneider",FALSE
+247614,"Hirokazu Kameyama",TRUE
+247614,"Jun'ichi Takeuchi",FALSE
+247614,"Masanori Kawakita",FALSE
+247614,"Ryota Izumi",FALSE
+247614,"Tetsuya Takamori",FALSE
+247614,"Yi Hu",FALSE
+247622,"Dong Wang",TRUE
+247622,"Hang Li",FALSE
+247622,"Huxiang Gu",FALSE
+247622,"Jun Zhao 0001",FALSE
+247622,"Kang Liu 0001",FALSE
+247622,"Liang Xiang",FALSE
+247622,"Liheng Xu",FALSE
+247622,"Rui Diao",FALSE
+247622,"Shiming Xiang",FALSE
+247622,"Siwei Lai",FALSE
+247622,"Yang Liu 0021",FALSE
+247623,"Jin Yu",TRUE
+247623,"Nicol N. Schraudolph",FALSE
+247623,"Simon Günter",FALSE
+247624,"Dean P. Foster",TRUE
+247624,"John Blitzer",FALSE
+247624,"Sham M. Kakade",FALSE
+247628,"Jiawei Han 0001",TRUE
+247628,"Ming Ji",FALSE
+247636,"Nathan Srebro",TRUE
+247636,"Shie Mannor",FALSE
+247658,"Ben Taskar",TRUE
+247658,"Daniel D. Lee",FALSE
+247658,"Shenghuo Zhu",FALSE
+247658,"Yuanqing Lin",FALSE
+247659,"David B. Dunson",TRUE
+247659,"Lauren Hannah",FALSE
+247659,"Lawrence Carin",FALSE
+247659,"Mingyuan Zhou",FALSE
+247669,"Nic Schraudolph",TRUE
+247672,"Albert Bifet",TRUE
+247672,"Bernhard Pfahringer",FALSE
+247672,"Geoff Holmes 0001",FALSE
+247672,"Hardy Kremer",FALSE
+247672,"Philipp Kranen",FALSE
+247672,"Thomas Seidl 0001",FALSE
+247672,"Timm Jansen",FALSE
+247679,"Chris Lovell",TRUE
+247679,"Gareth L. Jones 0001",FALSE
+247679,"Klaus-Peter Zauner",FALSE
+247679,"Steve R. Gunn",FALSE
+247680,"Elias Bareinboim",TRUE
+247680,"Judea Pearl",FALSE
+247685,"Hans Ulrich Simon",TRUE
+247685,"Michael Kallweit",FALSE
+247698,"Bert Huang",TRUE
+247698,"Tony Jebara",FALSE
+247714,"Donglin Niu",TRUE
+247714,"Jennifer G. Dy",FALSE
+247714,"Zoubin Ghahramani",FALSE
+247715,"Vitaly Feldman",TRUE
+247719,"Julian J. McAuley",TRUE
+247719,"Tibério S. Caetano",FALSE
+247727,"Gregory Druck",TRUE
+247727,"Mukund Narasimhan",FALSE
+247727,"Paul A. Viola",FALSE
+247730,"Anthony D. Joseph",TRUE
+247730,"Anthony Tran",FALSE
+247730,"Benjamin I. P. Rubinstein",FALSE
+247730,"Blaine Nelson",FALSE
+247730,"J. Doug Tygar",FALSE
+247730,"Ling Huang",FALSE
+247730,"Satish Rao",FALSE
+247730,"Shing-hon Lau",FALSE
+247730,"Steven J. Lee",FALSE
+247743,"Gang Niu 0001",TRUE
+247743,"Jun Takagi",FALSE
+247743,"Makoto Yamada",FALSE
+247743,"Masashi Sugiyama",FALSE
+247747,"John Shawe-Taylor",TRUE
+247747,"Zakria Hussain",FALSE
+247748,"Arvind Agarwal",TRUE
+247748,"Hal Daumé III",FALSE
+247749,"Janneke van de Loo",TRUE
+247749,"Menno van Zaanen",FALSE
+247750,"Dumitru Erhan",TRUE
+247750,"Pascal Vincent",FALSE
+247750,"Pierre-Antoine Manzagol",FALSE
+247750,"Samy Bengio",FALSE
+247750,"Yoshua Bengio",FALSE
+247756,"Masashi Sugiyama",TRUE
+247756,"S. Derin Babacan",FALSE
+247756,"Shinichi Nakajima",FALSE
+247763,"Blaise Hanczar",TRUE
+247763,"Jean-Daniel Zucker",FALSE
+247763,"Malik Sajjad Ahmed Nadeem",FALSE
+247772,"Haidong Shi",TRUE
+247772,"Liang Lan",FALSE
+247772,"Slobodan Vucetic",FALSE
+247772,"Zhuang Wang",FALSE
+247775,"Blaz Zupan",TRUE
+247775,"Gregor Leban",FALSE
+247775,"Janez Demsar",FALSE
+247775,"Marko Toplak",FALSE
+247775,"Minca Mramor",FALSE
+247775,"Tomaz Curk",FALSE
+247778,"Jiji Zhang",TRUE
+247778,"Ricardo Bezerra de Andrade e Silva",FALSE
+247779,"Jaime G. Carbonell",TRUE
+247779,"Liu Yang 0001",FALSE
+247779,"Steve Hanneke",FALSE
+247783,"Andrzej Pastusiak",TRUE
+247783,"Christopher J. C. Burges",FALSE
+247783,"Krysta M. Svore",FALSE
+247783,"Paul N. Bennett",FALSE
+247783,"Qiang Wu",FALSE
+247785,"David Barber",TRUE
+247785,"Edward Challis",FALSE
+247787,"Bernhard Schölkopf",TRUE
+247787,"Dominik Janzing",FALSE
+247787,"Jonas Peters",FALSE
+247793,"Louis Wehenkel",TRUE
+247793,"Pierre Geurts",FALSE
+247793,"Vân Anh Huynh-Thu",FALSE
+247796,"Vladimir Nikulin",TRUE
+247802,"Kevin P. Murphy",TRUE
+247802,"Mark Schmidt 0001",FALSE
+247805,"Mark A. Girolami",TRUE
+247805,"Mingjun Zhong",FALSE
+247809,"Henri Maître",TRUE
+247809,"Ivan O. Kyrgyzov",FALSE
+247809,"Marine Campedel",FALSE
+247816,"Battista Biggio",TRUE
+247816,"Blaine Nelson",FALSE
+247816,"Pavel Laskov",FALSE
+247819,"Jochen Trumpf",TRUE
+247819,"Nicol N. Schraudolph",FALSE
+247819,"Peter Sunehag",FALSE
+247819,"S. V. N. Vishwanathan",FALSE
+247829,"Marius Kloft",TRUE
+247829,"Pavel Laskov",FALSE
+247831,"Chao Zhang 0017",TRUE
+247831,"Dacheng Tao",FALSE
+247832,"Alina Beygelzimer",TRUE
+247832,"John Langford 0001",FALSE
+247832,"Lev Reyzin",FALSE
+247832,"Lihong Li 0001",FALSE
+247832,"Robert E. Schapire",FALSE
+247836,"Dacheng Tao",TRUE
+247836,"Tianyi Zhou 0001",FALSE
+247837,"Dale Schuurmans",TRUE
+247837,"Min Yang",FALSE
+247837,"Yuxi Li",FALSE
+247846,"Daniel L. Silver",TRUE
+247846,"Gideon Dror",FALSE
+247846,"Graham W. Taylor",FALSE
+247846,"Isabelle Guyon",FALSE
+247846,"Vincent Lemaire 0001",FALSE
+247856,"Jason Eisner",TRUE
+247857,"François Laviolette",TRUE
+247857,"John Shawe-Taylor",FALSE
+247857,"Nicolò Cesa-Bianchi",FALSE
+247857,"Peter Auer",FALSE
+247857,"Yevgeny Seldin",FALSE
+247864,"Peter A. Flach",TRUE
+247864,"Tarek Abudawood",FALSE
+247865,"Halbert White",TRUE
+247865,"Karim Chalak",FALSE
+247865,"Xun Lu",FALSE
+247866,"Frederick Eberhardt",TRUE
+247875,"David H. Stern",TRUE
+247875,"Philipp Hennig",FALSE
+247875,"Ralf Herbrich",FALSE
+247875,"Thore Graepel",FALSE
+247876,"Sotirios P. Chatzis",TRUE
+247878,"Homin K. Lee",TRUE
+247878,"Rocco A. Servedio",FALSE
+247878,"Vitaly Feldman",FALSE
+247881,"Fides Aarts",TRUE
+247881,"Frits W. Vaandrager",FALSE
+247881,"Harco Kuppens",FALSE
+247881,"Jan Tretmans",FALSE
+247881,"Sicco Verwer",FALSE
+247889,"Olivier Collier",TRUE
+247904,"Carl Henrik Ek",TRUE
+247904,"Mathieu Salzmann",FALSE
+247904,"Raquel Urtasun",FALSE
+247904,"Trevor Darrell",FALSE
+247906,"Juho Rousu",TRUE
+247906,"Pierre Geurts",FALSE
+247906,"Saso Dzeroski",FALSE
+247908,"Artin Armagan",TRUE
+247909,"Hyun-Chul Kim",TRUE
+247909,"Zoubin Ghahramani",FALSE
+247912,"François Coste",TRUE
+247912,"Gaëlle Garet",FALSE
+247912,"Jacques Nicolas",FALSE
+247918,"Christophe Costa Florêncio",TRUE
+247924,"Hal Daumé III",TRUE
+247924,"Piyush Rai",FALSE
+247926,"Ameet Talwalkar",TRUE
+247926,"Mehryar Mohri",FALSE
+247926,"Sanjiv Kumar",FALSE
+247941,"Arun C. Surendran",TRUE
+247941,"Brian Kulis",FALSE
+247941,"John C. Platt",FALSE
+247952,"Koji Tsuda",TRUE
+247952,"Masashi Sugiyama",FALSE
+247952,"Takeaki Uno",FALSE
+247952,"Yasuo Tabei",FALSE
+247953,"Andrew McGregor 0001",TRUE
+247953,"Sudipto Guha",FALSE
+247954,"Geoffrey E. Hinton",TRUE
+247954,"Ilya Sutskever",FALSE
+247956,"Hyekyoung Lee",TRUE
+247956,"Seungjin Choi",FALSE
+247959,"Shahriar Shariat",TRUE
+247959,"Vladimir Pavlovic 0001",FALSE
+247967,"Jing Lei 0003",TRUE
+247967,"Vincent Q. Vu",FALSE
+247969,"Jaakko Hollmén",TRUE
+247969,"Prem Raj Adhikari",FALSE
+247970,"David A. Ross",TRUE
+247970,"Manfred Georg",FALSE
+247970,"Omid Madani",FALSE
+247972,"Eftychios A. Pnevmatikakis",TRUE
+247972,"Liam Paninski",FALSE
+247975,"Andrew B. Goldberg",TRUE
+247975,"Stephen J. Wright 0001",FALSE
+247975,"Xiaojin Zhu 0001",FALSE
+247976,"Ronan Collobert",TRUE
+247977,"Elad Hazan",TRUE
+247977,"Jacob D. Abernethy",FALSE
+247977,"Peter L. Bartlett",FALSE
+247979,"Blake Shaw",TRUE
+247979,"Tony Jebara",FALSE
+247981,"Ewout van den Berg",TRUE
+247981,"Kevin P. Murphy",FALSE
+247981,"Mark Schmidt 0001",FALSE
+247981,"Michael P. Friedlander",FALSE
+247983,"Carl Edward Rasmussen",TRUE
+247983,"John P. Cunningham",FALSE
+247983,"Zoubin Ghahramani",FALSE
+247984,"Jieping Ye",TRUE
+247984,"Tao Xiong",FALSE
+247986,"Hannes P. Saal",TRUE
+247986,"Jo-Anne Ting",FALSE
+247986,"Sethu Vijayakumar",FALSE
+247992,"Genevera I. Allen",TRUE
+247993,"Andreas Krause 0001",TRUE
+247993,"Peter Stobbe",FALSE
+247997,"Hiroshi Motoda",TRUE
+247997,"Huan Liu 0001",FALSE
+247997,"Rudy Setiono",FALSE
+247997,"Zheng Zhao 0002",FALSE
+247998,"Chun-Liang Li",TRUE
+247998,"Chun-Sung Ferng",FALSE
+247998,"Hsuan-Tien Lin",FALSE
+248000,"Aleksey Polovinkin",TRUE
+248000,"Victor Eruhimov",FALSE
+248000,"Vladimir Martyanov",FALSE
+248004,"Koby Crammer",TRUE
+248004,"Shie Mannor",FALSE
+248004,"Yoav Haimovitch",FALSE
+248018,"Galen Andrew",TRUE
+248018,"Jeff A. Bilmes",FALSE
+248025,"Catherine Oriat",TRUE
+248025,"Muhammad-Naeem Irfan",FALSE
+248025,"Roland Groz",FALSE
+248028,"Subramani Mani",TRUE
+248028,"Yukun Chen",FALSE
+248029,"Raphaël Bailly",TRUE
+248035,"Peter D. Grünwald",TRUE
+248035,"Wojciech Kotlowski",FALSE
+248047,"Bryan R. Conroy",TRUE
+248047,"Paul Sajda",FALSE
+248048,"Alexander Tsiatas",TRUE
+248048,"Fan Chung Graham",FALSE
+248048,"Kamalika Chaudhuri",FALSE
+248049,"Michèle Sebag",TRUE
+248049,"Weijia Wang 0001",FALSE
+248050,"Petri Kontkanen",TRUE
+248050,"Petri Myllymäki",FALSE
+248051,"Alekh Agarwal",TRUE
+248051,"Clément Levrard",FALSE
+248051,"John C. Duchi",FALSE
+248051,"Peter L. Bartlett",FALSE
+248056,"David M. Blei",TRUE
+248056,"Lauren Hannah",FALSE
+248056,"Warren B. Powell",FALSE
+248065,"Marina Meila",TRUE
+248065,"Xiaotong Shen",FALSE
+248068,"Claudio Gentile",TRUE
+248068,"Francesco Orabona",FALSE
+248068,"Nicolò Cesa-Bianchi",FALSE
+248069,"Naftali Tishby",TRUE
+248069,"Yevgeny Seldin",FALSE
+248070,"Alfons Juan",TRUE
+248070,"Antonio L. Lagarda",FALSE
+248070,"Francisco Casacuberta",FALSE
+248070,"Jorge Civera",FALSE
+248075,"Andriy Mnih",TRUE
+248084,"Ameet Talwalkar",TRUE
+248084,"Mehryar Mohri",FALSE
+248085,"Guy Lebanon",TRUE
+248085,"Joshua V. Dillon",FALSE
+248093,"Bharath K. Sriperumbudur",TRUE
+248093,"Ingo Steinwart",FALSE
+248097,"Chong Wang 0002",TRUE
+248097,"David M. Blei",FALSE
+248097,"John W. Paisley",FALSE
+248099,"Dean P. Foster",TRUE
+248099,"Ruslan Salakhutdinov",FALSE
+248099,"Sham M. Kakade",FALSE
+248116,"Frederik Eaton",TRUE
+248117,"David Luengo",TRUE
+248117,"Mauricio A. Álvarez",FALSE
+248117,"Neil D. Lawrence",FALSE
+248121,"Nicolas Le Roux",TRUE
+248121,"Yoshua Bengio",FALSE
+248123,"Davide Ariu",TRUE
+248123,"Giorgio Giacinto",FALSE
+248124,"Shuicheng Yan",TRUE
+248124,"Xiaotong Yuan",FALSE
+248147,"David A. Van Dyk",TRUE
+248147,"Max Welling",FALSE
+248153,"Adam Coates 0002",TRUE
+248153,"Andrew Y. Ng",FALSE
+248153,"Honglak Lee",FALSE
+248156,"Hanna M. Wallach",TRUE
+248156,"Katherine A. Heller",FALSE
+248156,"Lee H. Dicker",FALSE
+248156,"Shane T. Jensen",FALSE
+248160,"Peter J. Ramadge",TRUE
+248160,"Robert E. Schapire",FALSE
+248160,"Yongxin Taylor Xi",FALSE
+248160,"Zhen James Xiang",FALSE
+248162,"Bertrand Haas",TRUE
+248162,"Edoardo M. Airoldi",FALSE
+248165,"Constantine Caramanis",TRUE
+248165,"Huan Xu 0001",FALSE
+248165,"Shie Mannor",FALSE
+248175,"Anicet R. Blanch",TRUE
+248175,"David Sánchez-Mendoza",FALSE
+248175,"Lluís A. Belanche Muñoz",FALSE
+248180,"Antonino Freno",TRUE
+248186,"Alejandro H. Toselli",TRUE
+248186,"Alfons Juan",FALSE
+248186,"Enrique Vidal 0001",FALSE
+248186,"Joan-Andreu Sánchez",FALSE
+248186,"Nicolás Serrano",FALSE
+248186,"Verónica Romero 0001",FALSE
+248194,"Han Liu",TRUE
+248194,"Jian Zhang 0003",FALSE
+248194,"Jun Liu 0003",FALSE
+248194,"Xiaoye Jiang",FALSE
+248195,"Jesús S. Aguilar-Ruiz",TRUE
+248195,"José C. Riquelme",FALSE
+248195,"Roberto Ruiz",FALSE
+248202,"Frederik Eaton",TRUE
+248202,"Zoubin Ghahramani",FALSE
+248208,"Dian Gong",TRUE
+248208,"Fei Sha",FALSE
+248208,"Gérard G. Medioni",FALSE
+248209,"Brendan J. Frey",TRUE
+248209,"Nevena Lazic",FALSE
+248209,"Parham Aarabi",FALSE
+248210,"Cristian Sminchisescu",TRUE
+248210,"Max Welling",FALSE
+248211,"Aarti Singh",TRUE
+248211,"Alessandro Rinaldo",FALSE
+248211,"Don Sheehy",FALSE
+248211,"Larry A. Wasserman",FALSE
+248211,"Sivaraman Balakrishnan",FALSE
+248215,"Animashree Anandkumar",TRUE
+248215,"Daniel J. Hsu",FALSE
+248215,"Sham M. Kakade",FALSE
+248217,"David H. Stern",TRUE
+248217,"Philipp Hennig",FALSE
+248217,"Thore Graepel",FALSE
+248225,"Elham Salehi",TRUE
+248225,"Jayashree Nyayachavadi",FALSE
+248225,"Robin Gras",FALSE
+248228,"Tian-Hsiang Huang",TRUE
+248228,"Vladimir Nikulin",FALSE
+248229,"Bernhard Steffen",TRUE
+248229,"Falk Howar",FALSE
+248229,"Malte Isberner",FALSE
+248238,"Aaron Wilson",TRUE
+248238,"Alan Fern",FALSE
+248238,"Prasad Tadepalli",FALSE
+248240,"Guang Dai",TRUE
+248240,"Michael I. Jordan",FALSE
+248240,"Zhihua Zhang",FALSE
+248242,"Daniel A. Spielman",TRUE
+248242,"Huan Wang",FALSE
+248242,"John Wright 0001",FALSE
+248250,"Arthur Gretton",TRUE
+248250,"Hao Shen",FALSE
+248250,"Stefanie Jegelka",FALSE
+248251,"Alexandru Niculescu-Mizil",TRUE
+248251,"Rich Caruana",FALSE
+248253,"Arnaud Bergeron",TRUE
+248253,"Dumitru Erhan",FALSE
+248253,"François Savard",FALSE
+248253,"Frédéric Bastien",FALSE
+248253,"Guillaume Sicard",FALSE
+248253,"Jeremy Eustache",FALSE
+248253,"Moustapha Cissé",FALSE
+248253,"Myriam Côté",FALSE
+248253,"Nicolas Boulanger-Lewandowski",FALSE
+248253,"Razvan Pascanu",FALSE
+248253,"Salah Rifai",FALSE
+248253,"Sylvain Pannetier Lebeuf",FALSE
+248253,"Thomas M. Breuel",FALSE
+248253,"Xavier Glorot",FALSE
+248253,"Xavier Muller",FALSE
+248253,"Yoshua Bengio",FALSE
+248253,"Youssouf Chherawala",FALSE
+248266,"Chih-Jen Lin",TRUE
+248266,"Yin-Wen Chang",FALSE
+248286,"Mikhail Belkin",TRUE
+248286,"Qichao Que",FALSE
+248286,"Xueyuan Zhou",FALSE
+248286,"Yusu Wang",FALSE
+248287,"Justin Domke",TRUE
+248291,"Denver Dash",TRUE
+248291,"Marek J. Druzdzel",FALSE
+248291,"Mark Voortman",FALSE
+248300,"Aleksandrs Slivkins",TRUE
+248306,"Jeff G. Schneider",TRUE
+248306,"Le Song",FALSE
+248306,"Tzu-Kuo Huang",FALSE
+248308,"Mehreen Saeed",TRUE
+248322,"Bastian Wemmenhove",TRUE
+248322,"Bert Kappen",FALSE
+248322,"Joris M. Mooij",FALSE
+248322,"Tommaso Rizzo",FALSE
+248325,"Albert Bifet",TRUE
+248325,"Bernhard Pfahringer",FALSE
+248325,"Geoffrey Holmes 0001",FALSE
+248325,"Ricard Gavaldà",FALSE
+248331,"Bin Li 0027",TRUE
+248331,"Peilin Zhao",FALSE
+248331,"Steven C. H. Hoi",FALSE
+248331,"Vivekanand Gopalkrishnan",FALSE
+248334,"Carsten Ullrich",TRUE
+248334,"Changyong Niu",FALSE
+248334,"Heng Luo",FALSE
+248334,"Ruimin Shen",FALSE
+248335,"Ata Kabán",TRUE
+248335,"Robert J. Durrant",FALSE
+248336,"Eiji Takimoto",TRUE
+248336,"Kohei Hatano",FALSE
+248336,"Masayuki Takeda",FALSE
+248336,"Shota Yasutake",FALSE
+248339,"Rina Foygel",TRUE
+248345,"Katherine A. Heller",TRUE
+248345,"Ricardo Bezerra de Andrade e Silva",FALSE
+248345,"Zoubin Ghahramani",FALSE
+248352,"Naresh Manwani",TRUE
+248352,"P. S. Sastry",FALSE
+248364,"David Kempe 0001",TRUE
+248364,"Mohammad R. Salavatipour",FALSE
+248364,"Omid Madani",FALSE
+248364,"Wiley Greiner",FALSE
+248384,"Azadeh Khaleghi",TRUE
+248384,"Daniil Ryabko",FALSE
+248384,"Jérémie Mary",FALSE
+248384,"Philippe Preux",FALSE
+248385,"Aurélien Garivier",TRUE
+248385,"Olivier Cappé",FALSE
+248391,"Gui-Bo Ye",TRUE
+248391,"Xiaohui Xie",FALSE
+248391,"Yifei Chen",FALSE
+248395,"Ian M. Molloy",TRUE
+248395,"Nan Ding 0002",FALSE
+248395,"Ninghui Li",FALSE
+248395,"Rongjing Xiang",FALSE
+248395,"Yuan (Alan) Qi",FALSE
+248398,"Ankur P. Parikh",TRUE
+248398,"Eric P. Xing",FALSE
+248398,"Le Song",FALSE
+248398,"Qirong Ho",FALSE
+248403,"Frank D. Wood",TRUE
+248403,"Yee Whye Teh",FALSE
+248406,"Chunxia Wang",TRUE
+248406,"Juanying Xie",FALSE
+248406,"Weixin Xie",FALSE
+248406,"Xinbo Gao 0001",FALSE
+248408,"Ambuj Tewari",TRUE
+248408,"Eunho Yang",FALSE
+248408,"Pradeep Ravikumar",FALSE
+248409,"Aapo Hyvärinen",TRUE
+248409,"Michael Gutmann",FALSE
+248415,"Irina Borisova",TRUE
+248415,"Nikolay G. Zagoruiko",FALSE
+248415,"Olga Kutnenko",FALSE
+248415,"Vladimir Dyubanov",FALSE
+248416,"Grace Wahba",TRUE
+248416,"Héctor Corrada Bravo",FALSE
+248416,"Kevin H. Eng",FALSE
+248416,"Stephen J. Wright 0001",FALSE
+248416,"Sündüz Keles",FALSE
+248419,"Dinh Q. Phung",TRUE
+248419,"Svetha Venkatesh",FALSE
+248419,"Truyen Tran 0001",FALSE
+248420,"Guy Lebanon",TRUE
+248420,"Mingxuan Sun",FALSE
+248420,"Paul Kidwell",FALSE
+248423,"Arne Mauser",TRUE
+248423,"Christian Buck",FALSE
+248423,"Christian Oberdörfer",FALSE
+248423,"Jens Forster",FALSE
+248423,"Johannes Laudenberg",FALSE
+248423,"Michael Kramp",FALSE
+248423,"Niklas Hoppe",FALSE
+248423,"Pascal Steingrube",FALSE
+248423,"Patrick Doetsch",FALSE
+248423,"Pavlo Golik",FALSE
+248426,"Hiroshi Sawada",TRUE
+248426,"Katsuhiko Ishiguro",FALSE
+248426,"Naonori Ueda",FALSE
+248434,"Scott Sanner",TRUE
+248434,"Shengbo Guo",FALSE
+248439,"Jeff A. Bilmes",TRUE
+248439,"Xiao Li 0006",FALSE
+248441,"Florin Popescu",TRUE
+248442,"David R. Kaeli",TRUE
+248442,"Fatemeh Azmandian",FALSE
+248442,"Javed A. Aslam",FALSE
+248442,"Jennifer G. Dy",FALSE
+248448,"Xavier Glorot",TRUE
+248448,"Yoshua Bengio",FALSE
+248451,"Nicolas Vayatis",TRUE
+248451,"Stéphan Clémençon",FALSE
+248454,"Steve R. Gunn",TRUE
+248454,"Sándor Szedmák",FALSE
+248454,"Yizhao Ni",FALSE
+248455,"Pierre Baldi",TRUE
+248462,"Hiroshi Motoda",TRUE
+248462,"Huan Liu 0001",FALSE
+248462,"Rudy Setiono",FALSE
+248462,"Zheng Zhao 0002",FALSE
+248467,"Alexander Grubb",TRUE
+248467,"Drew Bagnell",FALSE
+248474,"Jialei Wang",TRUE
+248474,"Jinfeng Zhuang",FALSE
+248474,"Steven C. H. Hoi",FALSE
+248476,"Mikhail Belkin",TRUE
+248476,"Xueyuan Zhou",FALSE
+248477,"Gerald Tesauro",TRUE
+248477,"Kilian Q. Weinberger",FALSE
+248484,"Christian Widmer",TRUE
+248484,"Gunnar Rätsch",FALSE
+248489,"David M. Blei",TRUE
+248489,"John W. Paisley",FALSE
+248489,"Michael I. Jordan",FALSE
+248491,"Andreas Töscher",TRUE
+248491,"Michael Jahrer",FALSE
+248500,"Pierre Geurts",TRUE
+248510,"José L. Balcázar",TRUE
+248513,"Bhushan Mandhani",TRUE
+248513,"Marina Meila",FALSE
+248514,"Lev Reyzin",TRUE
+248514,"Lihong Li 0001",FALSE
+248514,"Robert E. Schapire",FALSE
+248514,"Wei Chu",FALSE
+248518,"Dmitry Pechyony",TRUE
+248518,"Roni Khardon",FALSE
+248518,"Rosie Jones",FALSE
+248518,"Yuyang Wang",FALSE
+248520,"Eric Riedl",TRUE
+248520,"Hang Zhang",FALSE
+248520,"Jacob Spoelstra",FALSE
+248520,"Siddharth Pal",FALSE
+248520,"Valery A. Petrushin",FALSE
+248522,"Arto Klami",TRUE
+248530,"Elad Mezuman",TRUE
+248530,"Yair Weiss",FALSE
+248532,"Cynthia Rudin",TRUE
+248532,"Indraneel Mukherjee",FALSE
+248532,"Robert E. Schapire",FALSE
+248534,"Debasis Sengupta",TRUE
+248534,"Ping Li 0001",FALSE
+248534,"Radhendushka Srivastava",FALSE
+248535,"Alexander J. Smola",TRUE
+248535,"Alexander L. Strehl",FALSE
+248535,"Gideon Dror",FALSE
+248535,"James Petterson",FALSE
+248535,"John Langford 0001",FALSE
+248535,"Qinfeng Shi",FALSE
+248535,"Vishy Vishwanathan",FALSE
+248536,"Christopher K. I. Williams",TRUE
+248536,"Edwin V. Bonilla",FALSE
+248536,"Felix V. Agakov",FALSE
+248540,"Brent Bryan",TRUE
+248540,"H. Brendan McMahan",FALSE
+248540,"Varun Kanade",FALSE
+248544,"Daniel J. Hsu",TRUE
+248544,"Kamalika Chaudhuri",FALSE
+248545,"Jaime G. Carbonell",TRUE
+248545,"Liu Yang 0001",FALSE
+248545,"Steve Hanneke",FALSE
+248547,"Alex Kulesza",TRUE
+248547,"Fernando Pereira 0003",FALSE
+248547,"Justin Ma",FALSE
+248547,"Koby Crammer",FALSE
+248547,"Lawrence K. Saul",FALSE
+248547,"Mark Dredze",FALSE
+248549,"Jan Lemeire",TRUE
+248549,"Kris Steenhaut",FALSE
+248551,"Charles Blundell",TRUE
+248551,"Ricardo Bezerra de Andrade e Silva",FALSE
+248551,"Yee Whye Teh",FALSE
+248555,"Anind K. Dey",TRUE
+248555,"Brian D. Ziebart",FALSE
+248555,"J. Andrew Bagnell",FALSE
+248555,"Kevin M. Peterson",FALSE
+248555,"Martial Hebert",FALSE
+248555,"Nathan D. Ratliff",FALSE
+248555,"Siddhartha S. Srinivasa",FALSE
+248561,"Minyoung Kim",TRUE
+248561,"Vladimir Pavlovic 0001",FALSE
+248576,"Gilles Stoltz",TRUE
+248576,"Odalric-Ambrym Maillard",FALSE
+248576,"Rémi Munos",FALSE
+248577,"Albert Bifet",TRUE
+248577,"Bernhard Pfahringer",FALSE
+248577,"Geoff Holmes 0001",FALSE
+248577,"Jesse Read",FALSE
+248579,"Bo Thiesson",TRUE
+248579,"Chong Wang 0002",FALSE
+248579,"Christopher Meek",FALSE
+248579,"David M. Blei",FALSE
+248581,"H. Brendan McMahan",TRUE
+248583,"Jarkko Venna",TRUE
+248583,"Samuel Kaski",FALSE
+248587,"Alekh Agarwal",TRUE
+248587,"Max Dama",FALSE
+248587,"Peter L. Bartlett",FALSE
+248591,"Alexandru Niculescu-Mizil",TRUE
+248591,"Rich Caruana",FALSE
+248595,"Dinh Q. Phung",TRUE
+248595,"Svetha Venkatesh",FALSE
+248595,"Truyen Tran 0001",FALSE
+248600,"Aarti Singh",TRUE
+248600,"Andrew B. Goldberg",FALSE
+248600,"Robert D. Nowak",FALSE
+248600,"Xiaojin Zhu 0001",FALSE
+248600,"Zhiting Xu 0001",FALSE
+248601,"Ananth Mohan",TRUE
+248601,"Kilian Q. Weinberger",FALSE
+248601,"Zheng Chen",FALSE
+248606,"Alessio Moneta",TRUE
+248606,"Doris Entner",FALSE
+248606,"Nadine Chlass",FALSE
+248606,"Patrik O. Hoyer",FALSE
+248607,"Shaunak Chatterjee",TRUE
+248607,"Stuart Russell 0001",FALSE
+248610,"Peter Spirtes",TRUE
+248610,"Robert E. Tillman",FALSE
+248613,"Alexander Ropson",TRUE
+248613,"Jason Eisner",FALSE
+248613,"Veselin Stoyanov",FALSE
+248615,"Arthur U. Asuncion",TRUE
+248615,"Carter T. Butts",FALSE
+248615,"Christopher DuBois",FALSE
+248615,"James R. Foulds",FALSE
+248615,"Padhraic Smyth",FALSE
+248621,"Hui Zou",TRUE
+248624,"Maxim Raginsky",TRUE
+248624,"Svetlana Lazebnik",FALSE
+248628,"George Zouridakis",TRUE
+248628,"Ning Situ",FALSE
+248628,"Xiaojing Yuan",FALSE
+248642,"Alexander Borisov",TRUE
+248642,"Eugene Tuv",FALSE
+248642,"George C. Runger",FALSE
+248650,"Cédric Archambeau",TRUE
+248650,"Dan Cornford",FALSE
+248650,"John Shawe-Taylor",FALSE
+248650,"Manfred Opper",FALSE
+248666,"Evangelos A. Theodorou",TRUE
+248666,"Franziska Meier",FALSE
+248666,"Stefan Schaal",FALSE
+248673,"Hiroshi Motoda",TRUE
+248673,"Kazumi Saito",FALSE
+248673,"Kouzou Ohara",FALSE
+248673,"Masahiro Kimura",FALSE
+248673,"Yuki Yamagishi",FALSE
+248674,"Haakon Michael Austad",TRUE
+248674,"Nial Friel",FALSE
+248677,"Aki Vehtari",TRUE
+248677,"Jaakko Riihimäki",FALSE
+248681,"Rong Jin 0001",TRUE
+248681,"Steven C. H. Hoi",FALSE
+248681,"Yang Zhou 0033",FALSE
+248700,"John Aldo Lee",TRUE
+248700,"Michel Verleysen",FALSE
+248703,"Cesar Koirala",TRUE
+248703,"Herbert G. Tanner",FALSE
+248703,"Jane Chandlee",FALSE
+248703,"Jeffrey Heinz",FALSE
+248703,"Jie Fu",FALSE
+248703,"Konstantinos Karydis",FALSE
+248704,"Chuanren Liu",TRUE
+248704,"Hui Xiong 0001",FALSE
+248704,"Jianjun Xie",FALSE
+248704,"Yong Ge",FALSE
+248705,"Sofie Van Landeghem",TRUE
+248705,"Yvan Saeys",FALSE
+248705,"Yves Van de Peer",FALSE
+248709,"Anna Choromanska",TRUE
+248709,"Claire Monteleoni",FALSE
+248713,"Wojciech Wieczorek",TRUE
+248721,"Carlos M. Carvalho",TRUE
+248721,"James G. Scott",FALSE
+248721,"Nicholas G. Polson",FALSE
+248722,"Hong Qiao",TRUE
+248722,"Zhiyong Liu 0001",FALSE
+248730,"Christos Dimitrakakis",TRUE
+248732,"Clayton Scott",TRUE
+248732,"Gowtham Bellala",FALSE
+248732,"Suresh K. Bhavnani",FALSE
+248741,"Christopher Leckie",TRUE
+248741,"James Bailey 0001",FALSE
+248741,"Kotagiri Ramamohanarao",FALSE
+248741,"Sergey Demyanov",FALSE
+248748,"Cléo Zanella Billa",TRUE
+248748,"Fábio N. Kepler",FALSE
+248748,"Sérgio L. S. Mergen",FALSE
+248749,"John W. Fisher III",TRUE
+248749,"Michael Siracusa",FALSE
+248751,"Kazuyuki Aihara",TRUE
+248751,"Sainbayar Sukhbaatar",FALSE
+248751,"Takaki Makino",FALSE
+248751,"Takashi Chikayama",FALSE
+248754,"Aaron C. Courville",TRUE
+248754,"David Warde-Farley",FALSE
+248754,"Erick Lavoie",FALSE
+248754,"Grégoire Mesnil",FALSE
+248754,"Guillaume Desjardins",FALSE
+248754,"Ian J. Goodfellow",FALSE
+248754,"James Bergstra",FALSE
+248754,"Pascal Vincent",FALSE
+248754,"Salah Rifai",FALSE
+248754,"Xavier Glorot",FALSE
+248754,"Xavier Muller",FALSE
+248754,"Yann N. Dauphin",FALSE
+248754,"Yoshua Bengio",FALSE
+248757,"Geoffrey E. Hinton",TRUE
+248757,"Ruslan Salakhutdinov",FALSE
+248760,"Pannagadatta K. Shivaswamy",TRUE
+248760,"Tony Jebara",FALSE
+248761,"Hugo Larochelle",TRUE
+248761,"Ruslan Salakhutdinov",FALSE
+248763,"André Filipe Torres Martins",TRUE
+248763,"Eric P. Xing",FALSE
+248763,"Mário A. T. Figueiredo",FALSE
+248763,"Noah A. Smith",FALSE
+248763,"Pedro M. Q. Aguiar",FALSE
+248765,"Katherine A. Heller",TRUE
+248765,"Yang Xu 0023",FALSE
+248765,"Zoubin Ghahramani",FALSE
+248768,"Adam R. Klivans",TRUE
+248768,"Parikshit Gopalan",FALSE
+248768,"Raghu Meka",FALSE
+248773,"Alexander Ilin",TRUE
+248773,"Jaakko Luttinen",FALSE
