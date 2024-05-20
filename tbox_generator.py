@@ -1,9 +1,9 @@
 # SDM Project 2. Knowledge Graphs
 # TBOX generator
-from rdflib import Graph, Literal, Namespace
+from rdflib import Graph, Namespace
 from rdflib.namespace import RDF, RDFS
 
-NAMESPACE = "https://example.org/SDM/Lab2"
+NAMESPACE = "https://SDM.org/Lab2"
 
 n = Namespace(NAMESPACE)
 g = Graph()
@@ -68,5 +68,5 @@ create_property(belongs_to_v, compilation, venue)
 create_subproperty(belongs_to_j, belongs_to_v, volume, journal)
 create_subproperty(belongs_to_c, belongs_to_v, edition, conference)
 
-
+# Generate .ttl
 g.serialize(destination="TBOX.ttl")
