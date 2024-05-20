@@ -1,6 +1,6 @@
 # SDM Project 2. Knowledge Graphs
 # ABOX generator
-from pandas import read_csv  # for handling csv and csv contents
+from pandas import read_csv, DataFrame  # for handling csv and csv contents
 from rdflib import Graph, Namespace, Literal, URIRef  # basic RDF handling
 import os
 import os.path as op
@@ -19,46 +19,103 @@ class ABOXGenerator():
         self.g.bind('', self.n)
         cwd = os.getcwd()
         data_path = op.join(cwd, 'data')
+        nodes_path = op.join(data_path, 'nodes')
+        edges_path = op.join(data_path, 'edges')
 
         # Assert Nodes
         print('Asserting nodes...')
 
-        nodes_path = op.join(data_path, 'nodes')
-
-        df_affiliation = self.load_clean_csv(
-            op.join(nodes_path, 'Node_affiliation.csv'))
-        self.assert_node(df_affiliation
-                         , {'affiliation': 'Affiliation'}
-                         , {'affiliationHasType': 'Type'
-                            , 'affiliationHasName': 'Affiliation'}
-                            )
+        df_review = self.load_clean_csv(
+            op.join(edges_path, 'Edge_paper_author_reviews.csv'))
+        # Reviewers are authors who have written at least one review
+        reviewers = df_review['author'].drop_duplicates()
+        self.assert_nodes(DataFrame(reviewers), {'reviewer': 'author'}, {
+            'name_author': 'author'})
 
         df_author = self.load_clean_csv(
             op.join(nodes_path, 'Node_author.csv'))
-        self.assert_node(df_author
-                         , {'author': 'author'}
-                         , {'authorHasName': 'author'})
-        
+        df_author = df_author[~df_author.isin(
+            # Reviewer is a subclass of Author, so we skip them
+            reviewers.to_list())].drop_duplicates()
+        self.assert_nodes(df_author, {'author': 'author'}, {
+            'name_author': 'author'})
+
+        df_paper = self.load_clean_csv(
+            op.join(nodes_path, 'Node_paper.csv'))
+        self.assert_nodes(df_paper, {'paper': 'paper_title'}, {
+                          'pages': 'pages', 'DOI': 'doi'
+                          , 'abstract': 'abstract'
+                          , 'name_paper': 'paper_title'})
+
+        # Reviews
+        df = df_review
+        properties = {'approves': 'approves', 'content': 'content'}
+        for _, node in df.iterrows():
+            node_uri = URIRef(self.n + 'review' + '$' +
+                              str(node['id_paper']) + str(node['author']))
+            for property, p_column in properties.items():
+                property_uri = URIRef(self.n + property)
+                self.g.add((node_uri, property_uri, Literal(node[p_column])))
+
+        df_affiliation = self.load_clean_csv(
+            op.join(nodes_path, 'Node_affiliation.csv'))
+        self.assert_nodes(df_affiliation, {'affiliation': 'Affiliation'}
+                          , {'type': 'Type'
+                             , 'name_affiliation': 'Affiliation'})
+
+        df_keyword = self.load_clean_csv(
+            op.join(nodes_path, 'Node_keywords.csv'))
+        self.assert_nodes(df_keyword, {'keyword': 'Node_keywords'}, {
+                          'name_keyword': 'Node_keywords'})
+
+        df_journal = self.load_clean_csv(
+            op.join(nodes_path, 'Node_journals.csv'))
+        self.assert_nodes(df_journal, {'journal': 'x'}, {'name_venue': 'x'})
+
         df_conference = self.load_clean_csv(
             op.join(nodes_path, 'Node_conference.csv'))
-        self.assert_node(df_conference
-                         , {'conference': 'conference'}
-                         , {'conferenceHasName': 'conference'}
-                         )
+        self.assert_nodes(df_conference, {'conference': 'conference'}, {
+                          'name_venue': 'conference'})
 
+        df_volume = self.load_clean_csv(
+            op.join(nodes_path, 'Node_volumes.csv'))
+        self.assert_nodes(df_volume, {'volume': 'volume'}, {
+                          'name_compilation': 'volume', 'year': 'year'})
+
+        df_edition = self.load_clean_csv(
+            op.join(nodes_path, 'Node_edition.csv'))
+        self.assert_nodes(df_edition, {'edition': 'edition'}
+                          , {'name_compilation': 'edition'
+                             , 'year': 'year'
+                             , 'location': 'location'})
         print('Nodes asserted!')
 
         # Assert Properties
         print('Asserting properties...')
-
-        edges_path = op.join(data_path, 'edges')
+        df_paper_auth = self.load_clean_csv(
+            op.join(edges_path, 'Edge_papers_author.csv'))
+        df_paper_auth
+        
+        df_writes = df_paper_auth[~df_paper_auth['main_author']]
+        df_writes = df_writes.merge(df_paper.loc[:,['id_paper','paper_title']],
+                                    how='left', on='id_paper')
+        df_writes = df_writes.loc[:,['paper_title', 'author']]
+        self.assert_properties(
+            df_writes, {'author': 'author', 'paper': 'paper_title'}
+            , 'writes')
+        
+        df_corresponding_author = df_paper_auth[df_paper_auth['main_author']]
+        df_corresponding_author = df_corresponding_author.merge(df_paper.loc[:, ['id_paper', 'paper_title']],
+                                    how='left', on='id_paper')
+        df_writes = df_writes.loc[:, ['paper_title', 'author']]
+        self.assert_properties(
+            df_writes, {'author': 'author', 'paper': 'paper_title'}, 'writes')
 
         df_aff_auth = self.load_clean_csv(
             op.join(edges_path, 'Edge_affiliation_author.csv'))
-        self.assert_property(df_aff_auth
-                             , {'author': 'author'
-                                , 'affiliation': 'Affiliation'}
-                             , 'belongs_to_a')
+        self.assert_properties(
+            df_aff_auth, {'author': 'author', 'affiliation': 'Affiliation'}
+            , 'belongs_to_a')
 
         print('Properties asserted!')
 
@@ -69,30 +126,35 @@ class ABOXGenerator():
 
         print('ABOX generated!')
         return None
-    
+
     def load_clean_csv(self, path):
         df = read_csv(path, sep=',', header=0)
-        for c in df.columns:
+        for c in df.select_dtypes(include=['object']).columns:
             df[c] = df[c].str.replace(' ', '_')
+            df[c] = df[c].str.replace('"', '\'')
+            df[c] = df[c].str.replace('|', '-')
         return df
 
-    def assert_node(self, df, id, properties):
+    def assert_nodes(self, df, id, properties):
         for _, node in df.iterrows():
             urn = next(iter(id))
-            node_uri = URIRef(self.n + urn + '$' + node[id[urn]])
+            node_uri = URIRef(self.n + str(urn) + '$' + str(node[id[urn]]))
             for property, p_column in properties.items():
                 property_uri = URIRef(self.n + property)
                 self.g.add((node_uri, property_uri, Literal(node[p_column])))
-    
-    def assert_property(self, df, ids, property):
+
+    def assert_properties(self, df, ids, property):
         for _, edge in df.iterrows():
             ids_iterator = iter(ids)
             subj_urn = next(ids_iterator)
             obj_urn = next(ids_iterator)
-            subject_uri = URIRef(self.n + subj_urn + '$' + edge[ids[subj_urn]])
-            object_uri = URIRef(self.n + obj_urn + '$' + edge[ids[obj_urn]])
+            subject_uri = URIRef(self.n + str(subj_urn) +
+                                 '$' + str(edge[ids[subj_urn]]))
+            object_uri = URIRef(self.n + str(obj_urn) +
+                                '$' + str(edge[ids[obj_urn]]))
             property_uri = URIRef(self.n + property)
             self.g.add((subject_uri, property_uri, object_uri))
+
 
 if __name__ == '__main__':
     ABOXGenerator()

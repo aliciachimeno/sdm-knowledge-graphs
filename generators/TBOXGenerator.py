@@ -21,31 +21,40 @@ class TBOXGenerator():
         print('Asserting DatatypeProperties and subclasses...')
         author = n.author
         reviewer = n.reviewer
-        self.create_property(n.authorHasName, author, XSD.string)
+        self.create_property(n.name_author, author, XSD.string)
         self.g.add((reviewer, RDFS.subClassOf, author))
-        self.create_property(n.reviewerHasName, reviewer, XSD.string)
 
         paper = n.paper
+        self.create_property(n.pages, paper, XSD.integer)
+        self.create_property(n.DOI, paper, XSD.string)
+        self.create_property(n.abstract, paper, XSD.string)
+        self.create_property(n.name_paper, paper, XSD.string)
 
         review = n.review
+        self.create_property(n.approves, paper, XSD.string)
+        self.create_property(n.content, paper, XSD.string)
 
         affiliation = n.affiliation
-        self.create_property(n.affiliationHasType, affiliation, XSD.string)
-        self.create_property(n.affiliationHasName, affiliation, XSD.string)
+        self.create_property(n.name_affiliation, affiliation, XSD.string)
+        self.create_property(n.type, affiliation, XSD.string)
 
         keyword = n.keyword
+        self.create_property(n.name_keyword, keyword, XSD.string)
 
         venue = n.venue
+        self.create_property(n.name_venue, venue, XSD.string)
         journal = n.journal
-        conference = n.conference
-        self.create_property(n.conferenceHasName, conference, XSD.string)
         self.g.add((journal, RDFS.subClassOf, venue))
+        conference = n.conference
         self.g.add((conference, RDFS.subClassOf, venue))
 
         compilation = n.compilation
+        self.create_property(n.name_compilation, compilation, XSD.string)
+        self.create_property(n.year, compilation, XSD.integer)
         volume = n.volume
-        edition = n.edition
         self.g.add((volume, RDFS.subClassOf, compilation))
+        edition = n.edition
+        self.create_property(n.location, edition, XSD.string)
         self.g.add((edition, RDFS.subClassOf, compilation))
         print('DatatypeProperties and subclasses asserted!')
 
