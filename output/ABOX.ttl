@@ -30,3 +30,23 @@
 :affiliation_9 :affiliationHasName "Vietnam Maritime University" ;
     :affiliationHasType "university" .
 
+:author_0 :authorHasName "Daniel Genkin" .
+
+:author_1 :authorHasName "Daniel Gruss" .
+
+:author_2 :authorHasName "Michael Schwarz 0001" .
+
+:author_3 :authorHasName "Mike Hamburg" .
+
+:author_4 :authorHasName "Moritz Lipp" .
+
+:author_5 :authorHasName "Paul Kocher" .
+
+:author_6 :authorHasName "Stefan Mangard" .
+
+:author_7 :authorHasName "Thomas Prescher 0002" .
+
+:author_8 :authorHasName "Werner Haas 0004" .
+
+:author_9 :authorHasName "Yuval Yarom" .
+
