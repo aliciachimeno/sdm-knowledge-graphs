@@ -1,0 +1,83 @@
+@prefix : <http://SDM.org/Lab2/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:about a rdf:Property ;
+    rdfs:domain :review ;
+    rdfs:range :paper .
+
+:affiliationHasName a rdf:Property ;
+    rdfs:domain :affiliation ;
+    rdfs:range xsd:string .
+
+:affiliationHasType a rdf:Property ;
+    rdfs:domain :affiliation ;
+    rdfs:range xsd:string .
+
+:authorHasName a rdf:Property ;
+    rdfs:domain :author ;
+    rdfs:range xsd:string .
+
+:belongs_to_a a rdf:Property ;
+    rdfs:domain :author ;
+    rdfs:range :affiliation .
+
+:belongs_to_c rdfs:domain :edition ;
+    rdfs:range :conference ;
+    rdfs:subPropertyOf :belongs_to_v .
+
+:belongs_to_j rdfs:domain :volume ;
+    rdfs:range :journal ;
+    rdfs:subPropertyOf :belongs_to_v .
+
+:cites a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range :paper .
+
+:is_corresponding_author rdfs:domain :author ;
+    rdfs:range :paper ;
+    rdfs:subPropertyOf :writes .
+
+:published_in_e rdfs:domain :paper ;
+    rdfs:range :edition ;
+    rdfs:subPropertyOf :published_in_c .
+
+:published_in_v rdfs:domain :paper ;
+    rdfs:range :volume ;
+    rdfs:subPropertyOf :published_in_c .
+
+:relates_to a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range :review .
+
+:reviewerHasName a rdf:Property ;
+    rdfs:domain :reviewer ;
+    rdfs:range xsd:string .
+
+:writes_r a rdf:Property ;
+    rdfs:domain :reviewer ;
+    rdfs:range :review .
+
+:conference rdfs:subClassOf :venue .
+
+:journal rdfs:subClassOf :venue .
+
+:writes a rdf:Property ;
+    rdfs:domain :author ;
+    rdfs:range :paper .
+
+:belongs_to_v a rdf:Property ;
+    rdfs:domain :compilation ;
+    rdfs:range :venue .
+
+:edition rdfs:subClassOf :compilation .
+
+:published_in_c a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range :compilation .
+
+:reviewer rdfs:subClassOf :author .
+
+:volume rdfs:subClassOf :compilation .
+

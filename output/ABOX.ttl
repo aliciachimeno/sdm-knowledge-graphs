@@ -1,0 +1,32 @@
+@prefix : <http://SDM.org/Lab2/> .
+
+:affiliation_0 :affiliationHasName "University of Medicine Magway" ;
+    :affiliationHasType "university" .
+
+:affiliation_1 :affiliationHasName "The Sourcery" ;
+    :affiliationHasType "company" .
+
+:affiliation_2 :affiliationHasName "Grand Rounds" ;
+    :affiliationHasType "company" .
+
+:affiliation_3 :affiliationHasName "Swiftly" ;
+    :affiliationHasType "company" .
+
+:affiliation_4 :affiliationHasName "Tempo Automation" ;
+    :affiliationHasType "company" .
+
+:affiliation_5 :affiliationHasName "Oracle" ;
+    :affiliationHasType "company" .
+
+:affiliation_6 :affiliationHasName "Aktana" ;
+    :affiliationHasType "company" .
+
+:affiliation_7 :affiliationHasName "Odense University" ;
+    :affiliationHasType "university" .
+
+:affiliation_8 :affiliationHasName "Quantcast" ;
+    :affiliationHasType "company" .
+
+:affiliation_9 :affiliationHasName "Vietnam Maritime University" ;
+    :affiliationHasType "university" .
+
