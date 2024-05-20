@@ -38,6 +38,7 @@ class TBOXGenerator():
         venue = n.venue
         journal = n.journal
         conference = n.conference
+        self.create_property(n.conferenceHasName, conference, XSD.string)
         self.g.add((journal, RDFS.subClassOf, venue))
         self.g.add((conference, RDFS.subClassOf, venue))
 

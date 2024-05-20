@@ -12,15 +12,17 @@ class ABOXGenerator():
 
     def __init__(self, baseURL='http://SDM.org/Lab2/', ttl_path=default_ttl_path):
 
+        print('Generating ABOX...')
+
         self.n = Namespace(baseURL)
         self.g = Graph()
         self.g.bind('', self.n)
-
-        print('Generating ABOX...')
-
-        # Node assertion
         cwd = os.getcwd()
         data_path = op.join(cwd, 'data')
+
+        # Assert Nodes
+        print('Asserting nodes...')
+
         nodes_path = op.join(data_path, 'nodes')
 
         df_affiliation = self.load_clean_csv(
@@ -36,18 +38,29 @@ class ABOXGenerator():
         self.assert_node(df_author
                          , {'author': 'author'}
                          , {'authorHasName': 'author'})
+        
+        df_conference = self.load_clean_csv(
+            op.join(nodes_path, 'Node_conference.csv'))
+        self.assert_node(df_conference
+                         , {'conference': 'conference'}
+                         , {'conferenceHasName': 'conference'}
+                         )
 
-        # Edges generation
+        print('Nodes asserted!')
+
+        # Assert Properties
+        print('Asserting properties...')
+
         edges_path = op.join(data_path, 'edges')
 
         df_aff_auth = self.load_clean_csv(
             op.join(edges_path, 'Edge_affiliation_author.csv'))
-        
-        for _, edge in df_aff_auth.iterrows():
-            auth_uri = URIRef(self.n + 'author$' + edge['author'])
-            aff_uri = URIRef(self.n + 'affiliation$' + edge['Affiliation'])
-            self.g.add((auth_uri, self.n.belongs_to_a, aff_uri))
-        ######################################
+        self.assert_property(df_aff_auth
+                             , {'author': 'author'
+                                , 'affiliation': 'Affiliation'}
+                             , 'belongs_to_a')
+
+        print('Properties asserted!')
 
         # Generate .ttl
         print('Serializing ABOX...')
@@ -65,14 +78,21 @@ class ABOXGenerator():
 
     def assert_node(self, df, id, properties):
         for _, node in df.iterrows():
-            urn, column = next(iter(id.items()))
-            node_uri = URIRef(self.n + urn + '$' + node[column])
+            urn = next(iter(id))
+            node_uri = URIRef(self.n + urn + '$' + node[id[urn]])
             for property, p_column in properties.items():
                 property_uri = URIRef(self.n + property)
                 self.g.add((node_uri, property_uri, Literal(node[p_column])))
     
-    def assert_edge(self, df, ids):
-        
+    def assert_property(self, df, ids, property):
+        for _, edge in df.iterrows():
+            ids_iterator = iter(ids)
+            subj_urn = next(ids_iterator)
+            obj_urn = next(ids_iterator)
+            subject_uri = URIRef(self.n + subj_urn + '$' + edge[ids[subj_urn]])
+            object_uri = URIRef(self.n + obj_urn + '$' + edge[ids[obj_urn]])
+            property_uri = URIRef(self.n + property)
+            self.g.add((subject_uri, property_uri, object_uri))
 
 if __name__ == '__main__':
     ABOXGenerator()
