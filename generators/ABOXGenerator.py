@@ -43,9 +43,7 @@ class ABOXGenerator():
         df_paper = self.load_clean_csv(
             op.join(nodes_path, 'Node_paper.csv'))
         self.assert_nodes(df_paper, {'paper': 'paper_title'}, {
-                          'pages': 'pages', 'DOI': 'doi'
-                          , 'abstract': 'abstract'
-                          , 'name_paper': 'paper_title'})
+                          'pages': 'pages', 'DOI': 'doi', 'abstract': 'abstract', 'name_paper': 'paper_title'})
 
         # Reviews
         df = df_review
@@ -59,9 +57,8 @@ class ABOXGenerator():
 
         df_affiliation = self.load_clean_csv(
             op.join(nodes_path, 'Node_affiliation.csv'))
-        self.assert_nodes(df_affiliation, {'affiliation': 'Affiliation'}
-                          , {'type': 'Type'
-                             , 'name_affiliation': 'Affiliation'})
+        self.assert_nodes(df_affiliation, {'affiliation': 'Affiliation'}, {
+                          'type': 'Type', 'name_affiliation': 'Affiliation'})
 
         df_keyword = self.load_clean_csv(
             op.join(nodes_path, 'Node_keywords.csv'))
@@ -84,38 +81,81 @@ class ABOXGenerator():
 
         df_edition = self.load_clean_csv(
             op.join(nodes_path, 'Node_edition.csv'))
-        self.assert_nodes(df_edition, {'edition': 'edition'}
-                          , {'name_compilation': 'edition'
-                             , 'year': 'year'
-                             , 'location': 'location'})
+        self.assert_nodes(df_edition, {'edition': 'edition'}, {
+                          'name_compilation': 'edition', 'year': 'year', 'location': 'location'})
         print('Nodes asserted!')
 
         # Assert Properties
         print('Asserting properties...')
         df_paper_auth = self.load_clean_csv(
             op.join(edges_path, 'Edge_papers_author.csv'))
-        df_paper_auth
-        
+        df_paper_auth = df_paper_auth.merge(df_paper.loc[:, ['id_paper', 'paper_title']],
+                                            how='left', on='id_paper')
+
+        # writes
         df_writes = df_paper_auth[~df_paper_auth['main_author']]
-        df_writes = df_writes.merge(df_paper.loc[:,['id_paper','paper_title']],
-                                    how='left', on='id_paper')
-        df_writes = df_writes.loc[:,['paper_title', 'author']]
-        self.assert_properties(
-            df_writes, {'author': 'author', 'paper': 'paper_title'}
-            , 'writes')
-        
-        df_corresponding_author = df_paper_auth[df_paper_auth['main_author']]
-        df_corresponding_author = df_corresponding_author.merge(df_paper.loc[:, ['id_paper', 'paper_title']],
-                                    how='left', on='id_paper')
         df_writes = df_writes.loc[:, ['paper_title', 'author']]
         self.assert_properties(
             df_writes, {'author': 'author', 'paper': 'paper_title'}, 'writes')
 
+        # is_corresponding_author
+        df_corresponding_author = df_paper_auth[df_paper_auth['main_author']]
+        df_corresponding_author = df_corresponding_author.loc[:, [
+            'paper_title', 'author']]
+        self.assert_properties(
+            df_corresponding_author, {'author': 'author', 'paper': 'paper_title'}, 'is_corresponding_author')
+
+        #  writes_r
+        df_writes_r = df_review.loc[:, ['id_paper', 'author']]
+        for _, edge in df_writes_r.iterrows():
+            subject_uri = URIRef(self.n + 'author' +
+                                 '$' + str(edge['author']))
+            object_uri = URIRef(self.n + 'review' +
+                                '$' + str(edge['id_paper']) + str(edge['author']))
+            property_uri = self.n.writes_r
+            self.g.add((subject_uri, property_uri, object_uri))
+
+        # about
+        df_about = df_writes_r.merge(
+            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
+        for _, edge in df_about.iterrows():
+            subject_uri = URIRef(self.n + 'review' +
+                                 '$' + str(edge['id_paper']) + str(edge['author']))
+            object_uri = URIRef(self.n + 'paper' +
+                                '$' + edge['paper_title'])
+            property_uri = self.n.about
+            self.g.add((subject_uri, property_uri, object_uri))
+
+        # belongs_to_a
         df_aff_auth = self.load_clean_csv(
             op.join(edges_path, 'Edge_affiliation_author.csv'))
         self.assert_properties(
-            df_aff_auth, {'author': 'author', 'affiliation': 'Affiliation'}
-            , 'belongs_to_a')
+            df_aff_auth, {'author': 'author', 'affiliation': 'Affiliation'}, 'belongs_to_a')
+
+        # relates_to
+        df_paper_keyw = self.load_clean_csv(
+            op.join(edges_path, 'Edge_paper_keywords.csv'))
+        df_paper_keyw = df_paper_keyw.merge(
+            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
+        df_paper_keyw = df_paper_keyw.loc[:, ['paper_title', 'keywords']]
+        self.assert_properties(
+            df_paper_keyw, {'paper': 'paper_title', 'keyword': 'keywords'}, 'relates_to')
+
+        # cites
+        df_cites = self.load_clean_csv(op.join(edges_path, 'Edge_paper_paper.csv'))
+        df_cites = df_cites.merge(
+            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
+        df_cites = df_cites.loc[:,['paper_title', 'cites_value']].rename(columns={'paper_title': 'paper_subject'})
+        df_cites = df_cites.merge(df_paper.loc[:, ['id_paper', 'paper_title']], how='left', left_on='cites_value', right_on='id_paper')
+        df_cites = df_cites.loc[:, ['paper_subject', 'paper_title']].rename(columns={'paper_title': 'paper_object'})
+        for _, edge in df_cites.iterrows():
+            subject_uri = URIRef(self.n + 'paper' +
+                                 '$' + str(edge['paper_subject']))
+            object_uri = URIRef(self.n + 'paper' +
+                                '$' + str(edge['paper_object']))
+            property_uri = self.n.cites
+            self.g.add((subject_uri, property_uri, object_uri))
+
 
         print('Properties asserted!')
 
@@ -136,18 +176,18 @@ class ABOXGenerator():
         return df
 
     def assert_nodes(self, df, id, properties):
+        urn = next(iter(id))
         for _, node in df.iterrows():
-            urn = next(iter(id))
             node_uri = URIRef(self.n + str(urn) + '$' + str(node[id[urn]]))
             for property, p_column in properties.items():
                 property_uri = URIRef(self.n + property)
                 self.g.add((node_uri, property_uri, Literal(node[p_column])))
 
     def assert_properties(self, df, ids, property):
+        ids_iterator = iter(ids)
+        subj_urn = next(ids_iterator)
+        obj_urn = next(ids_iterator)
         for _, edge in df.iterrows():
-            ids_iterator = iter(ids)
-            subj_urn = next(ids_iterator)
-            obj_urn = next(ids_iterator)
             subject_uri = URIRef(self.n + str(subj_urn) +
                                  '$' + str(edge[ids[subj_urn]]))
             object_uri = URIRef(self.n + str(obj_urn) +

@@ -70,7 +70,7 @@ class TBOXGenerator():
 
         self.create_property(n.belongs_to_a, author, affiliation)
 
-        self.create_property(n.relates_to, paper, review)
+        self.create_property(n.relates_to, paper, keyword)
 
         self.create_property(n.cites, paper, paper)
 
