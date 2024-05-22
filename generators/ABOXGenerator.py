@@ -2,6 +2,7 @@
 # ABOX generator
 from pandas import read_csv, DataFrame  # for handling csv and csv contents
 from rdflib import Graph, Namespace, Literal, URIRef  # basic RDF handling
+from rdflib.namespace import NamespaceManager
 import os
 import os.path as op
 
@@ -16,7 +17,13 @@ class ABOXGenerator():
 
         self.n = Namespace(baseURL)
         self.g = Graph()
-        self.g.bind('', self.n)
+
+        namespace_manager = NamespaceManager(self.g)
+        namespace_manager.bind('_', self.n, override=False)
+        self.g.namespace_manager = namespace_manager
+        
+        #self.g.bind('', self.n)
+
         cwd = os.getcwd()
         data_path = op.join(cwd, 'data')
         nodes_path = op.join(data_path, 'nodes')
