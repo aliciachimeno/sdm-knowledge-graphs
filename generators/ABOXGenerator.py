@@ -209,9 +209,16 @@ class ABOXGenerator():
     def load_clean_csv(self, path):
         df = read_csv(path, sep=',', header=0)
         for c in df.select_dtypes(include=['object']).columns:
+            # Could be improved to only affect id columns that appear in URNs
             df[c] = df[c].str.replace(' ', '_')
             df[c] = df[c].str.replace('"', '\'')
             df[c] = df[c].str.replace('|', '-')
+            df[c] = df[c].str.replace('!', '_')
+            df[c] = df[c].str.replace('.', '_')
+            df[c] = df[c].str.replace(':', '_')
+            df[c] = df[c].str.replace('\'', '_')
+            df[c] = df[c].str.replace(',', '_')
+            # look for more...
         return df
 
     def assert_nodes(self, df, id, properties):
