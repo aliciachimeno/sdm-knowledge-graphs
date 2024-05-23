@@ -208,16 +208,12 @@ class ABOXGenerator():
 
     def load_clean_csv(self, path):
         df = read_csv(path, sep=',', header=0)
+        bad_characters = [' ', '"', '!', '.', ':', '\'', ',', '?',
+                          '@', '|', '/', '+', '&', '[', ']', '*', '$', '=', 'Ã', '¨', '¢', 'µ']
         for c in df.select_dtypes(include=['object']).columns:
             # Could be improved to only affect id columns that appear in URNs
-            df[c] = df[c].str.replace(' ', '_')
-            df[c] = df[c].str.replace('"', '\'')
-            df[c] = df[c].str.replace('|', '-')
-            df[c] = df[c].str.replace('!', '_')
-            df[c] = df[c].str.replace('.', '_')
-            df[c] = df[c].str.replace(':', '_')
-            df[c] = df[c].str.replace('\'', '_')
-            df[c] = df[c].str.replace(',', '_')
+            for char in bad_characters:
+                df[c] = df[c].str.replace(char, '_')
             # look for more...
         return df
 
