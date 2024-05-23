@@ -1,8 +1,7 @@
 # SDM Project 2. Knowledge Graphs
 # ABOX generator
 from pandas import read_csv, DataFrame  # for handling csv and csv contents
-from rdflib import Graph, Namespace, Literal, URIRef  # basic RDF handling
-from rdflib.namespace import NamespaceManager
+from rdflib import Graph, Namespace, Literal # basic RDF handling
 import os
 import os.path as op
 
@@ -17,12 +16,7 @@ class ABOXGenerator():
 
         self.n = Namespace(baseURL)
         self.g = Graph()
-
-        namespace_manager = NamespaceManager(self.g)
-        namespace_manager.bind('_', self.n, override=False)
-        self.g.namespace_manager = namespace_manager
-        
-        #self.g.bind('', self.n)
+        self.g.bind('', self.n)
 
         cwd = os.getcwd()
         data_path = op.join(cwd, 'data')
@@ -56,10 +50,10 @@ class ABOXGenerator():
         df = df_review
         properties = {'approves': 'approves', 'content': 'content'}
         for _, node in df.iterrows():
-            node_uri = URIRef(self.n + 'review' + '$' +
+            node_uri = self.n.term('review' + '$' +
                               str(node['id_paper']) + str(node['author']))
             for property, p_column in properties.items():
-                property_uri = URIRef(self.n + property)
+                property_uri = self.n.term(property)
                 self.g.add((node_uri, property_uri, Literal(node[p_column])))
 
         df_affiliation = self.load_clean_csv(
@@ -115,9 +109,9 @@ class ABOXGenerator():
         #  writes_r
         df_writes_r = df_review.loc[:, ['id_paper', 'author']]
         for _, edge in df_writes_r.iterrows():
-            subject_uri = URIRef(self.n + 'author' +
+            subject_uri = self.n.term('author' +
                                  '$' + str(edge['author']))
-            object_uri = URIRef(self.n + 'review' +
+            object_uri = self.n.term('review' +
                                 '$' + str(edge['id_paper']) + str(edge['author']))
             property_uri = self.n.writes_r
             self.g.add((subject_uri, property_uri, object_uri))
@@ -126,9 +120,9 @@ class ABOXGenerator():
         df_about = df_writes_r.merge(
             df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
         for _, edge in df_about.iterrows():
-            subject_uri = URIRef(self.n + 'review' +
+            subject_uri = self.n.term('review' +
                                  '$' + str(edge['id_paper']) + str(edge['author']))
-            object_uri = URIRef(self.n + 'paper' +
+            object_uri = self.n.term('paper' +
                                 '$' + edge['paper_title'])
             property_uri = self.n.about
             self.g.add((subject_uri, property_uri, object_uri))
@@ -149,44 +143,58 @@ class ABOXGenerator():
             df_paper_keyw, {'paper': 'paper_title', 'keyword': 'keywords'}, 'relates_to')
 
         # cites
-        df_cites = self.load_clean_csv(op.join(edges_path, 'Edge_paper_paper.csv'))
+        df_cites = self.load_clean_csv(
+            op.join(edges_path, 'Edge_paper_paper.csv'))
         df_cites = df_cites.merge(
             df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
-        df_cites = df_cites.loc[:,['paper_title', 'cites_value']].rename(columns={'paper_title': 'paper_subject'})
-        df_cites = df_cites.merge(df_paper.loc[:, ['id_paper', 'paper_title']], how='left', left_on='cites_value', right_on='id_paper')
-        df_cites = df_cites.loc[:, ['paper_subject', 'paper_title']].rename(columns={'paper_title': 'paper_object'})
+        df_cites = df_cites.loc[:, ['paper_title', 'cites_value']].rename(
+            columns={'paper_title': 'paper_subject'})
+        df_cites = df_cites.merge(df_paper.loc[:, [
+                                  'id_paper', 'paper_title']], how='left', left_on='cites_value', right_on='id_paper')
+        df_cites = df_cites.loc[:, ['paper_subject', 'paper_title']].rename(
+            columns={'paper_title': 'paper_object'})
         for _, edge in df_cites.iterrows():
-            subject_uri = URIRef(self.n + 'paper' +
+            subject_uri = self.n.term('paper' +
                                  '$' + str(edge['paper_subject']))
-            object_uri = URIRef(self.n + 'paper' +
+            object_uri = self.n.term('paper' +
                                 '$' + str(edge['paper_object']))
             property_uri = self.n.cites
             self.g.add((subject_uri, property_uri, object_uri))
-        
+
         # published_in_v
-        df_paper_vol = self.load_clean_csv(op.join(edges_path, 'Edge_paper_volumes.csv'))
-        df_paper_vol = df_paper_vol.merge(df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
+        df_paper_vol = self.load_clean_csv(
+            op.join(edges_path, 'Edge_paper_volumes.csv'))
+        df_paper_vol = df_paper_vol.merge(
+            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
         df_published_in_v = df_paper_vol.loc[:, ['paper_title', 'id_volume']]
-        self.assert_properties(df_published_in_v, {'paper': 'paper_title', 'volume': 'id_volume'}, 'published_in_v')
+        self.assert_properties(df_published_in_v, {
+                               'paper': 'paper_title', 'volume': 'id_volume'}, 'published_in_v')
 
         # published_in_e
-        df_paper_ed = self.load_clean_csv(op.join(edges_path, 'Edge_papers_edition.csv'))
+        df_paper_ed = self.load_clean_csv(
+            op.join(edges_path, 'Edge_papers_edition.csv'))
         df_paper_ed = df_paper_ed.merge(df_paper.loc[:, [
                                         'id_paper', 'paper_title']], how='left', on='id_paper')
-        df_paper_ed = df_paper_ed.merge(df_edition.loc[:,['ref_edition', 'edition']], how='left', on='ref_edition')
+        df_paper_ed = df_paper_ed.merge(
+            df_edition.loc[:, ['ref_edition', 'edition']], how='left', on='ref_edition')
         df_published_in_e = df_paper_ed.loc[:, ['paper_title', 'edition']]
-        self.assert_properties(df_published_in_e, {'paper': 'paper_title', 'edition': 'edition'}, 'published_in_e')
+        self.assert_properties(df_published_in_e, {
+                               'paper': 'paper_title', 'edition': 'edition'}, 'published_in_e')
 
         # belongs_to_j
-        df_vol_journal = self.load_clean_csv(op.join(edges_path, 'Edge_volumes_journal.csv'))
-        self.assert_properties(df_vol_journal, {'volume': 'id_volume', 'journal': 'journal'}, 'belongs_to_j')
+        df_vol_journal = self.load_clean_csv(
+            op.join(edges_path, 'Edge_volumes_journal.csv'))
+        self.assert_properties(
+            df_vol_journal, {'volume': 'id_volume', 'journal': 'journal'}, 'belongs_to_j')
 
         # belongs_to_c
-        df_ed_conf = self.load_clean_csv(op.join(edges_path, 'Edge_edition_conference.csv'))
+        df_ed_conf = self.load_clean_csv(
+            op.join(edges_path, 'Edge_edition_conference.csv'))
         df_ed_conf = df_ed_conf.merge(
             df_edition.loc[:, ['ref_edition', 'edition']], how='left', on='ref_edition')
         df_belongs_to_c = df_ed_conf.loc[:, ['edition', 'conference']]
-        self.assert_properties(df_belongs_to_c, {'edition': 'edition', 'conference': 'conference'}, 'belongs_to_c')
+        self.assert_properties(df_belongs_to_c, {
+                               'edition': 'edition', 'conference': 'conference'}, 'belongs_to_c')
 
         print('Properties asserted!')
 
@@ -209,9 +217,9 @@ class ABOXGenerator():
     def assert_nodes(self, df, id, properties):
         urn = next(iter(id))
         for _, node in df.iterrows():
-            node_uri = URIRef(self.n + str(urn) + '$' + str(node[id[urn]]))
+            node_uri = self.n.term(str(urn) + '$' + str(node[id[urn]]))
             for property, p_column in properties.items():
-                property_uri = URIRef(self.n + property)
+                property_uri = self.n.term(property)
                 self.g.add((node_uri, property_uri, Literal(node[p_column])))
 
     def assert_properties(self, df, ids, property):
@@ -219,11 +227,11 @@ class ABOXGenerator():
         subj_urn = next(ids_iterator)
         obj_urn = next(ids_iterator)
         for _, edge in df.iterrows():
-            subject_uri = URIRef(self.n + str(subj_urn) +
-                                 '$' + str(edge[ids[subj_urn]]))
-            object_uri = URIRef(self.n + str(obj_urn) +
-                                '$' + str(edge[ids[obj_urn]]))
-            property_uri = URIRef(self.n + property)
+            subject_uri = self.n.term(str(subj_urn) +
+                                      '$' + str(edge[ids[subj_urn]]))
+            object_uri = self.n.term(str(obj_urn) +
+                                     '$' + str(edge[ids[obj_urn]]))
+            property_uri = self.n.term(property)
             self.g.add((subject_uri, property_uri, object_uri))
 
 
