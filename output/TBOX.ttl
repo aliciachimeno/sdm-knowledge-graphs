@@ -3,20 +3,20 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+:DOI a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range xsd:string .
+
 :about a rdf:Property ;
     rdfs:domain :review ;
     rdfs:range :paper .
 
-:affiliationHasName a rdf:Property ;
-    rdfs:domain :affiliation ;
+:abstract a rdf:Property ;
+    rdfs:domain :paper ;
     rdfs:range xsd:string .
 
-:affiliationHasType a rdf:Property ;
-    rdfs:domain :affiliation ;
-    rdfs:range xsd:string .
-
-:authorHasName a rdf:Property ;
-    rdfs:domain :author ;
+:approves a rdf:Property ;
+    rdfs:domain :paper ;
     rdfs:range xsd:string .
 
 :belongs_to_a a rdf:Property ;
@@ -31,13 +31,61 @@
     rdfs:range :journal ;
     rdfs:subPropertyOf :belongs_to_v .
 
+:c_in rdfs:domain :conference ;
+    rdfs:range :community ;
+    rdfs:subPropertyOf :v_in .
+
 :cites a rdf:Property ;
     rdfs:domain :paper ;
     rdfs:range :paper .
 
+:content a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range xsd:string .
+
 :is_corresponding_author rdfs:domain :author ;
     rdfs:range :paper ;
     rdfs:subPropertyOf :writes .
+
+:j_in rdfs:domain :journal ;
+    rdfs:range :community ;
+    rdfs:subPropertyOf :v_in .
+
+:location a rdf:Property ;
+    rdfs:domain :edition ;
+    rdfs:range xsd:string .
+
+:name_affiliation a rdf:Property ;
+    rdfs:domain :affiliation ;
+    rdfs:range xsd:string .
+
+:name_author a rdf:Property ;
+    rdfs:domain :author ;
+    rdfs:range xsd:string .
+
+:name_community a rdf:Property ;
+    rdfs:domain :community ;
+    rdfs:range xsd:string .
+
+:name_compilation a rdf:Property ;
+    rdfs:domain :compilation ;
+    rdfs:range xsd:string .
+
+:name_keyword a rdf:Property ;
+    rdfs:domain :keyword ;
+    rdfs:range xsd:string .
+
+:name_paper a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range xsd:string .
+
+:name_venue a rdf:Property ;
+    rdfs:domain :venue ;
+    rdfs:range xsd:string .
+
+:pages a rdf:Property ;
+    rdfs:domain :paper ;
+    rdfs:range xsd:integer .
 
 :published_in_e rdfs:domain :paper ;
     rdfs:range :edition ;
@@ -49,19 +97,21 @@
 
 :relates_to a rdf:Property ;
     rdfs:domain :paper ;
-    rdfs:range :review .
+    rdfs:range :keyword .
 
-:reviewerHasName a rdf:Property ;
-    rdfs:domain :reviewer ;
+:type a rdf:Property ;
+    rdfs:domain :affiliation ;
     rdfs:range xsd:string .
 
 :writes_r a rdf:Property ;
     rdfs:domain :reviewer ;
     rdfs:range :review .
 
-:conference rdfs:subClassOf :venue .
+:year a rdf:Property ;
+    rdfs:domain :compilation ;
+    rdfs:range xsd:integer .
 
-:journal rdfs:subClassOf :venue .
+:reviewer rdfs:subClassOf :author .
 
 :writes a rdf:Property ;
     rdfs:domain :author ;
@@ -71,13 +121,19 @@
     rdfs:domain :compilation ;
     rdfs:range :venue .
 
-:edition rdfs:subClassOf :compilation .
+:conference rdfs:subClassOf :venue .
+
+:journal rdfs:subClassOf :venue .
 
 :published_in_c a rdf:Property ;
     rdfs:domain :paper ;
     rdfs:range :compilation .
 
-:reviewer rdfs:subClassOf :author .
+:v_in a rdf:Property ;
+    rdfs:domain :venue ;
+    rdfs:range :community .
 
 :volume rdfs:subClassOf :compilation .
+
+:edition rdfs:subClassOf :compilation .
 

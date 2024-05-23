@@ -84,6 +84,9 @@ class ABOXGenerator():
             op.join(nodes_path, 'Node_edition.csv'))
         self.assert_nodes(df_edition, {'edition': 'edition'}, {
                           'name_compilation': 'edition', 'year': 'year', 'location': 'location'})
+        
+        df_community = self.load_clean_csv(op.join(nodes_path, 'Node_community.csv'))
+        self.assert_nodes(df_community, {'community': 'community'}, {'name_community': 'community'})
         print('Nodes asserted!')
 
         # Assert Properties

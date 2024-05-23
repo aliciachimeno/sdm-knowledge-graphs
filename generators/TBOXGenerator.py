@@ -56,6 +56,9 @@ class TBOXGenerator():
         edition = n.edition
         self.create_property(n.location, edition, XSD.string)
         self.g.add((edition, RDFS.subClassOf, compilation))
+
+        community = n.community
+        self.create_property(n.name_community, community, XSD.string)
         print('DatatypeProperties and subclasses asserted!')
 
         # Object Properties
@@ -85,6 +88,12 @@ class TBOXGenerator():
             n.belongs_to_j, n.belongs_to_v, volume, journal)
         self.create_subproperty(
             n.belongs_to_c, n.belongs_to_v, edition, conference)
+        
+        self.create_property(n.v_in, venue, community)
+        self.create_subproperty(n.j_in, n.v_in, journal, community)
+        self.create_subproperty(n.c_in, n.v_in, conference, community)
+        
+
         print('ObjectProperties asserted!')
 
         # Generate .ttl
