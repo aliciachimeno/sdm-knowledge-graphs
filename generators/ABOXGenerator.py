@@ -30,6 +30,7 @@ class ABOXGenerator():
             op.join(edges_path, 'Edge_paper_author_reviews.csv'))
         # Reviewers are authors who have written at least one review
         reviewers = df_review['author'].drop_duplicates()
+        self.reviewers = reviewers.to_list()
         self.assert_nodes(DataFrame(reviewers), {'reviewer': 'author'}, {
             'name_author': 'author'})
 
@@ -37,7 +38,7 @@ class ABOXGenerator():
             op.join(nodes_path, 'Node_author.csv'))
         df_author = df_author[~df_author.isin(
             # Reviewer is a subclass of Author, so we skip them
-            reviewers.to_list())].drop_duplicates()
+            self.reviewers)].drop_duplicates()
         self.assert_nodes(df_author, {'author': 'author'}, {
             'name_author': 'author'})
 
@@ -112,7 +113,9 @@ class ABOXGenerator():
         #  writes_r
         df_writes_r = df_review.loc[:, ['id_paper', 'author']]
         for _, edge in df_writes_r.iterrows():
-            subject_uri = self.n.term('author' +
+            # If subject is reviewer, change urn from author to reviewer
+            subj_urn = 'reviewer' if edge['author'] in self.reviewers else 'author'
+            subject_uri = self.n.term(subj_urn +
                                  '_' + str(edge['author']))
             object_uri = self.n.term('review' +
                                 '_' + str(edge['id_paper']) + str(edge['author']))
@@ -244,13 +247,18 @@ class ABOXGenerator():
 
     def assert_properties(self, df, ids, property):
         ids_iterator = iter(ids)
-        subj_urn = next(ids_iterator)
-        obj_urn = next(ids_iterator)
+        subj_urn_param = next(ids_iterator)
+        obj_urn_param = next(ids_iterator)
         for _, edge in df.iterrows():
+            # If subject or object is reviewer, change urn from author to reviewer
+            subj_urn = 'reviewer' if subj_urn_param == 'author'\
+                and edge[ids['author']] in self.reviewers else subj_urn_param
+            obj_urn = 'reviewer' if obj_urn_param == 'author'\
+                and edge[ids['author']] in self.reviewers else obj_urn_param
             subject_uri = self.n.term(str(subj_urn) +
-                                      '_' + str(edge[ids[subj_urn]]))
+                                      '_' + str(edge[ids[subj_urn_param]]))
             object_uri = self.n.term(str(obj_urn) +
-                                     '_' + str(edge[ids[obj_urn]]))
+                                     '_' + str(edge[ids[obj_urn_param]]))
             property_uri = self.n.term(property)
             self.g.add((subject_uri, property_uri, object_uri))
 
