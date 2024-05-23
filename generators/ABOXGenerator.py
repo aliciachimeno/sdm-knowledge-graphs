@@ -198,6 +198,20 @@ class ABOXGenerator():
         df_belongs_to_c = df_ed_conf.loc[:, ['edition', 'conference']]
         self.assert_properties(df_belongs_to_c, {
                                'edition': 'edition', 'conference': 'conference'}, 'belongs_to_c')
+        
+        # c_in
+        df_conf_comm = self.load_clean_csv(
+            op.join(edges_path, 'Edge_conference_community.csv')
+        )
+        self.assert_properties(
+            df_conf_comm, {'conference': 'conference', 'community': 'community'}, 'c_in')
+        
+        # j_in
+        df_journal_comm = self.load_clean_csv(
+            op.join(edges_path, 'Edge_journal_community.csv')
+        )
+        self.assert_properties(
+            df_journal_comm, {'journal': 'journal', 'community': 'community'}, 'j_in')
 
         print('Properties asserted!')
 
