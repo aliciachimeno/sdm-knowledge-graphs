@@ -50,7 +50,7 @@ class ABOXGenerator():
         df = df_review
         properties = {'approves': 'approves', 'content': 'content'}
         for _, node in df.iterrows():
-            node_uri = self.n.term('review' + '$' +
+            node_uri = self.n.term('review' + '_' +
                               str(node['id_paper']) + str(node['author']))
             for property, p_column in properties.items():
                 property_uri = self.n.term(property)
@@ -110,9 +110,9 @@ class ABOXGenerator():
         df_writes_r = df_review.loc[:, ['id_paper', 'author']]
         for _, edge in df_writes_r.iterrows():
             subject_uri = self.n.term('author' +
-                                 '$' + str(edge['author']))
+                                 '_' + str(edge['author']))
             object_uri = self.n.term('review' +
-                                '$' + str(edge['id_paper']) + str(edge['author']))
+                                '_' + str(edge['id_paper']) + str(edge['author']))
             property_uri = self.n.writes_r
             self.g.add((subject_uri, property_uri, object_uri))
 
@@ -121,9 +121,9 @@ class ABOXGenerator():
             df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
         for _, edge in df_about.iterrows():
             subject_uri = self.n.term('review' +
-                                 '$' + str(edge['id_paper']) + str(edge['author']))
+                                 '_' + str(edge['id_paper']) + str(edge['author']))
             object_uri = self.n.term('paper' +
-                                '$' + edge['paper_title'])
+                                '_' + edge['paper_title'])
             property_uri = self.n.about
             self.g.add((subject_uri, property_uri, object_uri))
 
@@ -155,9 +155,9 @@ class ABOXGenerator():
             columns={'paper_title': 'paper_object'})
         for _, edge in df_cites.iterrows():
             subject_uri = self.n.term('paper' +
-                                 '$' + str(edge['paper_subject']))
+                                 '_' + str(edge['paper_subject']))
             object_uri = self.n.term('paper' +
-                                '$' + str(edge['paper_object']))
+                                '_' + str(edge['paper_object']))
             property_uri = self.n.cites
             self.g.add((subject_uri, property_uri, object_uri))
 
@@ -217,7 +217,7 @@ class ABOXGenerator():
     def assert_nodes(self, df, id, properties):
         urn = next(iter(id))
         for _, node in df.iterrows():
-            node_uri = self.n.term(str(urn) + '$' + str(node[id[urn]]))
+            node_uri = self.n.term(str(urn) + '_' + str(node[id[urn]]))
             for property, p_column in properties.items():
                 property_uri = self.n.term(property)
                 self.g.add((node_uri, property_uri, Literal(node[p_column])))
@@ -228,9 +228,9 @@ class ABOXGenerator():
         obj_urn = next(ids_iterator)
         for _, edge in df.iterrows():
             subject_uri = self.n.term(str(subj_urn) +
-                                      '$' + str(edge[ids[subj_urn]]))
+                                      '_' + str(edge[ids[subj_urn]]))
             object_uri = self.n.term(str(obj_urn) +
-                                     '$' + str(edge[ids[obj_urn]]))
+                                     '_' + str(edge[ids[obj_urn]]))
             property_uri = self.n.term(property)
             self.g.add((subject_uri, property_uri, object_uri))
 
