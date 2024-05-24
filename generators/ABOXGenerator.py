@@ -1,6 +1,6 @@
 # SDM Project 2. Knowledge Graphs
 # ABOX generator
-from pandas import read_csv, DataFrame  # for handling csv and csv contents
+from pandas import read_csv, DataFrame, isna  # for handling csv and csv contents
 from rdflib import Graph, Namespace, Literal # basic RDF handling
 import os
 import os.path as op
@@ -242,8 +242,10 @@ class ABOXGenerator():
         for _, node in df.iterrows():
             node_uri = self.n.term(str(urn) + '_' + str(node[id[urn]]))
             for property, p_column in properties.items():
-                property_uri = self.n.term(property)
-                self.g.add((node_uri, property_uri, Literal(node[p_column])))
+                # If the property is not nan, assert it
+                if not isna(node[p_column]):
+                    property_uri = self.n.term(property)
+                    self.g.add((node_uri, property_uri, Literal(node[p_column])))
 
     def assert_properties(self, df, ids, property):
         ids_iterator = iter(ids)
