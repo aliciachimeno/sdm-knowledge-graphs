@@ -1,7 +1,7 @@
 # SDM Project 2. Knowledge Graphs
 # ABOX generator
 from pandas import read_csv, DataFrame, isna  # for handling csv and csv contents
-from rdflib import Graph, Namespace, Literal # basic RDF handling
+from rdflib import Graph, Namespace, Literal  # basic RDF handling
 import os
 import os.path as op
 
@@ -27,24 +27,24 @@ class ABOXGenerator():
         print('Asserting nodes...')
 
         df_review = self.load_clean_csv(
-            op.join(edges_path, 'Edge_paper_author_reviews.csv'))
+            op.join(edges_path, 'Edge_paper_author_reviews.csv'), ['id_paper', 'author'])
         # Reviewers are authors who have written at least one review
-        reviewers = df_review['author'].drop_duplicates()
+        reviewers = df_review['urn2'].drop_duplicates()
         self.reviewers = reviewers.to_list()
-        self.assert_nodes(DataFrame(reviewers), {'reviewer': 'author'}, {
+        self.assert_nodes(DataFrame(reviewers), {'reviewer': 'urn2'}, {
             'name_author': 'author'})
 
         df_author = self.load_clean_csv(
-            op.join(nodes_path, 'Node_author.csv'))
+            op.join(nodes_path, 'Node_author.csv'), 'author')
         df_author = df_author[~df_author.isin(
             # Reviewer is a subclass of Author, so we skip them
             self.reviewers)].drop_duplicates()
-        self.assert_nodes(df_author, {'author': 'author'}, {
+        self.assert_nodes(df_author, {'author': 'urn1'}, {
             'name_author': 'author'})
 
         df_paper = self.load_clean_csv(
-            op.join(nodes_path, 'Node_paper.csv'))
-        self.assert_nodes(df_paper, {'paper': 'paper_title'}, {
+            op.join(nodes_path, 'Node_paper.csv'), 'paper_title')
+        self.assert_nodes(df_paper, {'paper': 'urn1'}, {
                           'pages': 'pages', 'DOI': 'doi', 'abstract': 'abstract', 'name_paper': 'paper_title'})
 
         # Reviews
@@ -52,133 +52,139 @@ class ABOXGenerator():
         properties = {'approves': 'approves', 'content': 'content'}
         for _, node in df.iterrows():
             node_uri = self.n.term('review' + '_' +
-                              str(node['id_paper']) + str(node['author']))
+                                   str(node['urn1']) + str(node['urn2']))
             for property, p_column in properties.items():
-                property_uri = self.n.term(property)
-                self.g.add((node_uri, property_uri, Literal(node[p_column])))
+                # If the property is not na, assert it
+                if not isna(node[p_column]):
+                    property_uri = self.n.term(property)
+                    self.g.add((node_uri, property_uri, Literal(node[p_column])))
 
         df_affiliation = self.load_clean_csv(
-            op.join(nodes_path, 'Node_affiliation.csv'))
-        self.assert_nodes(df_affiliation, {'affiliation': 'Affiliation'}, {
+            op.join(nodes_path, 'Node_affiliation.csv'), 'Affiliation')
+        self.assert_nodes(df_affiliation, {'affiliation': 'urn1'}, {
                           'type': 'Type', 'name_affiliation': 'Affiliation'})
 
         df_keyword = self.load_clean_csv(
-            op.join(nodes_path, 'Node_keywords.csv'))
-        self.assert_nodes(df_keyword, {'keyword': 'Node_keywords'}, {
+            op.join(nodes_path, 'Node_keywords.csv'), 'Node_keywords')
+        self.assert_nodes(df_keyword, {'keyword': 'urn1'}, {
                           'name_keyword': 'Node_keywords'})
 
         df_journal = self.load_clean_csv(
-            op.join(nodes_path, 'Node_journals.csv'))
-        self.assert_nodes(df_journal, {'journal': 'x'}, {'name_venue': 'x'})
+            op.join(nodes_path, 'Node_journals.csv'), 'x')
+        self.assert_nodes(df_journal, {'journal': 'urn1'}, {'name_venue': 'x'})
 
         df_conference = self.load_clean_csv(
-            op.join(nodes_path, 'Node_conference.csv'))
-        self.assert_nodes(df_conference, {'conference': 'conference'}, {
+            op.join(nodes_path, 'Node_conference.csv'), 'conference')
+        self.assert_nodes(df_conference, {'conference': 'urn1'}, {
                           'name_venue': 'conference'})
 
         df_volume = self.load_clean_csv(
-            op.join(nodes_path, 'Node_volumes.csv'))
-        self.assert_nodes(df_volume, {'volume': 'volume'}, {
+            op.join(nodes_path, 'Node_volumes.csv'), 'volume')
+        self.assert_nodes(df_volume, {'volume': 'urn1'}, {
                           'name_compilation': 'volume', 'year': 'year'})
 
         df_edition = self.load_clean_csv(
-            op.join(nodes_path, 'Node_edition.csv'))
-        self.assert_nodes(df_edition, {'edition': 'edition'}, {
+            op.join(nodes_path, 'Node_edition.csv'), 'edition')
+        self.assert_nodes(df_edition, {'edition': 'urn1'}, {
                           'name_compilation': 'edition', 'year': 'year', 'location': 'location'})
-        
-        df_community = self.load_clean_csv(op.join(nodes_path, 'Node_community.csv'))
-        self.assert_nodes(df_community, {'community': 'community'}, {'name_community': 'community'})
+
+        df_community = self.load_clean_csv(
+            op.join(nodes_path, 'Node_community.csv'), 'community')
+        self.assert_nodes(df_community, {'community': 'urn1'}, {
+                          'name_community': 'community'})
         print('Nodes asserted!')
 
         # Assert Properties
         print('Asserting properties...')
         df_paper_auth = self.load_clean_csv(
-            op.join(edges_path, 'Edge_papers_author.csv'))
-        df_paper_auth = df_paper_auth.merge(df_paper.loc[:, ['id_paper', 'paper_title']],
+            op.join(edges_path, 'Edge_papers_author.csv'), ['id_paper', 'author'])
+        df_paper_auth = df_paper_auth.loc[:, ['id_paper', 'urn2', 'main_author']]
+        df_paper_auth = df_paper_auth.merge(df_paper.loc[:, ['id_paper', 'urn1']],
                                             how='left', on='id_paper')
 
         # writes
         df_writes = df_paper_auth[~df_paper_auth['main_author']]
-        df_writes = df_writes.loc[:, ['paper_title', 'author']]
+        df_writes = df_writes.loc[:, ['urn1', 'urn2']]
         self.assert_properties(
-            df_writes, {'author': 'author', 'paper': 'paper_title'}, 'writes')
+            df_writes, {'author': 'urn2', 'paper': 'urn1'}, 'writes')
 
         # is_corresponding_author
         df_corresponding_author = df_paper_auth[df_paper_auth['main_author']]
         df_corresponding_author = df_corresponding_author.loc[:, [
-            'paper_title', 'author']]
+            'urn1', 'urn2']]
         self.assert_properties(
-            df_corresponding_author, {'author': 'author', 'paper': 'paper_title'}, 'is_corresponding_author')
+            df_corresponding_author, {'author': 'urn2', 'paper': 'urn1'}, 'is_corresponding_author')
 
         #  writes_r
-        df_writes_r = df_review.loc[:, ['id_paper', 'author']]
+        df_writes_r = df_review.loc[:, ['urn1', 'urn2']]
         for _, edge in df_writes_r.iterrows():
             # If subject is reviewer, change urn from author to reviewer
-            subj_urn = 'reviewer' if edge['author'] in self.reviewers else 'author'
+            subj_urn = 'reviewer' if edge['urn2'] in self.reviewers else 'author'
             subject_uri = self.n.term(subj_urn +
-                                 '_' + str(edge['author']))
+                                      '_' + str(edge['urn2']))
             object_uri = self.n.term('review' +
-                                '_' + str(edge['id_paper']) + str(edge['author']))
+                                     '_' + str(edge['urn1']) + str(edge['urn2']))
             property_uri = self.n.writes_r
             self.g.add((subject_uri, property_uri, object_uri))
 
         # about
-        df_about = df_writes_r.merge(
-            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
+        df_about = df_writes_r.loc[:, ['id_paper', 'urn1', 'urn2']].rename(columns={'urn1': 'id_paper_fixed'})
+        df_about = df_about.merge(
+            df_paper.loc[:, ['id_paper', 'urn1']], how='left', on='id_paper')
         for _, edge in df_about.iterrows():
             subject_uri = self.n.term('review' +
-                                 '_' + str(edge['id_paper']) + str(edge['author']))
+                                      '_' + str(edge['id_paper_fixed']) + str(edge['urn2']))
             object_uri = self.n.term('paper' +
-                                '_' + edge['paper_title'])
+                                     '_' + edge['urn1'])
             property_uri = self.n.about
             self.g.add((subject_uri, property_uri, object_uri))
 
         # belongs_to_a
         df_aff_auth = self.load_clean_csv(
-            op.join(edges_path, 'Edge_affiliation_author.csv'))
+            op.join(edges_path, 'Edge_affiliation_author.csv'), ['author', 'Affiliation'])
         self.assert_properties(
-            df_aff_auth, {'author': 'author', 'affiliation': 'Affiliation'}, 'belongs_to_a')
+            df_aff_auth, {'author': 'urn1', 'affiliation': 'urn2'}, 'belongs_to_a')
 
         # relates_to
         df_paper_keyw = self.load_clean_csv(
-            op.join(edges_path, 'Edge_paper_keywords.csv'))
+            op.join(edges_path, 'Edge_paper_keywords.csv'), ['id_paper', 'keywords'])
+        df_paper_keyw = df_paper_keyw.loc[:, ['id_paper', 'urn2']]
         df_paper_keyw = df_paper_keyw.merge(
-            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
-        df_paper_keyw = df_paper_keyw.loc[:, ['paper_title', 'keywords']]
+            df_paper.loc[:, ['id_paper', 'urn1']], how='left', on='id_paper')
         self.assert_properties(
-            df_paper_keyw, {'paper': 'paper_title', 'keyword': 'keywords'}, 'relates_to')
+            df_paper_keyw, {'paper': 'urn1', 'keyword': 'urn2'}, 'relates_to')
 
         # cites
         df_cites = self.load_clean_csv(
-            op.join(edges_path, 'Edge_paper_paper.csv'))
+            op.join(edges_path, 'Edge_paper_paper.csv'), ['id_paper', 'cites_value'])
         df_cites = df_cites.merge(
-            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
-        df_cites = df_cites.loc[:, ['paper_title', 'cites_value']].rename(
-            columns={'paper_title': 'paper_subject'})
+            df_paper.loc[:, ['id_paper', 'urn1']], how='left', on='id_paper')
+        df_cites = df_cites.loc[:, ['urn1', 'cites_value']].rename(
+            columns={'urn1': 'paper_subject'})
         df_cites = df_cites.merge(df_paper.loc[:, [
-                                  'id_paper', 'paper_title']], how='left', left_on='cites_value', right_on='id_paper')
-        df_cites = df_cites.loc[:, ['paper_subject', 'paper_title']].rename(
-            columns={'paper_title': 'paper_object'})
+                                  'id_paper', 'urn2']], how='left', left_on='cites_value', right_on='id_paper')
+        df_cites = df_cites.loc[:, ['paper_subject', 'urn2']].rename(
+            columns={'urn2': 'paper_object'})
         for _, edge in df_cites.iterrows():
             subject_uri = self.n.term('paper' +
-                                 '_' + str(edge['paper_subject']))
+                                      '_' + str(edge['paper_subject']))
             object_uri = self.n.term('paper' +
-                                '_' + str(edge['paper_object']))
+                                     '_' + str(edge['paper_object']))
             property_uri = self.n.cites
             self.g.add((subject_uri, property_uri, object_uri))
 
         # published_in_v
         df_paper_vol = self.load_clean_csv(
-            op.join(edges_path, 'Edge_paper_volumes.csv'))
+            op.join(edges_path, 'Edge_paper_volumes.csv'), ['id_paper', 'id_volume'])
         df_paper_vol = df_paper_vol.merge(
-            df_paper.loc[:, ['id_paper', 'paper_title']], how='left', on='id_paper')
-        df_published_in_v = df_paper_vol.loc[:, ['paper_title', 'id_volume']]
+            df_paper.loc[:, ['id_paper', 'urn1']], how='left', on='id_paper')
+        df_published_in_v = df_paper_vol.loc[:, ['urn1', 'id_volume']]
         self.assert_properties(df_published_in_v, {
                                'paper': 'paper_title', 'volume': 'id_volume'}, 'published_in_v')
 
         # published_in_e
         df_paper_ed = self.load_clean_csv(
-            op.join(edges_path, 'Edge_papers_edition.csv'))
+            op.join(edges_path, 'Edge_papers_edition.csv'), ['id_paper', 'ref_edition'])
         df_paper_ed = df_paper_ed.merge(df_paper.loc[:, [
                                         'id_paper', 'paper_title']], how='left', on='id_paper')
         df_paper_ed = df_paper_ed.merge(
@@ -189,29 +195,29 @@ class ABOXGenerator():
 
         # belongs_to_j
         df_vol_journal = self.load_clean_csv(
-            op.join(edges_path, 'Edge_volumes_journal.csv'))
+            op.join(edges_path, 'Edge_volumes_journal.csv'), ['id_volume', 'journal'])
         self.assert_properties(
             df_vol_journal, {'volume': 'id_volume', 'journal': 'journal'}, 'belongs_to_j')
 
         # belongs_to_c
         df_ed_conf = self.load_clean_csv(
-            op.join(edges_path, 'Edge_edition_conference.csv'))
+            op.join(edges_path, 'Edge_edition_conference.csv'), ['ref_edition', 'conference'])
         df_ed_conf = df_ed_conf.merge(
             df_edition.loc[:, ['ref_edition', 'edition']], how='left', on='ref_edition')
         df_belongs_to_c = df_ed_conf.loc[:, ['edition', 'conference']]
         self.assert_properties(df_belongs_to_c, {
                                'edition': 'edition', 'conference': 'conference'}, 'belongs_to_c')
-        
+
         # c_in
         df_conf_comm = self.load_clean_csv(
-            op.join(edges_path, 'Edge_conference_community.csv')
+            op.join(edges_path, 'Edge_conference_community.csv'), ['conference', 'community']
         )
         self.assert_properties(
             df_conf_comm, {'conference': 'conference', 'community': 'community'}, 'c_in')
-        
+
         # j_in
         df_journal_comm = self.load_clean_csv(
-            op.join(edges_path, 'Edge_journal_community.csv')
+            op.join(edges_path, 'Edge_journal_community.csv'), ['journal', 'community']
         )
         self.assert_properties(
             df_journal_comm, {'journal': 'journal', 'community': 'community'}, 'j_in')
@@ -226,15 +232,24 @@ class ABOXGenerator():
         print('ABOX generated!')
         return None
 
-    def load_clean_csv(self, path):
+    def load_clean_csv(self, path, ids):
         df = read_csv(path, sep=',', header=0)
+        # Remove rows with missing id value(s)
+        df.loc[:, ids].dropna(inplace=True)
+        # Replace characters that cannot be in a URN by _
         bad_characters = [' ', '"', '!', '.', ':', '\'', ',', '?',
                           '@', '|', '/', '+', '&', '[', ']', '*', '$', '=', 'Ã', '¨', '¢', 'µ']
-        for c in df.select_dtypes(include=['object']).columns:
-            # Could be improved to only affect id columns that appear in URNs
-            for char in bad_characters:
-                df[c] = df[c].str.replace(char, '_')
-            # look for more...
+        if type(ids) == str:
+            ids = {ids: 'urn1'}
+        else:
+            ids = {ids[0]:'urn1', ids[1]:'urn2'}
+        for old_id, new_id in ids.items():
+            df[new_id] = df[old_id]
+            if df[new_id].dtype == 'object':
+                for char in bad_characters:
+                    df[new_id] = df[new_id].str.replace(char, '_')
+        # Assert id uniqueness
+        df.loc[:, ids].drop_duplicates(inplace=True)
         return df
 
     def assert_nodes(self, df, id, properties):
@@ -245,7 +260,8 @@ class ABOXGenerator():
                 # If the property is not nan, assert it
                 if not isna(node[p_column]):
                     property_uri = self.n.term(property)
-                    self.g.add((node_uri, property_uri, Literal(node[p_column])))
+                    self.g.add((node_uri, property_uri,
+                               Literal(node[p_column])))
 
     def assert_properties(self, df, ids, property):
         ids_iterator = iter(ids)
