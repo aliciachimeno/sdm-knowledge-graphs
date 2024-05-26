@@ -1,7 +1,7 @@
 # SDM Project 2. Knowledge Graphs
 # ABOX generator
 # for handling csv and csv contents
-from pandas import read_csv, DataFrame, isna, Series
+from pandas import read_csv, DataFrame, isna
 from rdflib import Graph, Namespace, Literal  # basic RDF handling
 import os
 import os.path as op
