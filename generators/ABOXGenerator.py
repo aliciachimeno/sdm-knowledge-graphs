@@ -75,22 +75,26 @@ class ABOXGenerator():
         df_journal = self.generate_urn(df_journal, 'journal')
         self.assert_nodes(df_journal, 'journal', ['name_venue'])
 
+        # conferences
         df_conference = self.load_clean_csv(
             op.join(nodes_path, 'Node_conference.csv'), ['name_venue'])
         df_conference = self.generate_urn(df_conference, 'conference')
         self.assert_nodes(df_conference, 'conference', ['name_venue'])
 
+        # volumes
         df_volume = self.load_clean_csv(
             op.join(nodes_path, 'Node_volumes.csv'), ['name_compilation', 'year'], ['name_compilation'])
         df_volume = self.generate_urn(df_volume, 'volume')
         self.assert_nodes(df_volume, 'volume', ['name_compilation', 'year'])
 
+        # editions
         df_edition = self.load_clean_csv(
             op.join(nodes_path, 'Node_edition.csv'), ['csv_id_edition', 'name_compilation', 'edition_num', 'year', 'location'], ['csv_id_edition'])
         df_edition = self.generate_urn(df_edition, 'edition')
         self.assert_nodes(df_edition, 'edition', [
                           'name_compilation', 'year', 'location'])
 
+        # communities
         df_community = self.load_clean_csv(
             op.join(nodes_path, 'Node_community.csv'), ['name_community'])
         df_community = self.generate_urn(df_community, 'community')
@@ -217,7 +221,7 @@ class ABOXGenerator():
 
         print('Properties asserted!')
 
-        # Generate .ttl
+        ########## Generate .ttl ############
         print('Serializing ABOX...')
         self.g.serialize(destination=ttl_path)
         print('ABOX serialized!')
