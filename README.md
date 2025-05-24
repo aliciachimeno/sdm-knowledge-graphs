@@ -75,14 +75,15 @@ All queries use standard SPARQL prefixes and are designed to operate over both T
 
 ## 🗂️ Repository Structure
 
-```bash
+```
 .
-├── tbox_definition.py       # RDFLib code to define TBOX
-├── abox_loader.py           # Script to instantiate ABOX
-├── csv/                     # All relevant CSV data
-├── queries/                 # SPARQL query examples
-├── ontology_visual.graph    # Visual graph link (gra.fo)
-└── README.md
+├── data/               # Raw and preprocessed CSV data files
+├── generators/         # Scripts for generating RDF triples
+├── images/             # Visuals of the ontology and graph schema
+├── output/             # Final outputs (e.g., serialized ontology, logs)
+├── 11ChimenoCasanova.pdf     # Project report (PDF)
+├── README.md           # This documentation file
+├── main.py             # Main execution script
 ```
 
 🔗 Visual Graph: [Graph Representation](https://app.gra.fo/editor/542c0c59-d7ab-45dd-8315-3d6241cbd984/public?token=93c70021a27f7e578c3269be6a0fa03d76c1f66faaabb4c58137e4b9db7837a6)
